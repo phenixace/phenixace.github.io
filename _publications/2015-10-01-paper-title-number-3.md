@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 3"
+title: "MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+excerpt: 'TIn this paper, we propose a new method, Multi-Feature Fusion Embedding for Chinese Named Entity Recognition (MFE-NER), to strengthen the language pattern of Chinese and handle the character substitution problem in Chinese Named Entity Recognition.'
+date: 2021-09-16
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2109.07877'
+citation: 'Li, J., & Meng, K. (2021). MFE-NER: multi-feature fusion embedding for Chinese named entity recognition. arXiv preprint arXiv:2109.07877.'
 ---
-This paper is about the number 3. The number 4 is left for future work.
+In this paper, we propose a new method, Multi-Feature Fusion Embedding for Chinese Named Entity Recognition (MFE-NER), to strengthen the language pattern of Chinese and handle the character substitution problem in Chinese Named Entity Recognition. 
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+[Download paper here](https://arxiv.org/pdf/2109.07877.pdf)
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+Recommended citation: Li, J., & Meng, K. (2021). MFE-NER: multi-feature fusion embedding for Chinese named entity recognition. arXiv preprint arXiv:2109.07877.
