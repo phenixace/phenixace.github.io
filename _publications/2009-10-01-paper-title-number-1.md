@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Improving Chinese Named Entity Recognition by Search Engine Augmentation"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'We propose a neural-based approach to perform semantic augmentation using external knowledge from search engine for Chinese NER.'
+date: 2020-10-23
+venue: 'arXiv preprint'
+paperurl: 'https://arxiv.org/abs/2210.12662'
+citation: 'Mao, Qinghua, Jiatong Li, and Kui Meng. “Improving Chinese Named Entity Recognition by Search Engine Augmentation.” arXiv preprint arXiv:2210.12662 (2022)..'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+We propose a neural-based approach to perform semantic augmentation using external knowledge from search engine for Chinese NER.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://arxiv.org/pdf/2210.12662.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Mao, Qinghua, Jiatong Li, and Kui Meng. “Improving Chinese Named Entity Recognition by Search Engine Augmentation.” arXiv preprint arXiv:2210.12662 (2022).
