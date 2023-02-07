@@ -6,7 +6,7 @@ excerpt: 'We propose a neural-based approach to perform semantic augmentation us
 date: 2020-10-23
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2210.12662'
-citation: 'Mao, Qinghua, Jiatong Li, and Kui Meng. “Improving Chinese Named Entity Recognition by Search Engine Augmentation.” arXiv preprint arXiv:2210.12662 (2022)..'
+citation: 'Mao, Qinghua, Jiatong Li, and Kui Meng. “Improving Chinese Named Entity Recognition by Search Engine Augmentation.” arXiv preprint arXiv:2210.12662 (2022).'
 ---
 We propose a neural-based approach to perform semantic augmentation using external knowledge from search engine for Chinese NER.
 

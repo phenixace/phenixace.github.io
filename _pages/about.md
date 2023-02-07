@@ -12,7 +12,7 @@ I am currently a Ph.D. student of the Department of Computing (COMP), The Hong K
 
 Research Interest
 ======
-* Drug Discovery (De novo drug molecule design)
+* Drug Discovery
 * Dialogue Systems
 * Smart Infrastructure
 
