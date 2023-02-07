@@ -11,5 +11,3 @@ citation: 'Li, J., & Meng, K. (2021). MFE-NER: multi-feature fusion embedding fo
 In this paper, we propose a new method, Multi-Feature Fusion Embedding for Chinese Named Entity Recognition (MFE-NER), to strengthen the language pattern of Chinese and handle the character substitution problem in Chinese Named Entity Recognition. 
 
 [Download paper here](https://arxiv.org/pdf/2109.07877.pdf)
-
-Recommended citation: Li, J., & Meng, K. (2021). MFE-NER: multi-feature fusion embedding for Chinese named entity recognition. arXiv preprint arXiv:2109.07877.
