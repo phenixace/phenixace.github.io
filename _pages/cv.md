@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* BEng. in Information Security, Shanghai Jiao Tong University, 2021
-* Msc. in Information Technology, The University of Melbourne, 2022
 * Ph.D Student in Computer Science, The Hong Kong Polytechnic University, 2023-Now
+* Msc. in Information Technology, The University of Melbourne, 2022
+* BEng. in Information Security, Shanghai Jiao Tong University, 2021
 
 Work experience
 ======

@@ -87,8 +87,8 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=GQzn7MQAAAAJ&hl=en"
-  email            :
-  researchgate     :  "https://www.researchgate.net/profile/Jiatong-Li-13"
+  email            : "jiatong.li@connect.polyu.hk"
+  researchgate     : "https://www.researchgate.net/profile/Jiatong-Li-13"
   uri              :
   bitbucket        :
   codepen          :
@@ -176,7 +176,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
