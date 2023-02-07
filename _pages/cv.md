@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D Student in Computer Science, The Hong Kong Polytechnic University, 2023-Now
-* Msc. in Information Technology, The University of Melbourne, 2022
-* BEng. in Information Security, Shanghai Jiao Tong University, 2021
+* Ph.D Student in Computer Science, The Hong Kong Polytechnic University, 2023.01 - Now, <br>Advisor: [Dr. Wenqi Fan](https://wenqifan03.github.io/), [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/)
+* Msc. in Information Technology, The University of Melbourne, 2021.07 - 2022.11, <br>Advisor: [Dr. Lea Frermann](https://www.frermann.de/)
+* BEng. in Information Security, Shanghai Jiao Tong University, 2017.09 - 2021，06 <br>Advisor: [Dr. Kui Meng](https://infosec.sjtu.edu.cn/DirectoryDetail.aspx?id=144)
 
 Work experience
 ======
