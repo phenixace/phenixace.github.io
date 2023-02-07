@@ -11,21 +11,17 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BEng. in Information Security, Shanghai Jiao Tong University, 2021
+* Msc. in Information Technology, The University of Melbourne, 2022
+* Ph.D Student in Computer Science, The Hong Kong Polytechnic University, 2023-Now
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* November 2021 - Feburary 2022: Algorithm Researcher (Internship)
+  * Huawei Noah's Ark Lab (Beijing)
+  * Duties included: Developing large-scale language models for unified Dialogue Systems
+  * Supervisor: Dr. Bin He
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
