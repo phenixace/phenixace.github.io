@@ -22,15 +22,16 @@ Work experience
   * Duties included: Developing large-scale language models for unified Dialogue Systems
   * Supervisor: Dr. Bin He
 
+* March 2021 - April 2021: Algorithm Researcher (Internship)
+  * Shanghai Voka Technology Ltd.
+  * Duties included: Paper Collection and Report
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Language Skills: Mandarin (Native); English (Proficient); IELTS:7.0
+* Computer Skills: Python, C++/C, Java, Mysql, etc.
+* Hobbies: Singing, Football, etc.
 
 Publications
 ======
@@ -52,4 +53,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Shanghai Marathon Volunteer, 2018
+* Shanghai Urban Orienteering Volunteer, 2018
