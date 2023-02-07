@@ -4,7 +4,7 @@ collection: teaching
 type: "Awaiting"
 permalink: /teaching/2014-spring-teaching-1
 venue: "The Hong Kong Polytechnic University, Department of Computing"
-date: 0000-00-00
+date: 2000-01-01
 location: "Kowloong, Hong Kong SAR"
 ---
 
