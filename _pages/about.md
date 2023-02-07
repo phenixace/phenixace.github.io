@@ -18,9 +18,11 @@ Research Interest
 
 Publication
 ======
-1. A
-2. B
-3. C
+* Mao, Qinghua, Jiatong Li, and Kui Meng. "Improving Chinese Named Entity Recognition by Search Engine Augmentation." arXiv preprint arXiv:2210.12662 (2022).
+* Jiatong Li, Bin He, and Fei Mi. "Exploring Effective Information Utilization in Multi-Turn Topic-Driven Conversations." arXiv preprint arXiv:2209.00250 (2022).
+* Jiatong Li; Kui Meng; MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition[J]. arXiv preprint arXiv:2109.07877, 2021.
+* Chaowang Zhao; Jian Yang*; Jiatong Li; Generation of Hospital Emergency Department Layouts Based on Generative Adversarial Networks [J], Journal of Building Engineering, 2021: 102539.
+* Chaowang Zhao; Jian Yang*; Wuyue Xiong; Jiatong Li; Two Generative Design Methods of Hospital Operating Department Layouts Based on Healthcare Systematic Layout Planning and Generative Adversarial Network [J], Journal of Shanghai Jiaotong University (Science), 2021, 26(1): 103-115.
 
 Scholarship
 ------
