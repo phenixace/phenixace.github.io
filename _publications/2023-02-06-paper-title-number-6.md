@@ -6,7 +6,7 @@ excerpt: 'In this paper, we first provide a comprehensive overview of generative
 date: 2023-02-06
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2302.02591'
-citation: 'Fan, W., Liu, C., Liu, Y., Li, J., Li, H., Liu, H., Tang, J., & Li, Q. Generative Diffusion Models on Graphs: Methods and Applications. arXiv preprint arXiv:2302.02591 (2023).'
+citation: 'Wenqi Fan, Chengyi Liu, Yunqing Liu, Jiatong Li, Hang Li, Hui Liu, Jiliang Tang, Qing Li. "Generative Diffusion Models on Graphs: Methods and Applications." arXiv preprint arXiv:2302.02591 (2023).'
 ---
 In this paper, we first provide a comprehensive overview of generative diffusion models on graphs, In particular, we review representative algorithms for three variants of graph diffusion models, i.e., Score Matching with Langevin Dynamics (SMLD), Denoising Diffusion Probabilistic Model (DDPM), and Score-based Generative Model (SGM). Then, we summarize the major applications of generative diffusion models on graphs with a specific focus on molecule and protein modeling. Finally, we discuss promising directions in generative diffusion models on graph-structured data.
 
