@@ -18,6 +18,7 @@ Research Interest
 
 Publication
 ======
+* **Jiatong Li**, Yunqing Liu*, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. (2023). Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. arXiv preprint arXiv:2306.06615.
 * Lea Ferrmann, **Jiatong Li**, Shima Khanehzar, Gosia Mikolajczak. (2023). Conflicts, Villains, Resolutions: Towards models of Narrative Media Framing. ACL 2023 (To appear). (Oral Presentation)
 * Wenqi Fan, Chengyi Liu, Yunqing Liu, **Jiatong Li**, Hang Li, Hui Liu, Jiliang Tang, Qing Li. (2023). Generative Diffusion Models on Graphs: Methods and Applications. arXiv preprint arXiv:2302.02591. (Accepted and To appear in IJCAI 2023)
 * Mao, Qinghua, **Jiatong Li**, and Kui Meng. (2022). Improving Chinese Named Entity Recognition by Search Engine Augmentation. arXiv preprint arXiv:2210.12662.
