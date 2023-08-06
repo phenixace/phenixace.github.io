@@ -21,7 +21,7 @@ Publication
 * Wenqi Fan, Zihuai Zhao, **Jiatong Li**, Yunqing Liu, Xiaowei Mei, Yiqi Wang, Jiliang Tang, and Qing Li. (2023). Recommender Systems in the Era of Large Language Models (LLMs). arXiv preprint arXiv:2307.02046.
 * **Jiatong Li**, Yunqing Liu*, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. (2023). Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. arXiv preprint arXiv:2306.06615.
 * Lea Ferrmann, **Jiatong Li**, Shima Khanehzar, Gosia Mikolajczak. (2023). Conflicts, Villains, Resolutions: Towards models of Narrative Media Framing. ACL 2023. (Oral Presentation)
-* Wenqi Fan, Chengyi Liu, Yunqing Liu, **Jiatong Li**, Hang Li, Hui Liu, Jiliang Tang, Qing Li. (2023). Generative Diffusion Models on Graphs: Methods and Applications. arXiv preprint arXiv:2302.02591. (Accepted and To appear in IJCAI 2023)
+* Wenqi Fan, Chengyi Liu, Yunqing Liu, **Jiatong Li**, Hang Li, Hui Liu, Jiliang Tang, Qing Li. (2023). Generative Diffusion Models on Graphs: Methods and Applications. IJCAI 2023.
 * Mao, Qinghua, **Jiatong Li**, and Kui Meng. (2022). Improving Chinese Named Entity Recognition by Search Engine Augmentation. arXiv preprint arXiv:2210.12662.
 * **Jiatong Li**, Bin He, and Fei Mi. (2022). Exploring Effective Information Utilization in Multi-Turn Topic-Driven Conversations. arXiv preprint arXiv:2209.00250.
 * **Jiatong Li**, Kui Meng. (2021). MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. arXiv preprint arXiv:2109.07877.
