@@ -47,4 +47,4 @@ Awards
 Contact with me
 ------
 Welcome to contact with me via email
-jiatong.li@connect.polyu.hk
+jiatong.li AT connect.polyu.hk
