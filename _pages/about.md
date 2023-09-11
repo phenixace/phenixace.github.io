@@ -16,6 +16,10 @@ Research Interest
 * Drug Discovery
 * Recommender Systems
 
+News
+=====
+* Our tutorial on "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by ICDM 2023. [More](https://arxiv.org/abs/2307.02046)
+
 Publication
 ======
 * Wenqi Fan, Zihuai Zhao, **Jiatong Li**, Yunqing Liu, Xiaowei Mei, Yiqi Wang, Jiliang Tang, and Qing Li. (2023). Recommender Systems in the Era of Large Language Models (LLMs). arXiv preprint arXiv:2307.02046.
