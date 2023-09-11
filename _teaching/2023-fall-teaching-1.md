@@ -1,7 +1,7 @@
 ---
 title: "COMP2411_20231_A DATABASE SYSTEMS"
 collection: teaching
-type: "teaching assistant"
+type: "Teaching Assistant"
 permalink: /teaching/2023-fall-teaching-1
 venue: "The Hong Kong Polytechnic University, Department of Computing"
 date: 2023-09-01
