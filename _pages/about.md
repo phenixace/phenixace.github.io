@@ -18,7 +18,7 @@ Research Interest
 
 News
 =====
-* Our tutorial on "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by ICDM 2023. [More](https://arxiv.org/abs/2307.02046)
+* Our tutorial on "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by ICDM 2023. [More](https://advanced-recommender-systems.github.io/llms_rec_tutorial/)
 
 Publication
 ======
