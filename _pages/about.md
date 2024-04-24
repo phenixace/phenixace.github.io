@@ -18,6 +18,7 @@ Research Interest
 
 News
 ======
+* Our paper, "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective" is accpeted by IEEE TKDE. [Paper Link](https://arxiv.org/abs/2306.06615)
 * Our paper, "Large Language Models are In-Context Molecule Learners" is released on arXiv. [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
 * Our paper, "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by IEEE TKDE! [More](https://arxiv.org/abs/2307.02046)
 * Our paper, "Fast graph condensation with structure-based neural tangent kernel" is accepted by WWW 24. [More](https://arxiv.org/abs/2310.11046)
@@ -28,7 +29,7 @@ Publication
 * **Jiatong Li**, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. (2024). Large Language Models are In-Context Molecule Learners. arXiv preprint arXiv:2403.04197.
 * Lin Wang, Wenqi Fan, **Jiatong Li**, Yao Ma, and Qing Li. (2023). Fast graph condensation with structure-based neural tangent kernel. arXiv preprint arXiv:2310.11046. (Accepted by WWW 24)
 * Wenqi Fan, Zihuai Zhao, **Jiatong Li**, Yunqing Liu, Xiaowei Mei, Yiqi Wang, Jiliang Tang, and Qing Li. (2023). Recommender Systems in the Era of Large Language Models (LLMs). arXiv preprint arXiv:2307.02046. (Accepted by IEEE TKDE)
-* **Jiatong Li**, Yunqing Liu, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. (2023). Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. arXiv preprint arXiv:2306.06615.
+* **Jiatong Li**, Yunqing Liu, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. (2023). Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. arXiv preprint arXiv:2306.06615. (Accepted by IEEE TKDE)
 * Lea Ferrmann, **Jiatong Li**, Shima Khanehzar, Gosia Mikolajczak. (2023). Conflicts, Villains, Resolutions: Towards models of Narrative Media Framing. ACL 2023. (Oral Presentation)
 * Wenqi Fan, Chengyi Liu, Yunqing Liu, **Jiatong Li**, Hang Li, Hui Liu, Jiliang Tang, Qing Li. (2023). Generative Diffusion Models on Graphs: Methods and Applications. IJCAI 2023.
 * Mao, Qinghua, **Jiatong Li**, and Kui Meng. (2022). Improving Chinese Named Entity Recognition by Search Engine Augmentation. arXiv preprint arXiv:2210.12662.
