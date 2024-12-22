@@ -26,7 +26,7 @@ News
 
 Publication
 ======
-* **Jiatong Li**, Junxian Li, Yunqing Liu, Dongzhan Zhou, and Qing Li. (2024). TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
+* **Jiatong Li***, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. (2024). TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
 * Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, **Jiatong Li**, Weida Wang, Suorong Yang, Jianbo Wu, Peng Ye, Wanli Ouyang, Dongzhan Zhou. (2024). Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning. arXiv preprint arXiv:2411.18203.
 * **Jiatong Li**, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. (2024). MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721.
 * Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, **Jiatong Li**, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. (2024). Llama-berry: Pairwise optimization for o1-like olympiad-level mathematical reasoning. arXiv preprint arXiv:2410.02884.
