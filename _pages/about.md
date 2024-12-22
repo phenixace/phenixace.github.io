@@ -8,6 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+
 I am currently a Ph.D. candidate of the Department of Computing (COMP), The Hong Kong Polytechnic University (funded by **HKPFS**). Before joining the PolyU, I received my Master degree of Information Technology (with Distinction) from the University of Melbourne, under the supervision of Dr. Lea Frermann. In 2021, I got my bachelor degree of Information Security from Shanghai Jiao Tong University. I am a self-motivated person and have strong passion for scientific research. Currently, my research interest lies in Natural Language Processing, Drug Discovery, and Recommender Systems. I have published several papers in top-tier conferences and journals, such as ACL, IJCAI, and IEEE TKDE. I served as a Program Chair of AAAI 2024 and AAAI 2025 and I am also a reviewer of several top-tier conferences and journals, such as Neurips and ICLR. I am always open to new opportunities and collaborations. If you are interested in my research or have any questions, please feel free to contact me.
 
 Research Interest
@@ -24,7 +32,7 @@ News
 * Our paper, "Large Language Models are In-Context Molecule Learners" is released on arXiv. [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
 * Our paper, "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by IEEE TKDE! [More](https://arxiv.org/abs/2307.02046)
 
-Publication
+Publications <a href='https://scholar.google.com/citations?user=ml9hh18AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 ======
 * **Jiatong Li***, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. (2024). TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
 * Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, **Jiatong Li**, Weida Wang, Suorong Yang, Jianbo Wu, Peng Ye, Wanli Ouyang, Dongzhan Zhou. (2024). Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning. arXiv preprint arXiv:2411.18203.
