@@ -18,6 +18,7 @@ Research Interest
 
 News
 ======
+* I am looking for a self-funded visiting student position in 2025. If you are interested in my research, please feel free to contact me.
 * Our paper, "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning" has been accepted by CVPR 2025. Congratulations to Di Zhang! 🎉🎉🎉
 * Our paper, "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation" is released on arXiv. [Paper Link](https://arxiv.org/abs/2412.14642). Please visit our [benchmark homepage](https://phenixace.github.io/tomgbench/). Codes are available [here](https://github.com/phenixace/TOMG-Bench). You could also download our datasets via [Huggingface Link](https://huggingface.co/datasets/Duke-de-Artois/TOMG-Bench).
 * Our paper, "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is released on arXiv. [Paper Link](https://arxiv.org/abs/2411.14721)
