@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+
 I am currently a Ph.D. candidate of the Department of Computing (COMP), The Hong Kong Polytechnic University (funded by **HKPFS**). Before joining the PolyU, I received my Master degree of Information Technology (with Distinction) from the University of Melbourne, under the supervision of Dr. Lea Frermann. In 2021, I got my bachelor degree of Information Security from Shanghai Jiao Tong University. I am a self-motivated person and have strong passion for scientific research. Currently, my research interest lies in Natural Language Processing, Drug Discovery, and Recommender Systems. I have published several papers in top-tier conferences and journals, such as CVPR, ACL, IJCAI, and IEEE TKDE. I served as Program Committee of AAAI 2024 and AAAI 2025 and I am also a reviewer of several top-tier conferences and journals, such as ICML, Neurips and ICLR. I am always open to new opportunities and collaborations. If you are interested in my research or have any questions, please feel free to contact me.
 
 Research Interest
@@ -55,11 +56,11 @@ Awards
 * Second Prize, Aecore Cup Digital Twin Application Competition 2021
 * Finalist Award, Mathematical Contest in Modelling (MCM), 2020
 
-
+Hobbies
+------
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/%E8%88%B9%E9%95%BF-live%E7%89%88/1779898627?i=1779898637"></iframe>
 
 Contact
 ------
 Welcome to contact with me via email
 jiatong.li AT connect.polyu.hk
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://music.apple.com/cn/album/%E8%88%B9%E9%95%BF-live%E7%89%88/1779898627?i=1779898637"></iframe>
