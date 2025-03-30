@@ -19,12 +19,12 @@ Research Interest
 
 News
 ======
-* I am looking for a self-funded visiting student position in 2025. If you are interested in my research, please feel free to contact me.
+* Our paper, "Large Language Models are In-Context Molecule Learners" has been accepted by TKDE! 🎉🎉🎉 [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
 * Our paper, "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning" has been accepted by CVPR 2025. Congratulations to Di Zhang! 🎉🎉🎉
 * Our paper, "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation" is released on arXiv. [Paper Link](https://arxiv.org/abs/2412.14642). Please visit our [benchmark homepage](https://phenixace.github.io/tomgbench/). Codes are available [here](https://github.com/phenixace/TOMG-Bench). You could also download our datasets via [Huggingface Link](https://huggingface.co/datasets/Duke-de-Artois/TOMG-Bench).
 * Our paper, "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is released on arXiv. [Paper Link](https://arxiv.org/abs/2411.14721)
 * Our paper, "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective" is accpeted by IEEE TKDE. [Paper Link](https://arxiv.org/abs/2306.06615)
-* Our paper, "Large Language Models are In-Context Molecule Learners" is released on arXiv. [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
+<!-- * Our paper, "Large Language Models are In-Context Molecule Learners" is released on arXiv.  -->
 * Our paper, "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by IEEE TKDE! [More](https://arxiv.org/abs/2307.02046)
 
 Publications
@@ -34,7 +34,7 @@ Publications
 * **Jiatong Li**, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. (2024). MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721.
 * Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, **Jiatong Li**, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. (2024). Llama-berry: Pairwise optimization for o1-like olympiad-level mathematical reasoning. arXiv preprint arXiv:2410.02884 (Accepted by NAACL 2025).
 * Di Zhang, Wei Liu, Qian Tan, Jingdan Chen, Hang Yan, Yuliang Yan, **Jiatong Li**, Weiran Huang, Xiangyu Yue, Wanli Ouyang, Dongzhan Zhou, Shufei Zhang, Mao Su, Han-Sen Zhong, Yuqiang Li. (2024). Chemllm: A chemical large language model. arXiv preprint arXiv:2402.06852.
-* **Jiatong Li**, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. (2024). Large Language Models are In-Context Molecule Learners. arXiv preprint arXiv:2403.04197.
+* **Jiatong Li**, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. (2024). Large Language Models are In-Context Molecule Learners. arXiv preprint arXiv:2403.04197. (Accepted by IEEE TKDE, To appear)
 * Lin Wang, Wenqi Fan, **Jiatong Li**, Yao Ma, and Qing Li. (2023). Fast graph condensation with structure-based neural tangent kernel. arXiv preprint arXiv:2310.11046. (Accepted by WWW 24)
 * Wenqi Fan, Zihuai Zhao, **Jiatong Li**, Yunqing Liu, Xiaowei Mei, Yiqi Wang, Jiliang Tang, and Qing Li. (2023). Recommender Systems in the Era of Large Language Models (LLMs). arXiv preprint arXiv:2307.02046. (Accepted by IEEE TKDE)
 * **Jiatong Li**, Yunqing Liu, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. (2023). Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. arXiv preprint arXiv:2306.06615. (Accepted by IEEE TKDE)
