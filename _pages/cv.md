@@ -18,7 +18,7 @@ Education
 Work experience
 ======
 * November 2021 - Feburary 2022: Algorithm Researcher (Internship)
-  * Huawei Noah's Ark Lab (Beijing)
+  * Noah's Ark Lab (Beijing)
   * Duties included: Developing large-scale language models for unified Dialogue Systems
   * Supervisor: Dr. Bin He
 
