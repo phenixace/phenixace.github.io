@@ -31,6 +31,7 @@ News
 
 Publications
 ======
+* **Jiatong LI**, Weida Wang*, Qinggang Zhang, Junxian Li, Di Zhang, Changmeng Zheng, Shufei Zhang, Xiaoyong Wei, and Qing Li. (2025). Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery. arXiv preprint arXiv:2508.08401.
 * **Jiatong Li***, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. (2024). TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
 * Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, **Jiatong Li**, Weida Wang, Suorong Yang, Jianbo Wu, Peng Ye, Wanli Ouyang, Dongzhan Zhou. (2024). Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning. arXiv preprint arXiv:2411.18203 (Accepted by CVPR 2025).
 * **Jiatong Li**, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. (2024). MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721.
