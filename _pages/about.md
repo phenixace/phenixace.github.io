@@ -50,6 +50,7 @@ Publications
 * **Jiatong Li**, Kui Meng. (2021). MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. arXiv preprint arXiv:2109.07877.
 * Chaowang Zhao, Jian Yang*, **Jiatong Li**. (2021). Generation of Hospital Emergency Department Layouts Based on Generative Adversarial Networks. Journal of Building Engineering, 43, 102539.
 * Chaowang Zhao, Jian Yang*, Wuyue Xiong, **Jiatong Li**. (2021). Two Generative Design Methods of Hospital Operating Department Layouts Based on Healthcare Systematic Layout Planning and Generative Adversarial Network. Journal of Shanghai Jiaotong University (Science), 26, 103-115.
+
 </div>
 
 Scholarship
