@@ -22,13 +22,12 @@ News
 * Our paper "Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery" is now available via Arxiv [Paper Link](https://arxiv.org/abs/2508.08401). In this work, we are trying to introduce Long-CoT reasoning into text-based molecule discovery.
 * We are going to hold a work shop "LLM Reasoning on Medicine: Challenges, Opportunities, and Future" at INLG 2025. If you are interested in this workshop, please submit your paper via [Workshop Link](https://softconf.com/p/llmrm2025/) and select our workshop.
 * Our paper, "Large Language Models are In-Context Molecule Learners" has been accepted by TKDE! 🎉🎉🎉 [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
-* Our paper, "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning" has been accepted by CVPR 2025. Congratulations to Di Zhang! 🎉🎉🎉
 * Our paper, "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation" is released on arXiv. [Paper Link](https://arxiv.org/abs/2412.14642). Please visit our [benchmark homepage](https://phenixace.github.io/tomgbench/). Codes are available [here](https://github.com/phenixace/TOMG-Bench). You could also download our datasets via [Huggingface Link](https://huggingface.co/datasets/Duke-de-Artois/TOMG-Bench).
 * Our paper, "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is released on arXiv. [Paper Link](https://arxiv.org/abs/2411.14721)
 * Our paper, "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective" is accpeted by IEEE TKDE. [Paper Link](https://arxiv.org/abs/2306.06615)
 * Our paper, "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by IEEE TKDE! [More](https://arxiv.org/abs/2307.02046)
 
-Publications
+Publications [![引用数](https://img.shields.io/badge/Citations-blue)](https://scholar.google.com/citations?user=ml9hh18AAAAJ&hl)
 ======
 <div style="height: 400px; overflow-y: scroll;">
 
@@ -65,6 +64,9 @@ Awards
 Hobbies
 ------
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/song/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90-%E7%B2%A4/1818540482"></iframe>
+
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/playlist/iag/pl.u-2aoqX5DCaeoLbr"></iframe>
 
 Contact
 ------
