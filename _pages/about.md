@@ -19,6 +19,8 @@ Research Interest
 
 News
 ======
+* Our paper "Chem-R: Learning to Reason as a Chemist" has released on Arxiv. [Paper Link](https://arxiv.org/abs/2510.16880)
+* Our paper "Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security" has been accepted by CBDCom. Congratulations to Qinghua Mao! 🎉🎉🎉
 * Our paper "Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery" is now available via Arxiv [Paper Link](https://arxiv.org/abs/2508.08401). In this work, we are trying to introduce Long-CoT reasoning into text-based molecule discovery.
 * We are going to hold a work shop "LLM Reasoning on Medicine: Challenges, Opportunities, and Future" at INLG 2025. If you are interested in this workshop, please submit your paper via [Workshop Link](https://softconf.com/p/llmrm2025/) and select our workshop.
 * Our paper, "Large Language Models are In-Context Molecule Learners" has been accepted by TKDE! 🎉🎉🎉 [Paper Link](https://arxiv.org/abs/2403.04197) We also release the model weights on [Huggingface Link](https://huggingface.co/phenixace/).
