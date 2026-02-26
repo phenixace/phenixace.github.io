@@ -73,16 +73,10 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
   </div>
 </div>
 
-<div class="pub-header">
-  <h2 class="section-title" style="margin-bottom:0;"><span class="section-icon">📚</span> Publications</h2>
-  <a class="citation-badge" href="https://scholar.google.com/citations?user=ml9hh18AAAAJ&hl" target="_blank">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26id%3Dml9hh18AAAAJ&style=flat-square&color=4285f4&labelColor=4285f4" alt="Google Scholar Citations" />
-  </a>
-</div>
 
 <div class="pub-container">
 
-<span class="pub-year-header">2026</span>
+<span class="pub-year-header"><b>2026</b></span>
 
 <div class="pub-item">
 Weida Wang, Dongchen Huang, <strong>Jiatong Li</strong>, Tengchao Yang, Ziyang Zheng, Di Zhang, Dong Han et al. CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics. <span class="pub-venue">ICLR 2026</span>
@@ -92,7 +86,7 @@ Weida Wang, Dongchen Huang, <strong>Jiatong Li</strong>, Tengchao Yang, Ziyang Z
 Junxian Li, Beining Xu, Simin Chen, <strong>Jiatong Li</strong>, Jingdi Lei, Haodong Zhao, and Di Zhang. IAG: Input-Aware Backdoor Attack on VLM-Based Visual Grounding. <span class="pub-venue">CVPR 2026</span>
 </div>
 
-<span class="pub-year-header">2025</span>
+<span class="pub-year-header"><b>2025</b></span>
 
 <div class="pub-item">
 Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, <strong>Jiatong Li</strong>, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. arXiv preprint arXiv:2510.16880. <span class="pub-note">(Corresponding Author)</span>
@@ -103,7 +97,7 @@ Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, X
 </div>
 
 <div class="pub-item">
-Mao Qinghua, <strong>Jiatong Li</strong>, and Kui Meng. Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security. <span class="pub-venue">CBDCom 2025</span>
+Qinghua Mao, <strong>Jiatong Li</strong>, Kui Meng, Yuanyuan Sun, Pengjiao Wang, Jianhua Li. Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security. <span class="pub-venue">CBDCom 2025</span>
 </div>
 
 <div class="pub-item">
@@ -114,7 +108,7 @@ Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, <strong>
 Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, <strong>Jiatong Li</strong>, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. Llama-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning. <span class="pub-venue">NAACL 2025</span>
 </div>
 
-<span class="pub-year-header">2024</span>
+<span class="pub-year-header"><b>2024</b></span>
 
 <div class="pub-item">
 <strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
@@ -132,7 +126,7 @@ Di Zhang, Wei Liu, Qian Tan, Jingdan Chen, Hang Yan, Yuliang Yan, <strong>Jiaton
 <strong>Jiatong Li</strong>, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. Large Language Models are In-Context Molecule Learners. <span class="pub-venue">IEEE TKDE</span>
 </div>
 
-<span class="pub-year-header">2023</span>
+<span class="pub-year-header"><b>2023</b></span>
 
 <div class="pub-item">
 Lin Wang, Wenqi Fan, <strong>Jiatong Li</strong>, Yao Ma, and Qing Li. Fast Graph Condensation with Structure-based Neural Tangent Kernel. <span class="pub-venue">WWW 2024</span>
@@ -154,7 +148,7 @@ Lea Frermann, <strong>Jiatong Li</strong>, Shima Khanehzar, Gosia Mikolajczak. C
 Wenqi Fan, Chengyi Liu, Yunqing Liu, <strong>Jiatong Li</strong>, Hang Li, Hui Liu, Jiliang Tang, Qing Li. Generative Diffusion Models on Graphs: Methods and Applications. <span class="pub-venue">IJCAI 2023</span>
 </div>
 
-<span class="pub-year-header">2022</span>
+<span class="pub-year-header"><b>2022</b></span>
 
 <div class="pub-item">
 Mao Qinghua, <strong>Jiatong Li</strong>, and Kui Meng. Improving Chinese Named Entity Recognition by Search Engine Augmentation. arXiv preprint arXiv:2210.12662.
@@ -164,7 +158,7 @@ Mao Qinghua, <strong>Jiatong Li</strong>, and Kui Meng. Improving Chinese Named 
 <strong>Jiatong Li</strong>, Bin He, and Fei Mi. Exploring Effective Information Utilization in Multi-Turn Topic-Driven Conversations. arXiv preprint arXiv:2209.00250.
 </div>
 
-<span class="pub-year-header">2021</span>
+<span class="pub-year-header"><b>2021</b></span>
 
 <div class="pub-item">
 <strong>Jiatong Li</strong>, Kui Meng. MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. arXiv preprint arXiv:2109.07877.
@@ -215,6 +209,6 @@ Chaowang Zhao, Jian Yang*, Wuyue Xiong, <strong>Jiatong Li</strong>. Two Generat
 
 <h2 class="section-title"><span class="section-icon">📧</span> Contact</h2>
 
-<a class="contact-card" href="mailto:jiatong.li@connect.polyu.hk">
+<a class="contact-card">
   ✉️ jiatong.li AT connect.polyu.hk
 </a>
