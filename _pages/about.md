@@ -24,6 +24,8 @@ News
 ======
 * **[2026.02]** Our paper "IAG: Input-Aware Backdoor Attack on VLM-Based Visual Grounding" is accepted by **CVPR 2026**. Congratulations to Junxian Li! 🎉 [[Paper]](https://arxiv.org/abs/2508.09456)
 * **[2026.01]** Our paper "CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics" is accepted by **ICLR 2026**. Congratulations to Weida Wang! 🎉 [[Paper]](https://arxiv.org/abs/2508.18124)
+* **[2025.10]** Our paper "Chem-R: Learning to Reason as a Chemist" is available on arXiv. [[Paper]](https://arxiv.org/abs/2510.16880)
+* **[2025.10]** Our paper "Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security" is accepted by **CBDCom**. Congratulations to Qinghua Mao! 🎉
 * **[2025.08]** Our paper "Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery" is available on arXiv. [[Paper]](https://arxiv.org/abs/2508.08401)
 * **[2025.06]** We are organizing a workshop "LLM Reasoning on Medicine: Challenges, Opportunities, and Future" at **INLG 2025**. [[Workshop Link]](https://softconf.com/p/llmrm2025/)
 * **[2025.03]** Our paper "Large Language Models are In-Context Molecule Learners" is accepted by **IEEE TKDE**! 🎉 [[Paper]](https://arxiv.org/abs/2403.04197) [[Model]](https://huggingface.co/phenixace/) [[Code]](https://github.com/phenixace/ICMA)
@@ -33,7 +35,7 @@ News
 * **[2024.06]** Our paper "Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective" is accepted by **IEEE TKDE**. [[Paper]](https://arxiv.org/abs/2306.06615)
 * **[2024.03]** Our paper "Recommender Systems in the Era of Large Language Models (LLMs)" is accepted by **IEEE TKDE**! [[Paper]](https://arxiv.org/abs/2307.02046)
 
-Publications
+Publications [![引用数](https://img.shields.io/badge/Citations-blue)](https://scholar.google.com/citations?user=ml9hh18AAAAJ&hl)
 ======
 <div style="height: 400px; overflow-y: scroll;">
 
@@ -46,6 +48,7 @@ Publications
 
 * Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, **Jiatong Li**, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. arXiv preprint arXiv:2510.16880. (Corresponding Author)
 * **Jiatong Li**, Weida Wang\*, Qinggang Zhang, Junxian Li, Di Zhang, Changmeng Zheng, Shufei Zhang, Xiaoyong Wei, and Qing Li. Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery. arXiv preprint arXiv:2508.08401.
+* Mao Qinghua, **Jiatong Li**, and Kui Meng. Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security. **CBDCom 2025**.
 * Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, **Jiatong Li**, Weida Wang, Suorong Yang, Jianbo Wu, Peng Ye, Wanli Ouyang, Dongzhan Zhou. Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning. **CVPR 2025**.
 * Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, **Jiatong Li**, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. Llama-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning. **NAACL 2025**.
 
@@ -90,6 +93,9 @@ Awards
 Hobbies
 ------
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/song/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90-%E7%B2%A4/1818540482"></iframe>
+
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/playlist/iag/pl.u-2aoqX5DCaeoLbr"></iframe>
 
 Contact
 ------
