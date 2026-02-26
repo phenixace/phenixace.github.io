@@ -82,7 +82,6 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 <div class="pub-item">
 Weida Wang*, Dongchen Huang*, <strong>Jiatong Li</strong>*, Tengchao Yang, Ziyang Zheng, Di Zhang, Dong Han et al. CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics. <span class="pub-venue">ICLR 2026</span> <span class="pub-note">(Co-First Author)</span>
 </div>
-</div>
 
 <div class="pub-item">
 Junxian Li, Beining Xu, Simin Chen, <strong>Jiatong Li</strong>, Jingdi Lei, Haodong Zhao, and Di Zhang. IAG: Input-Aware Backdoor Attack on VLM-Based Visual Grounding. <span class="pub-venue">CVPR 2026</span>
