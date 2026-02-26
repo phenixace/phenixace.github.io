@@ -74,6 +74,7 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 </div>
 
 
+<h2 class="section-title"><span class="section-icon">📚</span> Publications</h2>
 <div class="pub-container">
 
 <span class="pub-year-header"><b>2026</b></span>
