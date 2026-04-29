@@ -80,6 +80,10 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 <span class="pub-year-header"><b>2026</b></span>
 
 <div class="pub-item">
+<strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. <span class="pub-venue">IEEE TKDE</span>
+</div>
+
+<div class="pub-item">
 Weida Wang*, Dongchen Huang*, <strong>Jiatong Li</strong>*, Tengchao Yang, Ziyang Zheng, Di Zhang, Dong Han et al. CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics. <span class="pub-venue">ICLR 2026</span> <span class="pub-note">(Co-First Author)</span>
 </div>
 
@@ -113,10 +117,6 @@ Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, <strong>Jiatong Li</strong>, Tong Xie
 
 <div class="pub-item">
 <strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
-</div>
-
-<div class="pub-item">
-<strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721. <span class="pub-venue">IEEE TKDE</span>
 </div>
 
 <div class="pub-item">
