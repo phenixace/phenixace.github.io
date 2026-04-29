@@ -24,6 +24,10 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 
 <div class="news-container">
   <div class="news-item">
+    <span class="news-date">2024.11</span>
+    <span class="news-text">Our paper "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is accepted by TKDE (To Appear). Please refer our code: <a href="https://github.com/phenixace/MolReFlect">[Code]</a></span>
+  </div>
+  <div class="news-item">
     <span class="news-date">2026.02</span>
     <span class="news-text">Our paper "IAG: Input-Aware Backdoor Attack on VLM-Based Visual Grounding" is accepted by <strong>CVPR 2026</strong>. Congratulations to Junxian Li! 🎉 <a href="https://arxiv.org/abs/2508.09456">[Paper]</a></span>
   </div>
@@ -58,10 +62,6 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
   <div class="news-item">
     <span class="news-date">2024.12</span>
     <span class="news-text">Our paper "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation" is released on arXiv. <a href="https://arxiv.org/abs/2412.14642">[Paper]</a> <a href="https://phenixace.github.io/tomgbench/">[Homepage]</a> <a href="https://github.com/phenixace/S2-TOMG-Bench">[Code]</a> <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench">[Data]</a></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2024.11</span>
-    <span class="news-text">Our paper "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is released on arXiv. <a href="https://arxiv.org/abs/2411.14721">[Paper]</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.06</span>
@@ -116,7 +116,7 @@ Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, <strong>Jiatong Li</strong>, Tong Xie
 </div>
 
 <div class="pub-item">
-<strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721.
+<strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. arXiv preprint arXiv:2411.14721. <span class="pub-venue">IEEE TKDE</span>
 </div>
 
 <div class="pub-item">
