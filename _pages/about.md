@@ -162,7 +162,7 @@ Mao Qinghua, <strong>Jiatong Li</strong>, and Kui Meng. Improving Chinese Named 
 <span class="pub-year-header"><b>2021</b></span>
 
 <div class="pub-item">
-<strong>Jiatong Li</strong>, Kui Meng. MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. arXiv preprint arXiv:2109.07877.
+<strong>Jiatong Li</strong>, Kui Meng. MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. In Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference) (pp. 1112-1122). <span class="pub-venue">CCL 2024</span> 
 </div>
 
 <div class="pub-item">
