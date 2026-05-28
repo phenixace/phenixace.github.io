@@ -98,6 +98,10 @@ Junxian Li, Beining Xu, Simin Chen, <strong>Jiatong Li</strong>, Jingdi Lei, Hao
 <span class="pub-year-header"><b>2025</b></span>
 
 <div class="pub-item">
+<strong>Jiatong Li</strong>, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. Large Language Models are In-Context Molecule Learners. <span class="pub-venue">IEEE TKDE</span>
+</div>
+
+<div class="pub-item">
 <strong>Jiatong Li</strong>, Weida Wang*, Qinggang Zhang, Junxian Li, Di Zhang, Changmeng Zheng, Shufei Zhang, Xiaoyong Wei, and Qing Li. Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery. arXiv preprint arXiv:2508.08401.
 </div>
 
@@ -113,17 +117,18 @@ Di Zhang, Jingdi Lei, Junxian Li, Xunzhi Wang, Yujie Liu, Zonglin Yang, <strong>
 Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, <strong>Jiatong Li</strong>, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. Llama-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning. <span class="pub-venue">NAACL 2025</span>
 </div>
 
+
+
 <span class="pub-year-header"><b>2024</b></span>
 
 <div class="pub-item">
 Di Zhang, Wei Liu, Qian Tan, Jingdan Chen, Hang Yan, Yuliang Yan, <strong>Jiatong Li</strong>, Weiran Huang, Xiangyu Yue, Wanli Ouyang, Dongzhan Zhou, Shufei Zhang, Mao Su, Han-Sen Zhong, Yuqiang Li. ChemLLM: A Chemical Large Language Model. arXiv preprint arXiv:2402.06852.
 </div>
 
-<div class="pub-item">
-<strong>Jiatong Li</strong>, Wei Liu, Zhihao Ding, Wenqi Fan, Yuqiang Li, Qing Li. Large Language Models are In-Context Molecule Learners. <span class="pub-venue">IEEE TKDE</span>
-</div>
 
-<span class="pub-year-header"><b>2023</b></span>
+<div class="pub-item">
+<strong>Jiatong Li</strong>, Kui Meng. MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. In Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference) (pp. 1112-1122). <span class="pub-venue">CCL 2024</span> 
+</div>
 
 <div class="pub-item">
 Lin Wang, Wenqi Fan, <strong>Jiatong Li</strong>, Yao Ma, and Qing Li. Fast Graph Condensation with Structure-based Neural Tangent Kernel. <span class="pub-venue">WWW 2024</span>
@@ -136,6 +141,8 @@ Wenqi Fan, Zihuai Zhao, <strong>Jiatong Li</strong>, Yunqing Liu, Xiaowei Mei, Y
 <div class="pub-item">
 <strong>Jiatong Li</strong>, Yunqing Liu, Wenqi Fan, Xiao-yong Wei, Hui Liu, Jiliang Tang, Qing Li. Empowering Molecule Discovery for Molecule-Caption Translation with Large Language Models: A ChatGPT Perspective. <span class="pub-venue">IEEE TKDE</span>
 </div>
+
+<span class="pub-year-header"><b>2023</b></span>
 
 <div class="pub-item">
 Lea Frermann, <strong>Jiatong Li</strong>, Shima Khanehzar, Gosia Mikolajczak. Conflicts, Villains, Resolutions: Towards Models of Narrative Media Framing. <span class="pub-venue">ACL 2023</span> <span class="pub-note">(Oral Presentation)</span>
@@ -156,10 +163,6 @@ Mao Qinghua, <strong>Jiatong Li</strong>, and Kui Meng. Improving Chinese Named 
 </div>
 
 <span class="pub-year-header"><b>2021</b></span>
-
-<div class="pub-item">
-<strong>Jiatong Li</strong>, Kui Meng. MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. In Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference) (pp. 1112-1122). <span class="pub-venue">CCL 2024</span> 
-</div>
 
 <div class="pub-item">
 Chaowang Zhao, Jian Yang*, <strong>Jiatong Li</strong>. Generation of Hospital Emergency Department Layouts Based on Generative Adversarial Networks. Journal of Building Engineering, 43, 102539.
