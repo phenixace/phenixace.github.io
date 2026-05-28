@@ -25,7 +25,7 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 <div class="news-container">
   <div class="news-item">
     <span class="news-date">2026.05</span>
-    <span class="news-text">Our paper "Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation" is accepted by KDD 2026. Please refer our code: <a href="https://github.com/phenixace/S2-TOMG-Bench">[Code]</a></span> and huggingface repo: <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench">[Huggingface]</a></span>
+    <span class="news-text">Our paper "Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation" is accepted by KDD 2026. Please refer our code: <a href="https://github.com/phenixace/S2-TOMG-Bench">[Code]</a> and huggingface repo: <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench">[Huggingface]</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.05</span>
