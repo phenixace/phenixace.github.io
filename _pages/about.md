@@ -24,24 +24,24 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 
 <div class="news-container">
   <div class="news-item">
-    <span class="news-date">2024.11</span>
-    <span class="news-text">Our paper "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is accepted by TKDE (To Appear). Please refer our code: <a href="https://github.com/phenixace/MolReFlect">[Code]</a></span>
+    <span class="news-date">2026.05</span>
+    <span class="news-text">Our paper "Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation" is accepted by KDD 2026. Please refer our code: <a href="https://github.com/phenixace/S2-TOMG-Bench">[Code]</a></span> and huggingface repo: <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench">[Huggingface]</a></span>
   </div>
   <div class="news-item">
-    <span class="news-date">2026.02</span>
-    <span class="news-text">Our paper "IAG: Input-Aware Backdoor Attack on VLM-Based Visual Grounding" is accepted by <strong>CVPR 2026</strong>. Congratulations to Junxian Li! 🎉 <a href="https://arxiv.org/abs/2508.09456">[Paper]</a></span>
+    <span class="news-date">2026.05</span>
+    <span class="news-text">Our paper "Chem-R: Learning to Reason as a Chemist" is accepted by KDD 2026. It is the first time that I serve as the Corresponding Authors. Congratulation to Weida Wang! Please refer our code: <a href="https://github.com/davidweidawang/Chem-R">[Code]</a></span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.05</span>
+    <span class="news-text">Our paper "MolViBench: Evaluating LLMs on Molecular Vibe Coding" is released. Please refer our code: <a href="https://github.com/phenixace/MolViBench-open">[Code]</a></span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026.04</span>
+    <span class="news-text">Our paper "MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts" is accepted by TKDE. Please refer our code: <a href="https://github.com/phenixace/MolReFlect">[Code]</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2026.01</span>
     <span class="news-text">Our paper "CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics" is accepted by <strong>ICLR 2026</strong>. Congratulations to Weida Wang! 🎉 <a href="https://arxiv.org/abs/2508.18124">[Paper]</a></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2025.10</span>
-    <span class="news-text">Our paper "Chem-R: Learning to Reason as a Chemist" is available on arXiv. <a href="https://arxiv.org/abs/2510.16880">[Paper]</a></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2025.10</span>
-    <span class="news-text">Our paper "Search Engine Augmented Chinese Named Entity Recognition for Big Data Content Security" is accepted by <strong>CBDCom</strong>. Congratulations to Qinghua Mao! 🎉</span>
   </div>
   <div class="news-item">
     <span class="news-date">2025.08</span>
@@ -54,14 +54,6 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
   <div class="news-item">
     <span class="news-date">2025.03</span>
     <span class="news-text">Our paper "Large Language Models are In-Context Molecule Learners" is accepted by <strong>IEEE TKDE</strong>! 🎉 <a href="https://arxiv.org/abs/2403.04197">[Paper]</a> <a href="https://huggingface.co/phenixace/">[Model]</a> <a href="https://github.com/phenixace/ICMA">[Code]</a></span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2025.02</span>
-    <span class="news-text">Our paper "Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning" is accepted by <strong>CVPR 2025</strong>. Congratulations to Di Zhang! 🎉</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2024.12</span>
-    <span class="news-text">Our paper "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation" is released on arXiv. <a href="https://arxiv.org/abs/2412.14642">[Paper]</a> <a href="https://phenixace.github.io/tomgbench/">[Homepage]</a> <a href="https://github.com/phenixace/S2-TOMG-Bench">[Code]</a> <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench">[Data]</a></span>
   </div>
   <div class="news-item">
     <span class="news-date">2024.06</span>
@@ -80,6 +72,18 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 <span class="pub-year-header"><b>2026</b></span>
 
 <div class="pub-item">
+<strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation. KDD 2026. <span class="pub-note">(Originally named TOMG-Bench)</span>
+</div>
+
+<div class="pub-item">
+Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, <strong>Jiatong Li</strong>, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. KDD 2026. <span class="pub-note">(Corresponding Author)</span>
+</div>
+
+<div class="pub-item">
+<strong>Jiatong Li</strong>*, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, and Yatao Bian.MolViBench: Evaluating LLMs on Molecular Vibe Coding. arXiv preprint arXiv:2605.02351.
+</div>
+
+<div class="pub-item">
 <strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. <span class="pub-venue">IEEE TKDE</span>
 </div>
 
@@ -92,10 +96,6 @@ Junxian Li, Beining Xu, Simin Chen, <strong>Jiatong Li</strong>, Jingdi Lei, Hao
 </div>
 
 <span class="pub-year-header"><b>2025</b></span>
-
-<div class="pub-item">
-Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, <strong>Jiatong Li</strong>, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. arXiv preprint arXiv:2510.16880. <span class="pub-note">(Corresponding Author)</span>
-</div>
 
 <div class="pub-item">
 <strong>Jiatong Li</strong>, Weida Wang*, Qinggang Zhang, Junxian Li, Di Zhang, Changmeng Zheng, Shufei Zhang, Xiaoyong Wei, and Qing Li. Mol-R1: Towards Explicit Long-CoT Reasoning in Molecule Discovery. arXiv preprint arXiv:2508.08401.
@@ -114,10 +114,6 @@ Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, <strong>Jiatong Li</strong>, Tong Xie
 </div>
 
 <span class="pub-year-header"><b>2024</b></span>
-
-<div class="pub-item">
-<strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation. arXiv preprint arXiv:2412.14642.
-</div>
 
 <div class="pub-item">
 Di Zhang, Wei Liu, Qian Tan, Jingdan Chen, Hang Yan, Yuliang Yan, <strong>Jiatong Li</strong>, Weiran Huang, Xiangyu Yue, Wanli Ouyang, Dongzhan Zhou, Shufei Zhang, Mao Su, Han-Sen Zhong, Yuqiang Li. ChemLLM: A Chemical Large Language Model. arXiv preprint arXiv:2402.06852.
