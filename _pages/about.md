@@ -80,7 +80,7 @@ Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, X
 </div>
 
 <div class="pub-item">
-<strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, and Yatao Bian.MolViBench: Evaluating LLMs on Molecular Vibe Coding. arXiv preprint arXiv:2605.02351.
+<strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, and Yatao Bian. MolViBench: Evaluating LLMs on Molecular Vibe Coding. arXiv preprint arXiv:2605.02351.
 </div>
 
 <div class="pub-item">
