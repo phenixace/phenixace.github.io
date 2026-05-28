@@ -72,11 +72,11 @@ I am currently a visiting scholar at <strong>The BlueWhale Lab, National Univers
 <span class="pub-year-header"><b>2026</b></span>
 
 <div class="pub-item">
-<strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation. KDD 2026. <span class="pub-note">(Originally named TOMG-Bench)</span>
+<strong>Jiatong Li</strong>*, Junxian Li*, Yunqing Liu, Dongzhan Zhou, and Qing Li. Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation. KDD 2026. <span class="pub-venue">KDD 2026</span> <span class="pub-note">(Originally named TOMG-Bench)</span> 
 </div>
 
 <div class="pub-item">
-Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, <strong>Jiatong Li</strong>, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. KDD 2026. <span class="pub-note">(Corresponding Author)</span>
+Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, <strong>Jiatong Li</strong>, Zifu Wang, Yuqiang Li, Shufei Zhang. Chem-R: Learning to Reason as a Chemist. KDD 2026. <span class="pub-venue">KDD 2026</span> <span class="pub-note">(Corresponding Author)</span>
 </div>
 
 <div class="pub-item">
