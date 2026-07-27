@@ -15,7 +15,7 @@
   var topPapers = root.querySelector("[data-top-papers]");
   var clickOrigins = root.querySelector("[data-click-origins]");
   var readerMap = root.querySelector("[data-reader-map]");
-  var cacheKey = "jiatong-paper-insights-v1";
+  var cacheKey = "jiatong-paper-insights-v2";
   var hasRenderedData = false;
   var requestInFlight = false;
   var lastRequestedAt = 0;
@@ -136,10 +136,14 @@
       var badge = document.createElement("span");
       var label = document.createElement("span");
       var count = document.createElement("strong");
+      var country = countryName(location.countryCode);
+      var region = String(location.region || "").trim();
+      var distinctRegion =
+        region && region.toLocaleLowerCase() !== country.toLocaleLowerCase();
 
       badge.className = "location-list__badge";
       badge.textContent = location.countryCode;
-      label.textContent = countryName(location.countryCode);
+      label.textContent = distinctRegion ? region + " · " + country : country;
       count.textContent = formatCount(location.clicks, "click", "clicks");
       item.append(badge, label, count);
       clickOrigins.appendChild(item);

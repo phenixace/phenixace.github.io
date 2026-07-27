@@ -544,7 +544,7 @@ redirect_from:
       <ul class="location-list" data-click-origins aria-live="polite">
         <li class="insight-list__status">Waiting for the first geolocated click…</li>
       </ul>
-      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country-level aggregates from paper-link clicks only. Raw IP addresses are never displayed.</p>
+      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country/region-level aggregates from paper-link clicks only. Raw IP addresses are never displayed.</p>
     </article>
   </section>
 </div>

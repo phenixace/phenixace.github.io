@@ -78,7 +78,7 @@ Deno.serve(async (request) => {
         .limit(5),
       supabase
         .from("paper_click_locations")
-        .select("country_code,click_count,hashed_visitor_count")
+        .select("country_code,region,click_count,hashed_visitor_count")
         .not("country_code", "is", null)
         .limit(1000),
     ]);
@@ -93,33 +93,53 @@ Deno.serve(async (request) => {
       visitors: numberValue(paper.hashed_visitor_count),
     }));
 
-    const countryTotals = new Map<string, { clicks: number; visitors: number }>();
+    const locationTotals = new Map<
+      string,
+      {
+        countryCode: string;
+        region: string | null;
+        clicks: number;
+        visitors: number;
+      }
+    >();
+    const continentTotals = new Map<string, { clicks: number; visitors: number }>();
+
     for (const row of locationResult.data ?? []) {
       const code = String(row.country_code ?? "").trim().toUpperCase();
       if (!/^[A-Z]{2}$/.test(code)) continue;
-      const current = countryTotals.get(code) ?? { clicks: 0, visitors: 0 };
-      current.clicks += numberValue(row.click_count);
-      current.visitors += numberValue(row.hashed_visitor_count);
-      countryTotals.set(code, current);
-    }
+      const region = String(row.region ?? "").trim().slice(0, 180) || null;
+      const clicks = numberValue(row.click_count);
+      const visitors = numberValue(row.hashed_visitor_count);
+      const locationKey = `${code}:${region ?? ""}`;
+      const location = locationTotals.get(locationKey) ?? {
+        countryCode: code,
+        region,
+        clicks: 0,
+        visitors: 0,
+      };
+      location.clicks += clicks;
+      location.visitors += visitors;
+      locationTotals.set(locationKey, location);
 
-    const locations = Array.from(countryTotals.entries())
-      .map(([countryCode, totals]) => ({ countryCode, ...totals }))
-      .sort((a, b) => b.clicks - a.clicks || a.countryCode.localeCompare(b.countryCode))
-      .slice(0, 8);
-    const continentTotals = new Map<string, { clicks: number; visitors: number }>();
-
-    for (const [countryCode, totals] of countryTotals) {
-      const continent = continentFor(countryCode);
+      const continent = continentFor(code);
       if (!continent) continue;
       const current = continentTotals.get(continent) ?? {
         clicks: 0,
         visitors: 0,
       };
-      current.clicks += totals.clicks;
-      current.visitors += totals.visitors;
+      current.clicks += clicks;
+      current.visitors += visitors;
       continentTotals.set(continent, current);
     }
+
+    const locations = Array.from(locationTotals.values())
+      .sort(
+        (a, b) =>
+          b.clicks - a.clicks ||
+          a.countryCode.localeCompare(b.countryCode) ||
+          (a.region ?? "").localeCompare(b.region ?? ""),
+      )
+      .slice(0, 8);
 
     const continents = Object.keys(continentCodes).map((id) => ({
       id,

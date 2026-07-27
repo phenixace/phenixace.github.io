@@ -16,7 +16,7 @@ project values are added to `_config.yml`.
 - Raw IP addresses are never inserted into the database.
 - Optional repeat-visitor analysis uses a salted SHA-256 hash.
 - Country, region, and city are resolved server-side through IPinfo.
-- The public summary returns country-level aggregates only, never city, region,
+- The public summary returns country/region-level aggregates only, never city,
   visitor hashes, or individual event records.
 - A hashed visitor is capped at 120 stored clicks per rolling hour.
 - The database table has RLS enabled and grants no browser role direct access.
