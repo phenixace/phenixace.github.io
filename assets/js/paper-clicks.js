@@ -38,8 +38,14 @@
         targetUrl: link.href.slice(0, 2000),
         sourcePath: window.location.pathname.slice(0, 500),
       }),
-    }).catch(function () {
-      // Analytics must never interrupt navigation.
-    });
+    })
+      .then(function (response) {
+        if (response.ok) {
+          window.dispatchEvent(new Event("paperanalytics:updated"));
+        }
+      })
+      .catch(function () {
+        // Analytics must never interrupt navigation.
+      });
   });
 })();

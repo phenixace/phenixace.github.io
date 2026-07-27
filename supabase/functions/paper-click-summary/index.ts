@@ -22,7 +22,7 @@ function corsHeaders(origin: string | null) {
       : "https://phenixace.github.io",
     "Access-Control-Allow-Headers": "apikey, content-type",
     "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Cache-Control": "public, max-age=60, s-maxage=300",
+    "Cache-Control": "no-store",
     "Content-Type": "application/json",
     Vary: "Origin",
   };

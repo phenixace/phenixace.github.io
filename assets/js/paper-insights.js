@@ -17,6 +17,8 @@
   var readerMap = root.querySelector("[data-reader-map]");
   var cacheKey = "jiatong-paper-insights-v1";
   var hasRenderedData = false;
+  var requestInFlight = false;
+  var lastRequestedAt = 0;
   var continentNames = {
     NA: "North America",
     SA: "South America",
@@ -181,34 +183,66 @@
   var cachedData = readCache();
   if (cachedData) renderInsights(cachedData, "cached");
 
-  fetch(endpoint, {
-    method: "GET",
-    headers: { apikey: keyMeta.content },
-  })
-    .then(function (response) {
-      if (!response.ok) throw new Error("summary_unavailable");
-      return response.json();
-    })
-    .then(function (data) {
-      renderInsights(data, "live");
-      writeCache(data);
-    })
-    .catch(function () {
-      if (hasRenderedData) {
-        root.dataset.insightsState = "cached";
-        return;
-      }
+  function loadInsights(force) {
+    var now = Date.now();
+    if (requestInFlight || (!force && now - lastRequestedAt < 2500)) return;
+    requestInFlight = true;
+    lastRequestedAt = now;
 
-      topPapers.replaceChildren();
-      clickOrigins.replaceChildren();
+    fetch(endpoint + "?fresh=" + now, {
+      method: "GET",
+      cache: "no-store",
+      headers: { apikey: keyMeta.content },
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error("summary_unavailable");
+        return response.json();
+      })
+      .then(function (data) {
+        renderInsights(data, "live");
+        writeCache(data);
+      })
+      .catch(function () {
+        if (hasRenderedData) {
+          root.dataset.insightsState = "cached";
+          return;
+        }
 
-      var papersError = document.createElement("li");
-      var locationsError = document.createElement("li");
-      papersError.className = "insight-list__status";
-      locationsError.className = "insight-list__status";
-      papersError.textContent = "Live ranking is taking a short break.";
-      locationsError.textContent = "The reader map will be back shortly.";
-      topPapers.appendChild(papersError);
-      clickOrigins.appendChild(locationsError);
-    });
+        topPapers.replaceChildren();
+        clickOrigins.replaceChildren();
+
+        var papersError = document.createElement("li");
+        var locationsError = document.createElement("li");
+        papersError.className = "insight-list__status";
+        locationsError.className = "insight-list__status";
+        papersError.textContent = "Live ranking is taking a short break.";
+        locationsError.textContent = "The reader map will be back shortly.";
+        topPapers.appendChild(papersError);
+        clickOrigins.appendChild(locationsError);
+      })
+      .then(
+        function () {
+          requestInFlight = false;
+        },
+        function () {
+          requestInFlight = false;
+        }
+      );
+  }
+
+  loadInsights(true);
+
+  window.addEventListener("paperanalytics:updated", function () {
+    window.setTimeout(function () {
+      loadInsights(true);
+    }, 300);
+  });
+
+  window.addEventListener("pageshow", function (event) {
+    if (event.persisted) loadInsights(true);
+  });
+
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) loadInsights(false);
+  });
 })();

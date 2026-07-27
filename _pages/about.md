@@ -532,7 +532,7 @@ redirect_from:
         <span class="live-pill"><i aria-hidden="true"></i> Live map</span>
       </div>
       <p class="section-kicker">Around the world</p>
-      <h2 id="reader-map-title">Where readers arrive from</h2>
+      <h2 id="reader-map-title">Where paper readers arrive from</h2>
       <div class="reader-map" data-reader-map role="img" aria-label="No geolocated clicks yet">
         <span class="reader-map__continent reader-map__continent--na" data-continent="NA"><b>North America</b><em>0</em></span>
         <span class="reader-map__continent reader-map__continent--sa" data-continent="SA"><b>South America</b><em>0</em></span>
@@ -544,7 +544,7 @@ redirect_from:
       <ul class="location-list" data-click-origins aria-live="polite">
         <li class="insight-list__status">Waiting for the first geolocated click…</li>
       </ul>
-      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country-level aggregates only. Raw IP addresses are never displayed.</p>
+      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country-level aggregates from paper-link clicks only. Raw IP addresses are never displayed.</p>
     </article>
   </section>
 </div>
