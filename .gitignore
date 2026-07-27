@@ -3,3 +3,6 @@ dist/
 .bundle/
 vendor/bundle/
 tmp/
+supabase/.temp/
+supabase/functions/.env
+supabase/functions/.env.*

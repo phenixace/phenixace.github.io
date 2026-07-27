@@ -21,7 +21,7 @@ redirect_from:
       <div class="hero__actions" aria-label="Primary links">
         <a class="button button--lime" href="https://scholar.google.com/citations?user=ml9hh18AAAAJ" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
         <a class="button button--ghost" href="/publications/">Publications</a>
-        <a class="button button--text" href="mailto:jiatong.li@connect.polyu.hk">Get in touch <span aria-hidden="true">→</span></a>
+        <a class="button button--text" href="/contact/">Get in touch <span aria-hidden="true">→</span></a>
       </div>
     </div>
 
@@ -36,7 +36,7 @@ redirect_from:
         <div>
           <span class="affiliation-card__label">Now</span>
           <strong>Visiting Scholar</strong>
-          <p>BlueWhale Lab · National University of Singapore</p>
+          <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
         </div>
         <div>
           <span class="affiliation-card__label">Ph.D.</span>
@@ -59,11 +59,15 @@ redirect_from:
     <div class="news-list">
       <article class="news-row">
         <time datetime="2026-07">2026.07</time>
-        <p><strong>Two new molecular reasoning studies are online.</strong> We examine hallucination-prone chemical scratchpads and perturbation-based molecular generalization.</p>
+        <p><strong>Our chemical chain-of-thought study is online.</strong> <a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad ↗</a></p>
       </article>
       <article class="news-row">
         <time datetime="2026-07">2026.07</time>
-        <p><strong>Our medical reasoning survey is accepted by Machine Intelligence Research.</strong> The work connects clinical competency levels with computational reasoning patterns.</p>
+        <p><strong>Our analysis of molecular LLM generalization is online.</strong> <a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener">Do LLMs Truly Generalize in the Molecular Domain? ↗</a></p>
+      </article>
+      <article class="news-row">
+        <time datetime="2026-07">2026.07</time>
+        <p><strong>Our medical reasoning survey is accepted by Machine Intelligence Research.</strong> <a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener">Aligning Clinical Needs and AI Capabilities ↗</a></p>
       </article>
       <article class="news-row">
         <time datetime="2026-05">2026.05</time>
@@ -106,7 +110,7 @@ redirect_from:
         <span class="arc-stage__years">2024—26</span>
         <h3>Assist chemists</h3>
         <p>Can a model translate natural-language requirements into valid molecular designs?</p>
-        <span class="arc-stage__work">S²-Bench · Speak-to-Structure</span>
+        <span class="arc-stage__work">Speak-to-Structure (S²-Bench)</span>
       </article>
       <article class="arc-stage arc-stage--peach">
         <span class="arc-stage__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
@@ -120,7 +124,7 @@ redirect_from:
         <span class="arc-stage__years">2026</span>
         <h3>Execute workflows</h3>
         <p>Can models organize tools, state, chemistry, and artifacts into an end-to-end workflow?</p>
-        <span class="arc-stage__work">MolViBench · Science agents</span>
+        <span class="arc-stage__work">MolViBench</span>
       </article>
     </div>
 
@@ -137,10 +141,10 @@ redirect_from:
         <p class="section-kicker">New in 2026</p>
         <h2>Latest research</h2>
       </div>
-      <p>Three recent projects examine molecular reasoning from complementary angles: faithful process, structural generalization, and clinically grounded capability.</p>
+      <p>Browse recent work across faithful reasoning, molecular generalization, scientific agents, open-ended design, and clinically grounded capability. Scroll sideways for more.</p>
     </div>
 
-    <div class="featured-papers">
+    <div class="featured-papers" role="region" aria-label="Latest research, scroll horizontally for more" tabindex="0">
       <article class="featured-paper featured-paper--cobalt">
         <div class="featured-paper__topline">
           <span>arXiv · Jul 2026</span>
@@ -185,6 +189,81 @@ redirect_from:
           <a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener" aria-label="Read medical reasoning survey on arXiv">Read paper ↗</a>
         </div>
       </article>
+
+      <article class="featured-paper featured-paper--rose">
+        <div class="featured-paper__topline">
+          <span>arXiv · May 2026</span>
+          <span class="featured-paper__index">04</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-code" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">MolViBench: Evaluating LLMs on Molecular Vibe Coding</a></h3>
+        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, Yatao Bian</p>
+        <p class="featured-paper__summary">A benchmark for executable molecular coding across 12 real-world drug-discovery workflows.</p>
+        <div class="featured-paper__footer">
+          <span>Science agents</span>
+          <a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">Read paper ↗</a>
+        </div>
+      </article>
+
+      <article class="featured-paper featured-paper--butter">
+        <div class="featured-paper__topline">
+          <span>KDD · 2026</span>
+          <span class="featured-paper__index">05</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-flask" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Speak-to-Structure: Open-Domain Natural Language-Driven Molecule Generation</a></h3>
+        <p class="featured-paper__authors"><strong>Jiatong Li*</strong>, Junxian Li*, Yunqing Liu, Dongzhan Zhou, Qing Li</p>
+        <p class="featured-paper__summary">S²-Bench evaluates one-to-many molecular design from natural-language requirements.</p>
+        <div class="featured-paper__footer">
+          <span>Chemist assistant</span>
+          <a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Read paper ↗</a>
+        </div>
+      </article>
+
+      <article class="featured-paper featured-paper--mint">
+        <div class="featured-paper__topline">
+          <span>KDD · 2026</span>
+          <span class="featured-paper__index">06</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-brain" aria-hidden="true"></i></span>
+        <h3><a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Chem-R: Learning to Reason as a Chemist</a></h3>
+        <p class="featured-paper__authors">Weida Wang, Benteng Chen, Di Zhang, et al., <strong>Jiatong Li</strong>, et al.</p>
+        <p class="featured-paper__summary">A three-phase chemical reasoning model spanning molecular- and reaction-level tasks.</p>
+        <div class="featured-paper__footer">
+          <span>Co-corresponding</span>
+          <a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Project ↗</a>
+        </div>
+      </article>
+
+      <article class="featured-paper featured-paper--sky">
+        <div class="featured-paper__topline">
+          <span>IEEE TKDE · 2026</span>
+          <span class="featured-paper__index">07</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-link" aria-hidden="true"></i></span>
+        <h3><a href="/publication/2024-molreflect">MolReFlect: Fine-Grained Alignments Between Molecules and Texts</a></h3>
+        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Lei, Di Zhang, Wenqi Fan, et al.</p>
+        <p class="featured-paper__summary">An in-context reflection framework for precise molecule–text alignment.</p>
+        <div class="featured-paper__footer">
+          <span>Molecular alignment</span>
+          <a href="/publication/2024-molreflect">Details →</a>
+        </div>
+      </article>
+
+      <article class="featured-paper featured-paper--peach">
+        <div class="featured-paper__topline">
+          <span>ICLR · 2026</span>
+          <span class="featured-paper__index">08</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-atom" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">CMPhysBench: Evaluating LLMs in Condensed Matter Physics</a></h3>
+        <p class="featured-paper__authors">Weida Wang*, Dongchen Huang*, <strong>Jiatong Li*</strong>, Tengchao Yang, et al.</p>
+        <p class="featured-paper__summary">A fine-grained benchmark for calculation-intensive reasoning in condensed matter physics.</p>
+        <div class="featured-paper__footer">
+          <span>Co-first author</span>
+          <a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">Read paper ↗</a>
+        </div>
+      </article>
     </div>
   </section>
 
@@ -198,6 +277,30 @@ redirect_from:
     </div>
 
     <ol class="publication-list">
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad</a></h3>
+          <p><strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Xiaoyong Wei, Yatao Bian</p>
+        </div>
+        <span class="venue-pill">arXiv</span>
+      </li>
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener">Do LLMs Truly Generalize in the Molecular Domain? A Perturbation-Based Analysis</a></h3>
+          <p><strong>Jiatong Li</strong>, Weida Wang, Changmeng Zheng, Shufei Zhang, Yatao Bian, Xiao-yong Wei, Qing Li</p>
+        </div>
+        <span class="venue-pill">arXiv</span>
+      </li>
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener">Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning</a></h3>
+          <p>Qi Peng*, <strong>Jiatong Li*</strong>, Sirui Huang, Yiyang Jiang, Kaisong Gong, et al.</p>
+        </div>
+        <span class="venue-pill">MIR</span>
+      </li>
       <li>
         <span class="publication-list__year">2026</span>
         <div>
@@ -307,7 +410,7 @@ redirect_from:
           <li>
             <span>2026—Now</span>
             <strong>Visiting Scholar</strong>
-            <p>BlueWhale Lab · National University of Singapore</p>
+            <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
           </li>
           <li>
             <span>2023—2024</span>
@@ -393,12 +496,21 @@ redirect_from:
       <p>When I am not working with molecules and models, there is usually music somewhere nearby.</p>
       <iframe title="Jiatong Li's featured song on Apple Music" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/song/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90-%E7%B2%A4/1818540482"></iframe>
     </div>
+    <aside class="maker-card maker-card--closing" aria-labelledby="maker-card-title">
+      <span class="maker-card__icon" aria-hidden="true"><i class="fas fa-chart-bar"></i></span>
+      <div>
+        <p class="section-kicker">A tiny tool I made</p>
+        <h2 id="maker-card-title">OpenReview Outcome Simulator</h2>
+        <p>Turn review scores and confidence into a playful simulation of what might happen next.</p>
+      </div>
+      <a href="https://phenixace.github.io/openreview/" target="_blank" rel="noopener">Try the simulator <span aria-hidden="true">↗</span></a>
+    </aside>
     <div class="contact-panel">
       <p class="section-kicker">Collaborate</p>
       <h2>Let’s make scientific AI more capable—and more honest.</h2>
       <p>I am always happy to talk about molecular language models, scientific reasoning, and potential collaborations.</p>
       <div class="contact-panel__links">
-        <a href="mailto:jiatong.li@connect.polyu.hk">Email me <span aria-hidden="true">↗</span></a>
+        <a href="/contact/">Protected contact <span aria-hidden="true">→</span></a>
         <a href="https://github.com/phenixace" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>

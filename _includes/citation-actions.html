@@ -1,0 +1,31 @@
+{% assign cite_item = include.item %}
+{% if cite_item.citation %}
+  {% assign cite_key = cite_item.permalink | default: cite_item.url | split: "/" | last %}
+  <div
+    class="citation-actions"
+    data-citation-actions
+    data-citation="{{ cite_item.citation | strip_newlines | escape }}"
+    data-title="{{ cite_item.title | strip_html | escape }}"
+    data-key="{{ cite_key | slugify | escape }}"
+    data-year="{{ cite_item.date | date: "%Y" }}"
+    data-venue="{{ cite_item.venue | escape }}"
+    data-url="{{ cite_item.paperurl | escape }}"
+  >
+    <span class="citation-actions__label">Cite this work</span>
+    {% if cite_item.paperurl %}
+      <a class="citation-action citation-action--paper" href="{{ cite_item.paperurl }}" target="_blank" rel="noopener" data-paper-link data-paper-title="{{ cite_item.title | strip_html | escape }}">
+        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        View paper
+      </a>
+    {% endif %}
+    <button class="citation-action citation-action--bib" type="button" data-copy-citation="bibtex" title="Copy a structured BibTeX entry">
+      <i class="fas fa-code" aria-hidden="true"></i>
+      Copy BibTeX
+    </button>
+    <button class="citation-action citation-action--word" type="button" data-copy-citation="word" title="Copy the formatted citation for Word">
+      <i class="fas fa-file-word" aria-hidden="true"></i>
+      Copy for Word
+    </button>
+    <span class="citation-actions__status" role="status" aria-live="polite"></span>
+  </div>
+{% endif %}

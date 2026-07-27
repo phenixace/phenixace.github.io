@@ -21,7 +21,20 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#2f8b68">
+<meta name="theme-color" content="#efc4d3">
+<script defer src="{{ '/assets/js/citation-copy.js' | relative_url }}"></script>
+{% if site.paper_analytics.supabase_url and site.paper_analytics.publishable_key %}
+  <meta name="paper-analytics-url" content="{{ site.paper_analytics.supabase_url | escape }}">
+  <meta name="paper-analytics-key" content="{{ site.paper_analytics.publishable_key | escape }}">
+  <meta name="paper-analytics-function" content="{{ site.paper_analytics.function_name | default: 'track-paper-click' | escape }}">
+  <script defer src="{{ '/assets/js/paper-clicks.js' | relative_url }}"></script>
+{% endif %}
+{% if page.permalink == "/contact/" %}
+  <script defer src="{{ '/assets/js/contact.js' | relative_url }}"></script>
+  {% if site.contact.turnstile_site_key and site.contact.supabase_url and site.contact.publishable_key %}
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  {% endif %}
+{% endif %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

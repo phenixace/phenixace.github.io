@@ -80,6 +80,21 @@ analytics:
   google:
     tracking_id          :
 
+# Optional privacy-conscious interaction analytics. These public browser values
+# are intentionally blank until a Supabase project is connected.
+paper_analytics:
+  supabase_url           :
+  publishable_key        :
+  function_name          : "track-paper-click"
+
+# Protected contact form. The Turnstile secret, email destination, and Resend
+# key belong in Supabase Edge Function secrets, never in this repository.
+contact:
+  supabase_url           :
+  publishable_key        :
+  turnstile_site_key     :
+  function_name          : "send-contact"
+
 
 # Site Author
 author:
@@ -90,7 +105,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=ml9hh18AAAAJ&hl"
-  email            : "jiatong.li AT connect.polyu.hk"
+  contact          : "/contact/"
   researchgate     : "https://www.researchgate.net/profile/Jiatong-Li-13"
   uri              :
   bitbucket        :
@@ -134,7 +149,9 @@ exclude:
   - .sass-cache
   - CHANGELOG
   - Capfile
+  - dist
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
@@ -147,6 +164,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - supabase
   - tmp
   - vendor
 keep_files:
