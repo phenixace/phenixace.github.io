@@ -96,6 +96,24 @@ Deno.serve(async (request) => {
     const supabase = createClient(supabaseUrl, key, {
       auth: { persistSession: false, autoRefreshToken: false },
     });
+
+    if (ipHash) {
+      const oneHourAgo = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+      const { count, error: countError } = await supabase
+        .from("paper_clicks")
+        .select("id", { count: "exact", head: true })
+        .eq("ip_hash", ipHash)
+        .gte("created_at", oneHourAgo);
+
+      if (countError) throw countError;
+      if ((count ?? 0) >= 120) {
+        return new Response(JSON.stringify({ ok: true }), {
+          status: 202,
+          headers,
+        });
+      }
+    }
+
     const { error } = await supabase.from("paper_clicks").insert({
       paper_title: paperTitle,
       target_url: targetUrl,

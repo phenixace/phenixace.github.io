@@ -1845,62 +1845,24 @@ body {
   box-shadow: 0 10px 24px rgba(107, 72, 89, 0.12);
 }
 
-.contact-form {
+.contact-gate {
   margin-top: 2rem;
+  padding: 1.15rem;
+  background: #fff5ee;
+  border: 1px solid rgba(237, 174, 153, 0.24);
+  border-radius: 16px;
 
-  label {
-    display: block;
-    margin-bottom: 1rem;
-  }
-
-  label > span {
-    display: block;
-    margin-bottom: 0.42rem;
-    color: var(--home-ink-soft);
-    font-size: 0.66rem;
-    font-weight: 800;
-  }
-
-  input,
-  textarea {
-    width: 100%;
-    color: var(--home-ink);
-    background: rgba(255, 253, 249, 0.82);
-    border: 1px solid rgba(107, 84, 98, 0.16);
-    border-radius: 12px;
-    box-shadow: none;
-    font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 0.8rem;
-
-    &:focus {
-      border-color: var(--home-berry);
-      box-shadow: 0 0 0 3px rgba(183, 127, 152, 0.14);
-      outline: 0;
-    }
-  }
-
-  textarea {
-    resize: vertical;
+  > p:first-child {
+    margin: 0 0 1rem;
+    color: var(--home-muted);
+    font-size: 0.76rem;
+    line-height: 1.65;
   }
 }
 
-.contact-form__grid {
-  display: grid;
-  gap: 0 1rem;
-
-  @include breakpoint($small) {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.contact-form__honeypot {
-  position: absolute !important;
-  left: -9999px !important;
-}
-
-.contact-form__submit,
-.email-fallback button {
+.contact-gate button {
   display: inline-flex;
+  margin-top: 1rem;
   min-height: 46px;
   padding: 0.72rem 1rem;
   align-items: center;
@@ -1925,34 +1887,19 @@ body {
   }
 }
 
-.contact-form__status {
+.contact-gate__status {
   display: inline-block;
   margin: 0 0 0 0.8rem;
   color: var(--home-muted);
   font-size: 0.72rem;
 }
 
-.email-fallback {
-  margin-top: 2rem;
-  padding: 1.15rem;
-  background: #fff5ee;
-  border: 1px solid rgba(237, 174, 153, 0.24);
-  border-radius: 16px;
-
-  p {
-    margin: 0 0 0.9rem;
-    color: var(--home-muted);
-    font-size: 0.76rem;
-    line-height: 1.65;
-  }
-
-  a {
-    display: inline-block;
-    margin-left: 0.8rem;
-    color: #765b6d;
-    font-size: 0.78rem;
-    font-weight: 800;
-  }
+.contact-gate a {
+  display: inline-block;
+  margin: 1rem 0 0 0.8rem;
+  color: #765b6d;
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
 .contact-privacy {

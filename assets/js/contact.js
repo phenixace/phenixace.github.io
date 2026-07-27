@@ -2,36 +2,34 @@
   var root = document.querySelector("[data-contact-root]");
   if (!root) return;
 
-  var form = root.querySelector("[data-secure-contact-form]");
-  var fallback = root.querySelector("[data-email-fallback]");
+  var gate = root.querySelector("[data-contact-gate]");
   var revealButton = root.querySelector("[data-reveal-email]");
   var emailLink = root.querySelector("[data-email-link]");
   var status = root.querySelector("[data-contact-status]");
   var config = {
     url: root.dataset.supabaseUrl,
     key: root.dataset.publishableKey,
-    functionName: root.dataset.functionName || "send-contact",
+    functionName: root.dataset.functionName || "reveal-contact",
     siteKey: root.dataset.turnstileSiteKey,
   };
-  var secureFormReady =
+  var secureRevealReady =
     config.url && config.key && config.functionName && config.siteKey;
+  var turnstileToken = "";
 
-  function revealEmail() {
-    var user = atob("amlhdG9uZy5saQ==");
-    var domain = atob("Y29ubmVjdC5wb2x5dS5oaw==");
-    var address = user + "@" + domain;
-    emailLink.href = "mailto:" + address;
-    emailLink.textContent = address;
-    emailLink.hidden = false;
-    revealButton.hidden = true;
+  function resetVerification(message) {
+    turnstileToken = "";
+    revealButton.disabled = true;
+    revealButton.innerHTML =
+      '<i class="fas fa-lock" aria-hidden="true"></i> Verify to reveal email';
+    if (message) status.textContent = message;
+    if (window.turnstile) window.turnstile.reset();
   }
 
-  revealButton.addEventListener("click", revealEmail);
-
-  if (!secureFormReady) return;
-
-  fallback.hidden = true;
-  form.hidden = false;
+  if (!secureRevealReady) {
+    gate.hidden = true;
+    status.textContent = "Protected contact is temporarily unavailable.";
+    return;
+  }
 
   function renderTurnstile(attempt) {
     if (window.turnstile) {
@@ -39,6 +37,20 @@
         sitekey: config.siteKey,
         theme: "light",
         size: "flexible",
+        action: "contact_email",
+        callback: function (token) {
+          turnstileToken = token;
+          revealButton.disabled = false;
+          revealButton.innerHTML =
+            '<i class="fas fa-unlock" aria-hidden="true"></i> Reveal email';
+          status.textContent = "Verification complete.";
+        },
+        "expired-callback": function () {
+          resetVerification("Verification expired. Please try again.");
+        },
+        "error-callback": function () {
+          resetVerification("Verification could not be completed.");
+        },
       });
       return;
     }
@@ -51,19 +63,14 @@
 
   renderTurnstile(0);
 
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    var submit = form.querySelector("[type='submit']");
-    var formData = new FormData(form);
-    var token = formData.get("cf-turnstile-response");
-
-    if (!token) {
+  revealButton.addEventListener("click", function () {
+    if (!turnstileToken) {
       status.textContent = "Please complete the verification first.";
       return;
     }
 
-    submit.disabled = true;
-    status.textContent = "Sending…";
+    revealButton.disabled = true;
+    status.textContent = "Unlocking…";
 
     fetch(
       config.url.replace(/\/$/, "") +
@@ -76,28 +83,33 @@
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: formData.get("name"),
-          email: formData.get("email"),
-          subject: formData.get("subject"),
-          message: formData.get("message"),
-          company: formData.get("company"),
-          turnstileToken: token,
+          turnstileToken: turnstileToken,
         }),
       }
     )
       .then(function (response) {
         if (!response.ok) throw new Error("Request failed");
-        form.reset();
-        status.textContent = "Message sent. Thank you!";
-        if (window.turnstile) window.turnstile.reset();
+        return response.json();
+      })
+      .then(function (result) {
+        if (!result.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(result.email)) {
+          throw new Error("Invalid response");
+        }
+        emailLink.href = "mailto:" + result.email;
+        emailLink.textContent = result.email;
+        emailLink.hidden = false;
+        revealButton.hidden = true;
+        status.textContent = "Email unlocked.";
       })
       .catch(function () {
         status.textContent =
-          "The message could not be sent. Please retry or use the email fallback.";
-        fallback.hidden = false;
+          "The address could not be unlocked. Please complete a new verification.";
+        resetVerification();
       })
       .finally(function () {
-        submit.disabled = false;
+        if (!revealButton.hidden && turnstileToken) {
+          revealButton.disabled = false;
+        }
       });
   });
 })();

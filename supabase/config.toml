@@ -1,7 +1,7 @@
-project_id = ""
+project_id = "tcqgfddekilwhuqpceas"
 
 [functions.track-paper-click]
 verify_jwt = false
 
-[functions.send-contact]
+[functions.reveal-contact]
 verify_jwt = false

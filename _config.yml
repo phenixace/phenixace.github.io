@@ -83,17 +83,17 @@ analytics:
 # Optional privacy-conscious interaction analytics. These public browser values
 # are intentionally blank until a Supabase project is connected.
 paper_analytics:
-  supabase_url           :
-  publishable_key        :
+  supabase_url           : "https://tcqgfddekilwhuqpceas.supabase.co"
+  publishable_key        : "sb_publishable_G9_yQ35-wfJIsdF7cVCQeA_ox80tNgt"
   function_name          : "track-paper-click"
 
-# Protected contact form. The Turnstile secret, email destination, and Resend
-# key belong in Supabase Edge Function secrets, never in this repository.
+# Protected contact reveal. The Turnstile secret and email address belong in
+# Supabase Edge Function secrets, never in this repository.
 contact:
-  supabase_url           :
-  publishable_key        :
-  turnstile_site_key     :
-  function_name          : "send-contact"
+  supabase_url           : "https://tcqgfddekilwhuqpceas.supabase.co"
+  publishable_key        : "sb_publishable_G9_yQ35-wfJIsdF7cVCQeA_ox80tNgt"
+  turnstile_site_key     : "0x4AAAAAAD--W_Sn_a35qNzY"
+  function_name          : "reveal-contact"
 
 
 # Site Author
