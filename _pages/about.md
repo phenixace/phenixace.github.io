@@ -489,7 +489,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="closing-grid">
+  <section class="closing-grid" data-paper-insights tabindex="0" aria-label="More about Jiatong and live readership insights. Scroll horizontally for more cards.">
     <div class="music-card">
       <p class="section-kicker">On repeat</p>
       <h2>A little life beyond the lab.</h2>
@@ -514,5 +514,37 @@ redirect_from:
         <a href="https://github.com/phenixace" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
+    <article class="insight-card insight-card--papers" aria-labelledby="top-papers-title">
+      <div class="insight-card__heading">
+        <span class="insight-card__icon" aria-hidden="true"><i class="fas fa-chart-line"></i></span>
+        <span class="live-pill"><i aria-hidden="true"></i> Live readership</span>
+      </div>
+      <p class="section-kicker">Reader favorites</p>
+      <h2 id="top-papers-title">Most-clicked papers</h2>
+      <ol class="insight-list insight-list--papers" data-top-papers aria-live="polite">
+        <li class="insight-list__status">Gathering the latest clicks…</li>
+      </ol>
+      <p class="insight-card__note">Counts update from privacy-conscious, first-party click analytics.</p>
+    </article>
+    <article class="insight-card insight-card--map" aria-labelledby="reader-map-title">
+      <div class="insight-card__heading">
+        <span class="insight-card__icon" aria-hidden="true"><i class="fas fa-map-marked-alt"></i></span>
+        <span class="live-pill"><i aria-hidden="true"></i> Live map</span>
+      </div>
+      <p class="section-kicker">Around the world</p>
+      <h2 id="reader-map-title">Where readers arrive from</h2>
+      <div class="reader-map" data-reader-map role="img" aria-label="No geolocated clicks yet">
+        <span class="reader-map__continent reader-map__continent--na" data-continent="NA"><b>North America</b><em>0</em></span>
+        <span class="reader-map__continent reader-map__continent--sa" data-continent="SA"><b>South America</b><em>0</em></span>
+        <span class="reader-map__continent reader-map__continent--eu" data-continent="EU"><b>Europe</b><em>0</em></span>
+        <span class="reader-map__continent reader-map__continent--af" data-continent="AF"><b>Africa</b><em>0</em></span>
+        <span class="reader-map__continent reader-map__continent--as" data-continent="AS"><b>Asia</b><em>0</em></span>
+        <span class="reader-map__continent reader-map__continent--oc" data-continent="OC"><b>Oceania</b><em>0</em></span>
+      </div>
+      <ul class="location-list" data-click-origins aria-live="polite">
+        <li class="insight-list__status">Waiting for the first geolocated click…</li>
+      </ul>
+      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country-level aggregates only. Raw IP addresses are never displayed.</p>
+    </article>
   </section>
 </div>

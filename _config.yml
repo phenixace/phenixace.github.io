@@ -86,6 +86,7 @@ paper_analytics:
   supabase_url           : "https://tcqgfddekilwhuqpceas.supabase.co"
   publishable_key        : "sb_publishable_G9_yQ35-wfJIsdF7cVCQeA_ox80tNgt"
   function_name          : "track-paper-click"
+  summary_function_name  : "paper-click-summary"
 
 # Protected contact reveal. The Turnstile secret and email address belong in
 # Supabase Edge Function secrets, never in this repository.
