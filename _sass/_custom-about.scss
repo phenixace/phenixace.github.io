@@ -1313,6 +1313,13 @@ body {
 }
 
 .archive--cards {
+  @include breakpoint($large) {
+    float: none;
+    width: min(100%, 1080px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .page__title {
     display: flex;
     align-items: center;
