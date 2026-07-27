@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiatong LI"
+title                    : "Jiatong Li"
 title_separator          : "-"
 name                     : &name "Jiatong LI"
-description              : &description "You are the meteor in the midnight; You are the flying cloud in the sunny sky."
+description              : &description "Jiatong Li researches reliable language models for molecular reasoning and scientific discovery."
 url                      : https://phenixace.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "phenixace/phenixace.github.io"
@@ -62,13 +62,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Jiatong Li"
+  links:
+    - "https://scholar.google.com/citations?user=ml9hh18AAAAJ"
+    - "https://github.com/phenixace"
+    - "https://orcid.org/0000-0001-7705-2296"
 
 
 # Analytics
@@ -82,8 +85,8 @@ analytics:
 author:
   name             : "Jiatong Li"
   avatar           : "profile.jpeg"
-  bio              : "You are the meteor in the midnight; You are the flying cloud in the sunny sky."
-  location         : "Hong Kong"
+  bio              : "AI for molecular reasoning and scientific discovery."
+  location         : "Singapore · Hong Kong"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=ml9hh18AAAAJ&hl"
@@ -255,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins

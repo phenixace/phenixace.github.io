@@ -1,11 +1,11 @@
 ---
-title: "COMP2411_20231_A DATABASE SYSTEMS"
+title: "COMP2411 Database Systems"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2023-fall-teaching-1
 venue: "The Hong Kong Polytechnic University, Department of Computing"
-date: 2023-09-01
+date: 2025-09-01
 location: "Hong Kong S.A.R."
 ---
 
-I worked as a teaching assistant of COMP2411_20231_A DATABASE SYSTEMS in the semester of 2023 Fall.
+I served as a teaching assistant for COMP2411 Database Systems in 2023/24 Semester 1 and 2025/26 Semester 1.

@@ -1,2 +1,5 @@
 _site/
-
+dist/
+.bundle/
+vendor/bundle/
+tmp/
