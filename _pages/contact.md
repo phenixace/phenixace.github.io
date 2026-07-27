@@ -24,7 +24,7 @@ author_profile: false
 
   <div class="contact-gate" data-contact-gate>
     <p>Your browser completes a bot check before the address is requested from the server.</p>
-    <div class="cf-turnstile" data-turnstile-container></div>
+    <div class="contact-turnstile" data-turnstile-container></div>
     <button type="button" data-reveal-email disabled>
       <i class="fas fa-lock" aria-hidden="true"></i>
       Verify to reveal email
