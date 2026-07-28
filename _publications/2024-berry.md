@@ -5,6 +5,7 @@ permalink: /publication/2024-berry
 excerpt: 'Large Language Models, Reasoning'
 date: 2025-03-01
 venue: 'NAACL 2025'
+ccf: 'B'
 paperurl: https://arxiv.org/pdf/2410.02884
 citation: 'Di Zhang, Jianbo Wu, Jingdi Lei, Tong Che, Jiatong Li, Tong Xie, Xiaoshui Huang, Shufei Zhang, Marco Pavone, Yuqiang Li, Wanli Ouyang, Dongzhan Zhou. (2025). Llama-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning. NAACL 2025.'
 ---

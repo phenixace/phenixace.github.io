@@ -1,11 +1,16 @@
 ---
-title: "COMP6703_20241_A ADVANCED TOPICS IN DATA ANALYTICS"
+title: "COMP6703 Advanced Topics in Data Analytics"
 collection: teaching
 type: "Teaching Assistant"
+course_code: "COMP6703"
+course_name: "Advanced Topics in Data Analytics"
+terms: "2024/25 · Semester 1"
+icon: "fa-project-diagram"
+accent: "lavender"
 permalink: /teaching/2024-fall-teaching-1
 venue: "The Hong Kong Polytechnic University, Department of Computing"
 date: 2024-09-01
 location: "Hong Kong S.A.R."
 ---
 
-I worked as a teaching assistant of COMP6703_20241_A ADVANCED TOPICS IN DATA ANALYTICSS in the semester of 2024 Fall. I am glad to work with Prof. Hongxia Yang to deliver the course content and help students with their assignments and projects.
+I served as a teaching assistant for COMP6703 Advanced Topics in Data Analytics in 2024/25 Semester 1. I worked with Prof. Hongxia Yang to deliver course content and support students with assignments and projects.

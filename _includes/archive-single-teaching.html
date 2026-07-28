@@ -1,0 +1,25 @@
+{% include base_path %}
+
+<article class="teaching-card teaching-card--{{ post.accent | default: 'coral' }}" itemscope itemtype="http://schema.org/Course">
+  <a class="teaching-card__link" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="Open {{ post.title }}">
+    <span class="teaching-card__icon" aria-hidden="true">
+      <i class="fas {{ post.icon | default: 'fa-chalkboard-teacher' }}"></i>
+    </span>
+
+    <span class="teaching-card__content">
+      <span class="teaching-card__eyebrow">
+        <strong>{{ post.course_code }}</strong>
+        <span>{% if post.terms %}{{ post.terms }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</span>
+      </span>
+      <span class="teaching-card__title" itemprop="name">{{ post.course_name | default: post.title }}</span>
+      <span class="teaching-card__meta">
+        <i class="fas fa-university" aria-hidden="true"></i>
+        The Hong Kong Polytechnic University
+      </span>
+      <span class="teaching-card__action">
+        View course record
+        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </span>
+    </span>
+  </a>
+</article>

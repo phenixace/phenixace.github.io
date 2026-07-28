@@ -5,6 +5,7 @@ permalink: /publication/2026-cmphysbench
 excerpt: 'Large Language Models, Benchmark'
 date: 2026-01-01
 venue: 'ICLR 2026'
+ccf: 'A'
 paperurl: https://arxiv.org/abs/2508.18124
 citation: 'Weida Wang*, Dongchen Huang*, Jiatong Li*, Tengchao Yang, Ziyang Zheng, Di Zhang, Dong Han et al. (2026). CMPhysBench: A Benchmark for Evaluating Large Language Models in Condensed Matter Physics. ICLR 2026. (Co-First Author)'
 ---

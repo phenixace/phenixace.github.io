@@ -52,9 +52,14 @@ I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and 
 
 <h2 class="cv-section-heading"><i class="fas fa-book-open" aria-hidden="true"></i> Publications</h2>
 
-<ul>{% for post in site.publications reversed %}
+<p class="cv-metrics-note">
+  <i class="fas fa-info-circle" aria-hidden="true"></i>
+  CCF tags follow my maintained CV bibliography. IF tags show the latest publisher-listed Journal Impact Factor available when this page was updated.
+</p>
+
+<div class="cv-publication-list">{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% endfor %}</div>
 
 <h2 class="cv-section-heading"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i> Tutorials &amp; workshops</h2>
 

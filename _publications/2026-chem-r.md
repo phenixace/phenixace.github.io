@@ -5,6 +5,7 @@ permalink: /publication/2026-chem-r
 excerpt: 'Molecule Discovery, Large Language Models, Reasoning'
 date: 2026-05-01
 venue: 'KDD 2026'
+ccf: 'A'
 citation: 'Weida Wang, Benteng Chen, Di Zhang, Wanhao Liu, Shuchen Pu, Ben Gao, Jin Zeng, Xiaoyong Wei, Tianshu Yu, Shuzhou Sun, Tianfan Fu, Wanli Ouyang, Lei Bai, Jiatong Li, Zifu Wang, Yuqiang Li, Shufei Zhang. (2026). Chem-R: Learning to Reason as a Chemist. KDD 2026.'
 ---
 

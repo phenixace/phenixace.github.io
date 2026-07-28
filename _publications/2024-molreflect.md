@@ -5,6 +5,9 @@ permalink: /publication/2024-molreflect
 excerpt: 'Molecule Discovery, Large Language Models'
 date: 2026-04-01
 venue: 'IEEE TKDE'
+ccf: 'A'
+impact_factor: '10.4'
+impact_factor_year: '2024'
 paperurl: https://arxiv.org/pdf/2411.14721
 citation: 'Jiatong Li, Yunqing Liu, Wei Liu, Jingdi Le, Di Zhang, Wenqi Fan, Dongzhan Zhou, Yuqiang Li, and Qing Li. (2026). MolReFlect: Towards In-Context Fine-grained Alignments between Molecules and Texts. IEEE TKDE.'
 ---

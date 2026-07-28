@@ -5,6 +5,7 @@ permalink: /publication/2021-09-16-paper-title-number-3
 excerpt: 'TIn this paper, we propose a new method, Multi-Feature Fusion Embedding for Chinese Named Entity Recognition (MFE-NER), to strengthen the language pattern of Chinese and handle the character substitution problem in Chinese Named Entity Recognition.'
 date: 2024-01-01
 venue: 'CCL 2024'
+ccf: 'C'
 paperurl: 'https://arxiv.org/abs/2109.07877'
 citation: 'Jiatong Li, Kui Meng. (2024). MFE-NER: Multi-feature Fusion Embedding for Chinese Named Entity Recognition. In Proceedings of the 23rd Chinese National Conference on Computational Linguistics (Volume 1: Main Conference) (pp. 1112-1122). CCL 2024.'
 ---

@@ -1,0 +1,18 @@
+{% assign badge_item = include.item %}
+{% if badge_item.ccf or badge_item.impact_factor %}
+  <span class="publication-badges" aria-label="Publication rankings and journal metrics">
+    {% if badge_item.ccf %}
+      {% assign ccf_level = badge_item.ccf | downcase %}
+      <span class="publication-badge publication-badge--ccf-{{ ccf_level }}" title="CCF recommended venue: class {{ badge_item.ccf }}">
+        <i class="fas fa-award" aria-hidden="true"></i>
+        CCF {{ badge_item.ccf }}
+      </span>
+    {% endif %}
+    {% if badge_item.impact_factor %}
+      <span class="publication-badge publication-badge--if" title="Journal Impact Factor {{ badge_item.impact_factor }}{% if badge_item.impact_factor_year %} ({{ badge_item.impact_factor_year }}){% endif %}">
+        <i class="fas fa-chart-line" aria-hidden="true"></i>
+        IF {{ badge_item.impact_factor }}
+      </span>
+    {% endif %}
+  </span>
+{% endif %}
