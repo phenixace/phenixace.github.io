@@ -15,7 +15,7 @@
   var topPapers = root.querySelector("[data-top-papers]");
   var clickOrigins = root.querySelector("[data-click-origins]");
   var readerMap = root.querySelector("[data-reader-map]");
-  var cacheKey = "jiatong-paper-insights-v2";
+  var cacheKey = "jiatong-paper-insights-v3";
   var hasRenderedData = false;
   var requestInFlight = false;
   var lastRequestedAt = 0;
@@ -108,16 +108,16 @@
       shape.classList.toggle("has-clicks", clicks > 0);
       shape.querySelector("em").textContent = String(clicks);
       shape.title =
-        continentNames[id] + " · " + formatCount(clicks, "click", "clicks");
+        continentNames[id] + " · " + formatCount(clicks, "visit", "visits");
     });
 
     readerMap.setAttribute(
       "aria-label",
       totalClicks
-        ? "Reader map showing " +
-            formatCount(totalClicks, "geolocated click", "geolocated clicks") +
+        ? "Homepage visitor map showing " +
+            formatCount(totalClicks, "geolocated visit", "geolocated visits") +
             " across six continents"
-        : "No geolocated clicks yet"
+        : "No geolocated homepage visits yet"
     );
 
     clickOrigins.replaceChildren();
@@ -125,7 +125,7 @@
       var empty = document.createElement("li");
       empty.className = "insight-list__status";
       empty.textContent = locationEnabled
-        ? "Location tracking is ready; new geolocated clicks will light up the map."
+        ? "Location tracking is ready; new homepage visits will light up the map."
         : "Location enrichment is not enabled yet.";
       clickOrigins.appendChild(empty);
       return;
@@ -144,7 +144,7 @@
       badge.className = "location-list__badge";
       badge.textContent = location.countryCode;
       label.textContent = distinctRegion ? region + " · " + country : country;
-      count.textContent = formatCount(location.clicks, "click", "clicks");
+      count.textContent = formatCount(location.clicks, "visit", "visits");
       item.append(badge, label, count);
       clickOrigins.appendChild(item);
     });
@@ -237,6 +237,12 @@
   loadInsights(true);
 
   window.addEventListener("paperanalytics:updated", function () {
+    window.setTimeout(function () {
+      loadInsights(true);
+    }, 300);
+  });
+
+  window.addEventListener("siteanalytics:updated", function () {
     window.setTimeout(function () {
       loadInsights(true);
     }, 300);

@@ -77,8 +77,8 @@ Deno.serve(async (request) => {
         .order("click_count", { ascending: false })
         .limit(5),
       supabase
-        .from("paper_click_locations")
-        .select("country_code,region,click_count,hashed_visitor_count")
+        .from("page_visit_locations")
+        .select("country_code,region,visit_count,hashed_visitor_count")
         .not("country_code", "is", null)
         .limit(1000),
     ]);
@@ -108,7 +108,7 @@ Deno.serve(async (request) => {
       const code = String(row.country_code ?? "").trim().toUpperCase();
       if (!/^[A-Z]{2}$/.test(code)) continue;
       const region = String(row.region ?? "").trim().slice(0, 180) || null;
-      const clicks = numberValue(row.click_count);
+      const clicks = numberValue(row.visit_count);
       const visitors = numberValue(row.hashed_visitor_count);
       const locationKey = `${code}:${region ?? ""}`;
       const location = locationTotals.get(locationKey) ?? {
@@ -152,6 +152,7 @@ Deno.serve(async (request) => {
         papers,
         locations,
         continents,
+        originMetric: "homepage_visits",
         locationEnabled: Boolean(Deno.env.get("IPINFO_TOKEN")),
       }),
       { headers },

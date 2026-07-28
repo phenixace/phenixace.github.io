@@ -3,6 +3,9 @@ project_id = "tcqgfddekilwhuqpceas"
 [functions.track-paper-click]
 verify_jwt = false
 
+[functions.track-page-visit]
+verify_jwt = false
+
 [functions.paper-click-summary]
 verify_jwt = false
 
