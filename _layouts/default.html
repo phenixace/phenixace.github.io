@@ -18,6 +18,10 @@ layout: compress
 
     {{ content }}
 
+    {% if page.url == "/" %}
+      {% include phoenix-pet.html %}
+    {% endif %}
+
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}

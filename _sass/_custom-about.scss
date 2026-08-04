@@ -1657,6 +1657,266 @@ body {
 }
 
 /* ==========================================================================
+   Interactive phoenix scroll companion
+   ========================================================================== */
+
+.phoenix-scroll-pet {
+  position: fixed;
+  z-index: 90;
+  top: 86px;
+  right: max(6px, calc((100vw - 1420px) / 2));
+  bottom: 28px;
+  width: 76px;
+  pointer-events: none;
+}
+
+.phoenix-scroll-pet__rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  overflow: visible;
+  background: rgba(119, 91, 108, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 999px;
+  box-shadow: 0 2px 10px rgba(91, 67, 81, 0.06);
+  transform: translateX(-50%);
+}
+
+.phoenix-scroll-pet__fill {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  left: -1px;
+  height: 0;
+  background: linear-gradient(to bottom, #efb9cc, #e79db7 45%, #b8ddc6);
+  border-radius: 999px;
+  transition: height 90ms linear;
+}
+
+.phoenix-scroll-pet__dot {
+  position: absolute;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  background: #fffaf5;
+  border: 2px solid #dfafc0;
+  border-radius: 50%;
+  box-shadow: 0 2px 7px rgba(90, 66, 80, 0.1);
+  transform: translate(-50%, -50%);
+}
+
+.phoenix-scroll-pet__dot--0 { top: 0; }
+.phoenix-scroll-pet__dot--25 { top: 25%; }
+.phoenix-scroll-pet__dot--50 { top: 50%; }
+.phoenix-scroll-pet__dot--75 { top: 75%; }
+.phoenix-scroll-pet__dot--100 { top: 100%; }
+
+.phoenix-scroll-pet__button {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  pointer-events: auto;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+  transform: translate3d(-50%, 0, 0);
+  transition: filter 160ms ease;
+  will-change: transform;
+
+  &:focus-visible {
+    outline: 3px solid rgba(146, 138, 203, 0.42);
+    outline-offset: 3px;
+  }
+
+  img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    object-fit: contain;
+    filter: drop-shadow(0 7px 10px rgba(110, 69, 91, 0.2));
+    transform-origin: 50% 62%;
+    transition: transform 180ms ease, filter 180ms ease;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  &:hover img,
+  &:focus-visible img {
+    filter: drop-shadow(0 9px 13px rgba(110, 69, 91, 0.25));
+    transform: rotate(-4deg) scale(1.07);
+  }
+}
+
+.phoenix-scroll-pet__percent {
+  position: absolute;
+  right: 7px;
+  bottom: -1px;
+  min-width: 28px;
+  padding: 0.21rem 0.34rem;
+  color: #745766;
+  background: rgba(255, 253, 249, 0.94);
+  border: 1px solid rgba(117, 88, 104, 0.13);
+  border-radius: 999px;
+  box-shadow: 0 4px 11px rgba(93, 68, 82, 0.1);
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.48rem;
+  font-weight: 850;
+  line-height: 1;
+  text-align: center;
+}
+
+.phoenix-scroll-pet__bubble {
+  position: absolute;
+  top: 50%;
+  right: calc(100% - 3px);
+  width: max-content;
+  max-width: 225px;
+  padding: 0.55rem 0.7rem;
+  color: var(--home-ink);
+  background: rgba(255, 253, 249, 0.97);
+  border: 1px solid rgba(119, 91, 108, 0.13);
+  border-radius: 12px 12px 4px 12px;
+  box-shadow: 0 10px 26px rgba(80, 58, 71, 0.13);
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.58rem;
+  font-weight: 720;
+  line-height: 1.45;
+  opacity: 0;
+  pointer-events: none;
+  text-align: left;
+  transform: translate(8px, -50%) scale(0.94);
+  transform-origin: 100% 50%;
+  transition: opacity 150ms ease, transform 150ms ease;
+}
+
+.phoenix-scroll-pet__button:hover .phoenix-scroll-pet__bubble,
+.phoenix-scroll-pet__button:focus-visible .phoenix-scroll-pet__bubble,
+.phoenix-scroll-pet.is-chatting .phoenix-scroll-pet__bubble {
+  opacity: 1;
+  transform: translate(0, -50%) scale(1);
+}
+
+.phoenix-scroll-pet__sparkles {
+  position: absolute;
+  inset: -3px;
+  pointer-events: none;
+
+  i {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #f2c8d6;
+    border-radius: 50% 50% 50% 0;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+
+    &:nth-child(1) { top: 4px; left: 3px; }
+    &:nth-child(2) { top: -3px; right: 9px; background: #f0da8b; }
+    &:nth-child(3) { right: -1px; bottom: 10px; background: #bfe0cb; }
+  }
+}
+
+.phoenix-scroll-pet.is-celebrating {
+  .phoenix-scroll-pet__button img {
+    animation: phoenix-celebrate 760ms cubic-bezier(0.22, 0.9, 0.34, 1);
+  }
+
+  .phoenix-scroll-pet__sparkles i {
+    animation: phoenix-sparkle 720ms ease-out forwards;
+
+    &:nth-child(2) { animation-delay: 70ms; }
+    &:nth-child(3) { animation-delay: 130ms; }
+  }
+}
+
+.phoenix-scroll-pet.is-milestone .phoenix-scroll-pet__button img {
+  animation: phoenix-hop 580ms cubic-bezier(0.2, 0.9, 0.35, 1);
+}
+
+@keyframes phoenix-celebrate {
+  0%, 100% { transform: rotate(0) scale(1); }
+  28% { transform: translateY(-9px) rotate(-9deg) scale(1.08); }
+  58% { transform: translateY(1px) rotate(7deg) scale(1.04); }
+  78% { transform: translateY(-3px) rotate(-3deg) scale(1.02); }
+}
+
+@keyframes phoenix-hop {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  42% { transform: translateY(-8px) rotate(-5deg) scale(1.06); }
+  72% { transform: translateY(1px) rotate(3deg); }
+}
+
+@keyframes phoenix-sparkle {
+  0% { opacity: 0; transform: rotate(45deg) scale(0); }
+  38% { opacity: 1; transform: translateY(-7px) rotate(105deg) scale(1); }
+  100% { opacity: 0; transform: translateY(-15px) rotate(165deg) scale(0.35); }
+}
+
+@media (max-width: 767px) {
+  .phoenix-scroll-pet {
+    top: 76px;
+    right: 2px;
+    bottom: 18px;
+    width: 50px;
+  }
+
+  .phoenix-scroll-pet__button {
+    width: 50px;
+    height: 50px;
+
+    img {
+      width: 48px;
+      height: 48px;
+      margin: 1px;
+    }
+  }
+
+  .phoenix-scroll-pet__percent {
+    right: 1px;
+    bottom: -3px;
+    min-width: 24px;
+    padding: 0.18rem 0.26rem;
+    font-size: 0.42rem;
+  }
+
+  .phoenix-scroll-pet__bubble {
+    right: calc(100% - 1px);
+    max-width: min(180px, calc(100vw - 68px));
+    padding: 0.48rem 0.58rem;
+    font-size: 0.52rem;
+  }
+
+  .phoenix-scroll-pet__dot {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phoenix-scroll-pet__fill,
+  .phoenix-scroll-pet__button,
+  .phoenix-scroll-pet__button img,
+  .phoenix-scroll-pet__bubble {
+    transition: none !important;
+  }
+
+  .phoenix-scroll-pet.is-celebrating .phoenix-scroll-pet__button img,
+  .phoenix-scroll-pet.is-milestone .phoenix-scroll-pet__button img,
+  .phoenix-scroll-pet.is-celebrating .phoenix-scroll-pet__sparkles i {
+    animation: none !important;
+  }
+}
+
+/* ==========================================================================
    Shared card language for archive and detail pages
    ========================================================================== */
 

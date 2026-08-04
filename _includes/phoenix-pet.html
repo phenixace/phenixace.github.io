@@ -1,0 +1,35 @@
+<aside class="phoenix-scroll-pet" data-phoenix-pet aria-label="Interactive phoenix scroll companion">
+  <div
+    class="phoenix-scroll-pet__rail"
+    data-phoenix-progress
+    role="progressbar"
+    aria-label="Page scroll progress"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    aria-valuenow="0"
+  >
+    <span class="phoenix-scroll-pet__fill" data-phoenix-fill></span>
+    <span class="phoenix-scroll-pet__dot phoenix-scroll-pet__dot--0" aria-hidden="true"></span>
+    <span class="phoenix-scroll-pet__dot phoenix-scroll-pet__dot--25" aria-hidden="true"></span>
+    <span class="phoenix-scroll-pet__dot phoenix-scroll-pet__dot--50" aria-hidden="true"></span>
+    <span class="phoenix-scroll-pet__dot phoenix-scroll-pet__dot--75" aria-hidden="true"></span>
+    <span class="phoenix-scroll-pet__dot phoenix-scroll-pet__dot--100" aria-hidden="true"></span>
+  </div>
+
+  <button
+    class="phoenix-scroll-pet__button"
+    type="button"
+    data-phoenix-button
+    aria-expanded="false"
+    aria-label="Scroll progress 0 percent. Click the phoenix for a message."
+  >
+    <span class="phoenix-scroll-pet__bubble" data-phoenix-bubble role="status" aria-live="polite">
+      Ready to explore ✨
+    </span>
+    <img src="{{ '/images/phoenix-pet-640.png' | relative_url }}" alt="" width="640" height="640">
+    <span class="phoenix-scroll-pet__percent" data-phoenix-percent aria-hidden="true">0%</span>
+    <span class="phoenix-scroll-pet__sparkles" aria-hidden="true">
+      <i></i><i></i><i></i>
+    </span>
+  </button>
+</aside>

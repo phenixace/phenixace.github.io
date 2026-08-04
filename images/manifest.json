@@ -6,12 +6,12 @@
 	"display": "standalone",
 	"icons": [
 		{
-			"src": "\/images\/android-chrome-192x192.png?v=20260729a",
+			"src": "\/images\/android-chrome-192x192.png?v=20260805a",
 			"sizes": "192x192",
 			"type": "image\/png"
 		},
 		{
-			"src": "\/images\/android-chrome-512x512.png?v=20260729a",
+			"src": "\/images\/android-chrome-512x512.png?v=20260805a",
 			"sizes": "512x512",
 			"type": "image\/png"
 		}
