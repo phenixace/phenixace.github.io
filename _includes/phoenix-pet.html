@@ -1,4 +1,17 @@
-<aside class="phoenix-scroll-pet" data-phoenix-pet aria-label="Interactive phoenix scroll companion">
+{% assign phoenix_mode = page.phoenix_mode | default: "page" %}
+{% if phoenix_mode == "publications" %}
+  {% assign phoenix_tool_title = "Paper finder" %}
+  {% assign phoenix_tool_intro = "Search titles, venues, topics, or years." %}
+  {% assign phoenix_tool_placeholder = "Try molecular, ACL, 2026…" %}
+  {% assign phoenix_tool_item = "publications" %}
+{% elsif phoenix_mode == "tutorials" %}
+  {% assign phoenix_tool_title = "Tutorial finder" %}
+  {% assign phoenix_tool_intro = "Search topics, venues, places, or years." %}
+  {% assign phoenix_tool_placeholder = "Try LLM, ICDM, Shanghai…" %}
+  {% assign phoenix_tool_item = "tutorials" %}
+{% endif %}
+
+<aside class="phoenix-scroll-pet" data-phoenix-pet data-phoenix-mode="{{ phoenix_mode }}" aria-label="Interactive phoenix scroll companion">
   <div
     class="phoenix-scroll-pet__rail"
     data-phoenix-progress
@@ -21,6 +34,7 @@
     type="button"
     data-phoenix-button
     aria-expanded="false"
+    {% if page.phoenix_mode %}aria-controls="phoenix-pet-tools"{% endif %}
     aria-label="Scroll progress 0 percent. Click the phoenix for a message."
   >
     <span class="phoenix-scroll-pet__bubble" data-phoenix-bubble role="status" aria-live="polite">
@@ -32,4 +46,34 @@
       <i></i><i></i><i></i>
     </span>
   </button>
+
+  {% if page.phoenix_mode %}
+    <section class="phoenix-scroll-pet__tools" id="phoenix-pet-tools" data-phoenix-tools hidden aria-label="{{ phoenix_tool_title }}">
+      <header class="phoenix-scroll-pet__tools-header">
+        <span class="phoenix-scroll-pet__tools-icon" aria-hidden="true"><i class="fas fa-magic"></i></span>
+        <span>
+          <strong>{{ phoenix_tool_title }}</strong>
+          <small>{{ phoenix_tool_intro }}</small>
+        </span>
+        <button type="button" class="phoenix-scroll-pet__tools-close" data-phoenix-close aria-label="Close {{ phoenix_tool_title }}">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </header>
+
+      <label class="phoenix-scroll-pet__search">
+        <span class="sr-only">Search {{ phoenix_tool_item }}</span>
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input type="search" data-phoenix-search placeholder="{{ phoenix_tool_placeholder }}" autocomplete="off">
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+
+      <p class="phoenix-scroll-pet__results" data-phoenix-results aria-live="polite">Ready to explore.</p>
+
+      <div class="phoenix-scroll-pet__actions" aria-label="{{ phoenix_tool_title }} actions">
+        <button type="button" data-phoenix-action="next"><i class="fas fa-arrow-down" aria-hidden="true"></i> Next result</button>
+        <button type="button" data-phoenix-action="clear"><i class="fas fa-undo" aria-hidden="true"></i> Clear</button>
+        <button type="button" data-phoenix-action="top"><i class="fas fa-arrow-up" aria-hidden="true"></i> Top</button>
+      </div>
+    </section>
+  {% endif %}
 </aside>
