@@ -10,6 +10,10 @@
   var bubble = pet.querySelector("[data-phoenix-bubble]");
   var percentLabel = pet.querySelector("[data-phoenix-percent]");
   var sections = Array.prototype.slice.call(document.querySelectorAll("main section"));
+  var pageHeading = document.querySelector("main h1");
+  var pageName = pageHeading
+    ? pageHeading.textContent.trim()
+    : document.title.split(" - ")[0].trim();
   var frame = null;
   var chatTimer = null;
   var milestoneTimer = null;
@@ -25,7 +29,7 @@
 
   function currentSectionName() {
     var marker = window.scrollY + window.innerHeight * 0.42;
-    var current = "Welcome";
+    var current = pageName || "Welcome";
 
     sections.forEach(function (section) {
       if (section.offsetTop <= marker) {

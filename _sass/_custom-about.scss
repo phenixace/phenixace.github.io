@@ -600,14 +600,16 @@ body {
 .featured-papers {
   display: flex;
   gap: 1rem;
-  margin-right: calc(50% - 50vw);
-  padding: 0 max(1rem, calc((100vw - 1240px) / 2)) 1.15rem 0;
+  margin-right: 0;
+  padding: 0 clamp(4.5rem, 8vw, 5.5rem) 1.15rem 0;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   scroll-padding-inline: 1rem;
   scroll-snap-type: inline mandatory;
   scrollbar-color: var(--home-green) rgba(47, 139, 104, 0.12);
   scrollbar-width: thin;
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 4.5rem), transparent 100%);
+  mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 4.5rem), transparent 100%);
 
   &:focus-visible {
     outline: 3px solid rgba(47, 139, 104, 0.26);
@@ -1180,9 +1182,9 @@ body {
 .closing-grid {
   display: flex;
   gap: 1rem;
-  margin-right: calc(50% - 50vw);
+  margin-right: 0;
   padding-top: clamp(4.5rem, 9vw, 8rem);
-  padding-right: max(1rem, calc((100vw - 1240px) / 2));
+  padding-right: clamp(4.5rem, 8vw, 5.5rem);
   padding-bottom: 1.15rem;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
@@ -1190,6 +1192,8 @@ body {
   scroll-snap-type: inline mandatory;
   scrollbar-color: var(--home-berry) rgba(144, 103, 126, 0.12);
   scrollbar-width: thin;
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 4.5rem), transparent 100%);
+  mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 4.5rem), transparent 100%);
 
   &:focus-visible {
     outline: 3px solid rgba(144, 103, 126, 0.24);
