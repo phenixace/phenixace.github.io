@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and a visiting scholar at the National University of Singapore. My research focuses on reliable language models for molecular reasoning and scientific discovery.
+I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and an incoming Research Fellow at the National University of Singapore. I completed a Visiting Scholar appointment at NUS from January to July 2026. My research focuses on reliable language models for molecular reasoning and scientific discovery.
 
 <nav class="cv-link-cards" aria-label="Academic and professional profiles">
   <a href="https://scholar.google.com/citations?user=ml9hh18AAAAJ" target="_blank" rel="noopener">
@@ -28,7 +28,7 @@ I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and 
   </a>
   <a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">
     <i class="fas fa-water" aria-hidden="true"></i>
-    <span><strong>BlueWhale Lab</strong><small>NUS visiting research</small></span>
+    <span><strong>BlueWhale Lab</strong><small>Incoming NUS Research Fellow</small></span>
   </a>
   <a href="/contact/">
     <i class="fas fa-lock" aria-hidden="true"></i>
@@ -46,7 +46,8 @@ I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and 
 
 <h2 class="cv-section-heading"><i class="fas fa-flask" aria-hidden="true"></i> Research experience</h2>
 
-* **Visiting Scholar**, [BlueWhale Lab](https://bluewhale.yataobian.com), National University of Singapore, 2026.01–Present
+* **Incoming Research Fellow**, [BlueWhale Lab](https://bluewhale.yataobian.com), National University of Singapore
+* **Visiting Scholar**, [BlueWhale Lab](https://bluewhale.yataobian.com), National University of Singapore, 2026.01–2026.07
 * **Algorithm Researcher**, Shanghai AI Laboratory, 2023.08–2024.12
 * **Algorithm Researcher**, Noah's Ark Lab, 2021.11–2022.02
 

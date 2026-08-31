@@ -25,7 +25,7 @@ redirect_from:
       </div>
     </div>
 
-    <aside class="hero__profile" aria-label="Current affiliations">
+    <aside class="hero__profile" aria-label="Current affiliation and next appointment">
       <div class="portrait-wrap">
         <img src="/images/profile.jpeg" alt="Portrait of Jiatong Li">
         <span class="portrait-icon portrait-icon--flask" aria-hidden="true"><i class="fas fa-flask"></i></span>
@@ -34,8 +34,8 @@ redirect_from:
       </div>
       <div class="affiliation-card">
         <div>
-          <span class="affiliation-card__label">Now</span>
-          <strong>Visiting Scholar</strong>
+          <span class="affiliation-card__label">Next chapter</span>
+          <strong>Incoming Research Fellow</strong>
           <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
         </div>
         <div>
@@ -57,6 +57,14 @@ redirect_from:
     </div>
 
     <div class="news-list">
+      <article class="news-row">
+        <time datetime="2026-08">2026.08</time>
+        <p><strong>I will return to NUS as an incoming Research Fellow</strong> with the <a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a>, following my Visiting Scholar appointment from January to July 2026.</p>
+      </article>
+      <article class="news-row">
+        <time datetime="2026-08">2026.08</time>
+        <p><strong>Our perspective on molecular LLM agents is online.</strong> <a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy ↗</a></p>
+      </article>
       <article class="news-row">
         <time datetime="2026-07">2026.07</time>
         <p><strong>Our chemical chain-of-thought study is online.</strong> <a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad ↗</a></p>
@@ -122,9 +130,9 @@ redirect_from:
       <article class="arc-stage arc-stage--lavender">
         <span class="arc-stage__icon"><i class="fas fa-code" aria-hidden="true"></i></span>
         <span class="arc-stage__years">2026</span>
-        <h3>Execute workflows</h3>
-        <p>Can models organize tools, state, chemistry, and artifacts into an end-to-end workflow?</p>
-        <span class="arc-stage__work">MolViBench</span>
+        <h3>Build science agents</h3>
+        <p>Can models organize tools, feedback, chemistry, and artifacts into increasingly autonomous scientific workflows?</p>
+        <span class="arc-stage__work">MolViBench · Molecular LLM Agents</span>
       </article>
     </div>
 
@@ -145,10 +153,25 @@ redirect_from:
     </div>
 
     <div class="featured-papers" role="region" aria-label="Latest research, scroll horizontally for more" tabindex="0">
+      <article class="featured-paper featured-paper--lavender">
+        <div class="featured-paper__topline">
+          <span>arXiv · Aug 2026</span>
+          <span class="featured-paper__index">01</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-robot" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy</a></h3>
+        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Wengyu Zhang, Weida Wang, Yuxuan Ren, Wei Liu, Chenyang Mao, et al.</p>
+        <p class="featured-paper__summary">A unified architecture for molecular LLM agents and a four-level autonomy ladder spanning assistive workflows to scientific-agenda agents.</p>
+        <div class="featured-paper__footer">
+          <span>Scientific agents</span>
+          <a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener" aria-label="Read Molecular LLM Agents on arXiv">Read paper ↗</a>
+        </div>
+      </article>
+
       <article class="featured-paper featured-paper--cobalt">
         <div class="featured-paper__topline">
           <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">01</span>
+          <span class="featured-paper__index">02</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-microscope" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad</a></h3>
@@ -163,7 +186,7 @@ redirect_from:
       <article class="featured-paper featured-paper--lime">
         <div class="featured-paper__topline">
           <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">02</span>
+          <span class="featured-paper__index">03</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener">Do LLMs Truly Generalize in the Molecular Domain? A Perturbation-Based Analysis</a></h3>
@@ -178,7 +201,7 @@ redirect_from:
       <article class="featured-paper featured-paper--ivory">
         <div class="featured-paper__topline">
           <span>Machine Intelligence Research · 2026</span>
-          <span class="featured-paper__index">03</span>
+          <span class="featured-paper__index">04</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-notes-medical" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener">Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning</a></h3>
@@ -193,7 +216,7 @@ redirect_from:
       <article class="featured-paper featured-paper--rose">
         <div class="featured-paper__topline">
           <span>arXiv · May 2026</span>
-          <span class="featured-paper__index">04</span>
+          <span class="featured-paper__index">05</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-code" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">MolViBench: Evaluating LLMs on Molecular Vibe Coding</a></h3>
@@ -208,7 +231,7 @@ redirect_from:
       <article class="featured-paper featured-paper--butter">
         <div class="featured-paper__topline">
           <span>KDD · 2026</span>
-          <span class="featured-paper__index">05</span>
+          <span class="featured-paper__index">06</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-flask" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Speak-to-Structure: Open-Domain Natural Language-Driven Molecule Generation</a></h3>
@@ -223,7 +246,7 @@ redirect_from:
       <article class="featured-paper featured-paper--mint">
         <div class="featured-paper__topline">
           <span>KDD · 2026</span>
-          <span class="featured-paper__index">06</span>
+          <span class="featured-paper__index">07</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-brain" aria-hidden="true"></i></span>
         <h3><a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Chem-R: Learning to Reason as a Chemist</a></h3>
@@ -238,7 +261,7 @@ redirect_from:
       <article class="featured-paper featured-paper--sky">
         <div class="featured-paper__topline">
           <span>IEEE TKDE · 2026</span>
-          <span class="featured-paper__index">07</span>
+          <span class="featured-paper__index">08</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-link" aria-hidden="true"></i></span>
         <h3><a href="/publication/2024-molreflect">MolReFlect: Fine-Grained Alignments Between Molecules and Texts</a></h3>
@@ -253,7 +276,7 @@ redirect_from:
       <article class="featured-paper featured-paper--peach">
         <div class="featured-paper__topline">
           <span>ICLR · 2026</span>
-          <span class="featured-paper__index">08</span>
+          <span class="featured-paper__index">09</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-atom" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">CMPhysBench: Evaluating LLMs in Condensed Matter Physics</a></h3>
@@ -277,6 +300,14 @@ redirect_from:
     </div>
 
     <ol class="publication-list">
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy</a></h3>
+          <p><strong>Jiatong Li</strong>, Wengyu Zhang, Weida Wang, Yuxuan Ren, Wei Liu, Chenyang Mao, Yuqiang Li, Yatao Bian, Changmeng Zheng, Xiaoyong Wei, Qing Li</p>
+        </div>
+        <span class="venue-pill">arXiv</span>
+      </li>
       <li>
         <span class="publication-list__year">2026</span>
         <div>
@@ -408,7 +439,12 @@ redirect_from:
         <h3>Research experience</h3>
         <ol class="timeline">
           <li>
-            <span>2026—Now</span>
+            <span>Incoming</span>
+            <strong>Research Fellow</strong>
+            <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
+          </li>
+          <li>
+            <span>2026.01—07</span>
             <strong>Visiting Scholar</strong>
             <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
           </li>
