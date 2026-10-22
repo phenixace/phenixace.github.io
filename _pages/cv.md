@@ -71,6 +71,7 @@ I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and 
 
 Teaching Assistant at The Hong Kong Polytechnic University:
 
+* **COMP5584 Large Language Models for Agents**, 2026/27 Semester 1
 * COMP2411 Database Systems, 2023/24 Semester 1 and 2025/26 Semester 1
 * COMP4434 Big Data Analytics, 2023/24 Semester 2
 * COMP6703 Advanced Topics in Data Analytics, 2024/25 Semester 1

@@ -58,6 +58,18 @@ redirect_from:
 
     <div class="news-list">
       <article class="news-row">
+        <time datetime="2026-10">2026.10</time>
+        <p><strong>MolLean is now online,</strong> introducing a process-verifiable language for chemical reasoning with a Lean-based kernel and interactive verification. <a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener">Read the paper ↗</a></p>
+      </article>
+      <article class="news-row">
+        <time datetime="2026-10">2026.10</time>
+        <p><strong>STAMP is now online,</strong> presenting a topology-aware molecular language for fragment-level learning and precise structural editing. <a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener">Read the paper ↗</a></p>
+      </article>
+      <article class="news-row">
+        <time datetime="2026-09">2026.09</time>
+        <p><strong>I am serving as a Teaching Assistant for COMP5584</strong>, Large Language Models for Agents, at The Hong Kong Polytechnic University this semester.</p>
+      </article>
+      <article class="news-row">
         <time datetime="2026-08">2026.08</time>
         <p><strong>I will return to NUS as an incoming Research Fellow</strong> with the <a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a>, following my Visiting Scholar appointment from January to July 2026.</p>
       </article>
@@ -108,10 +120,10 @@ redirect_from:
     <div class="arc-flow">
       <article class="arc-stage arc-stage--mint">
         <span class="arc-stage__icon"><i class="fas fa-atom" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">2023—24</span>
-        <h3>Learn molecules</h3>
-        <p>Can LLMs learn molecular mappings from a handful of local examples?</p>
-        <span class="arc-stage__work">MolReGPT · ICMA · MolReFlect</span>
+        <span class="arc-stage__years">2023—26</span>
+        <h3>Represent &amp; learn molecules</h3>
+        <p>Can molecular languages expose chemically meaningful units for learning and precise editing?</p>
+        <span class="arc-stage__work">MolReGPT · ICMA · MolReFlect · STAMP</span>
       </article>
       <article class="arc-stage arc-stage--rose">
         <span class="arc-stage__icon"><i class="fas fa-flask" aria-hidden="true"></i></span>
@@ -123,9 +135,9 @@ redirect_from:
       <article class="arc-stage arc-stage--peach">
         <span class="arc-stage__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
         <span class="arc-stage__years">2025—26</span>
-        <h3>Reason—and audit it</h3>
-        <p>Can we improve chemical reasoning while checking which intermediate states truly matter?</p>
-        <span class="arc-stage__work">Mol-R1 · Chem-R · Chemical CoT</span>
+        <h3>Reason—and verify it</h3>
+        <p>Can we improve chemical reasoning while making structural commitments executable and checkable?</p>
+        <span class="arc-stage__work">Mol-R1 · Chem-R · Chemical CoT · MolLean</span>
       </article>
       <article class="arc-stage arc-stage--lavender">
         <span class="arc-stage__icon"><i class="fas fa-code" aria-hidden="true"></i></span>
@@ -149,14 +161,44 @@ redirect_from:
         <p class="section-kicker">New in 2026</p>
         <h2>Latest research</h2>
       </div>
-      <p>Browse recent work across faithful reasoning, molecular generalization, scientific agents, open-ended design, and clinically grounded capability. Scroll sideways for more.</p>
+      <p>Browse recent work across molecular languages, verifiable reasoning, scientific agents, open-ended design, and clinically grounded capability. Scroll sideways for more.</p>
     </div>
 
     <div class="featured-papers" role="region" aria-label="Latest research, scroll horizontally for more" tabindex="0">
+      <article class="featured-paper featured-paper--rose">
+        <div class="featured-paper__topline">
+          <span>arXiv · Oct 2026</span>
+          <span class="featured-paper__index">01</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-check-double" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener">MolLean: A Process-Verifiable Language for Chemical Reasoning</a></h3>
+        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yatao Bian</p>
+        <p class="featured-paper__summary">A state-grounded chemical reasoning language whose Lean-based kernel checks molecular transitions and assertions, with whole-trace and interactive feedback.</p>
+        <div class="featured-paper__footer">
+          <span>Verifiable reasoning</span>
+          <a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener" aria-label="Read MolLean on arXiv">Read paper ↗</a>
+        </div>
+      </article>
+
+      <article class="featured-paper featured-paper--mint">
+        <div class="featured-paper__topline">
+          <span>arXiv · Oct 2026</span>
+          <span class="featured-paper__index">02</span>
+        </div>
+        <span class="paper-glyph"><i class="fas fa-sitemap" aria-hidden="true"></i></span>
+        <h3><a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener">STAMP as a topology-aware molecular language for fragment-level learning and editing</a></h3>
+        <p class="featured-paper__authors">Yuxuan Ren, <strong>Jiatong Li</strong>, Ziqiao Meng, Yatao Bian</p>
+        <p class="featured-paper__summary">A fragment-tree molecular language that makes motifs, attachment sites, and topology explicit for representation learning and executable editing.</p>
+        <div class="featured-paper__footer">
+          <span>Molecular language</span>
+          <a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener" aria-label="Read STAMP on arXiv">Read paper ↗</a>
+        </div>
+      </article>
+
       <article class="featured-paper featured-paper--lavender">
         <div class="featured-paper__topline">
           <span>arXiv · Aug 2026</span>
-          <span class="featured-paper__index">01</span>
+          <span class="featured-paper__index">03</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-robot" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy</a></h3>
@@ -171,7 +213,7 @@ redirect_from:
       <article class="featured-paper featured-paper--cobalt">
         <div class="featured-paper__topline">
           <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">02</span>
+          <span class="featured-paper__index">04</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-microscope" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad</a></h3>
@@ -186,7 +228,7 @@ redirect_from:
       <article class="featured-paper featured-paper--lime">
         <div class="featured-paper__topline">
           <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">03</span>
+          <span class="featured-paper__index">05</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener">Do LLMs Truly Generalize in the Molecular Domain? A Perturbation-Based Analysis</a></h3>
@@ -201,7 +243,7 @@ redirect_from:
       <article class="featured-paper featured-paper--ivory">
         <div class="featured-paper__topline">
           <span>Machine Intelligence Research · 2026</span>
-          <span class="featured-paper__index">04</span>
+          <span class="featured-paper__index">06</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-notes-medical" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener">Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning</a></h3>
@@ -216,7 +258,7 @@ redirect_from:
       <article class="featured-paper featured-paper--rose">
         <div class="featured-paper__topline">
           <span>arXiv · May 2026</span>
-          <span class="featured-paper__index">05</span>
+          <span class="featured-paper__index">07</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-code" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">MolViBench: Evaluating LLMs on Molecular Vibe Coding</a></h3>
@@ -231,7 +273,7 @@ redirect_from:
       <article class="featured-paper featured-paper--butter">
         <div class="featured-paper__topline">
           <span>KDD · 2026</span>
-          <span class="featured-paper__index">06</span>
+          <span class="featured-paper__index">08</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-flask" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Speak-to-Structure: Open-Domain Natural Language-Driven Molecule Generation</a></h3>
@@ -246,7 +288,7 @@ redirect_from:
       <article class="featured-paper featured-paper--mint">
         <div class="featured-paper__topline">
           <span>KDD · 2026</span>
-          <span class="featured-paper__index">07</span>
+          <span class="featured-paper__index">09</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-brain" aria-hidden="true"></i></span>
         <h3><a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Chem-R: Learning to Reason as a Chemist</a></h3>
@@ -261,7 +303,7 @@ redirect_from:
       <article class="featured-paper featured-paper--sky">
         <div class="featured-paper__topline">
           <span>IEEE TKDE · 2026</span>
-          <span class="featured-paper__index">08</span>
+          <span class="featured-paper__index">10</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-link" aria-hidden="true"></i></span>
         <h3><a href="/publication/2024-molreflect">MolReFlect: Fine-Grained Alignments Between Molecules and Texts</a></h3>
@@ -276,7 +318,7 @@ redirect_from:
       <article class="featured-paper featured-paper--peach">
         <div class="featured-paper__topline">
           <span>ICLR · 2026</span>
-          <span class="featured-paper__index">09</span>
+          <span class="featured-paper__index">11</span>
         </div>
         <span class="paper-glyph"><i class="fas fa-atom" aria-hidden="true"></i></span>
         <h3><a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">CMPhysBench: Evaluating LLMs in Condensed Matter Physics</a></h3>
@@ -300,6 +342,22 @@ redirect_from:
     </div>
 
     <ol class="publication-list">
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener">MolLean: A Process-Verifiable Language for Chemical Reasoning</a></h3>
+          <p><strong>Jiatong Li</strong>, Yatao Bian</p>
+        </div>
+        <span class="venue-pill">arXiv</span>
+      </li>
+      <li>
+        <span class="publication-list__year">2026</span>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener">STAMP as a topology-aware molecular language for fragment-level learning and editing</a></h3>
+          <p>Yuxuan Ren, <strong>Jiatong Li</strong>, Ziqiao Meng, Yatao Bian</p>
+        </div>
+        <span class="venue-pill">arXiv</span>
+      </li>
       <li>
         <span class="publication-list__year">2026</span>
         <div>
@@ -476,6 +534,7 @@ redirect_from:
         <span class="detail-card__label">Teaching</span>
         <h3>Teaching Assistant · PolyU</h3>
         <ul>
+          <li><strong>COMP5584 Large Language Models for Agents</strong> · 2026/27 Semester 1</li>
           <li>COMP2411 Database Systems</li>
           <li>COMP4434 Big Data Analytics</li>
           <li>COMP6703 Advanced Topics in Data Analytics</li>
