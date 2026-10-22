@@ -1,0 +1,54 @@
+<section class="research-notebook" id="research" aria-labelledby="research-arc-title" data-research-notebook>
+  <header class="notebook-heading">
+    <div>
+      <p class="section-kicker">AI co-scientist research agenda</p>
+      <h2 id="research-arc-title">Four capabilities.<br> <em>One research notebook.</em></h2>
+    </div>
+    <p>Grounded molecules, checkable reasoning, useful tools, and well-tested limits. Explore the questions and papers behind each direction.</p>
+  </header>
+
+  <div class="research-map" aria-label="Explore four research directions" data-research-map>
+    <svg class="research-map__connections" viewBox="0 0 1000 360" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M255 85 C355 70 360 160 485 180" />
+      <path d="M745 85 C645 70 640 160 515 180" />
+      <path d="M255 275 C355 290 360 200 485 180" />
+      <path d="M745 275 C645 290 640 200 515 180" />
+    </svg>
+    <div class="research-map__center" aria-hidden="true">
+      <img src="{{ '/images/research-notebook/lab-notebook.webp' | relative_url }}" alt="" width="280" height="200" loading="lazy" decoding="async">
+      <span class="research-map__annotation">a shared scientific workspace</span>
+      <strong>AI co-scientist</strong>
+      <span>Molecules · evidence · discovery</span>
+    </div>
+    {% for direction in site.data.research_notebook.directions %}
+    <a class="research-note research-note--{{ direction.color }} research-note--{{ direction.id }}" id="tab-{{ direction.id }}" href="#research-{{ direction.id }}" data-research-tab="{{ direction.id }}">
+      <span class="research-note__top"><span>FIELD NOTE / {{ direction.note }}</span><i class="fas fa-{{ direction.icon }}" aria-hidden="true"></i></span>
+      <strong>{{ direction.label }}</strong>
+      <span class="research-note__subtitle">{{ direction.subtitle }}</span>
+      <span class="research-note__open">Explore this direction <span aria-hidden="true">↗</span></span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="research-notebook__pages">
+    {% for direction in site.data.research_notebook.directions %}
+    <section class="research-page research-page--{{ direction.color }}" id="research-{{ direction.id }}" aria-labelledby="question-{{ direction.id }}" data-research-panel="{{ direction.id }}">
+      <div class="research-page__question">
+        <p class="research-page__eyebrow">{{ direction.note }} / The research question</p>
+        <h3 id="question-{{ direction.id }}">{{ direction.question }}</h3>
+        <p>{{ direction.description }}</p>
+        <span class="research-page__principle"><i class="fas fa-pencil-alt" aria-hidden="true"></i> {{ direction.principle }}</span>
+      </div>
+      <div class="research-page__evidence">
+        <p class="research-page__eyebrow">Notes from the work <span>{{ direction.works.size }} papers</span></p>
+        <ul class="research-work-list">
+          {% for work in direction.works %}
+          <li><a href="{{ work.detail | relative_url }}"><strong>{{ work.name }} <span aria-hidden="true">↗</span></strong><span>{{ work.description }}</span></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+  <p class="notebook-footnote"><span aria-hidden="true">✳</span> Connected capabilities, explored through complementary lines of work.</p>
+</section>

@@ -1,0 +1,84 @@
+<svg class="research-sketch" viewBox="0 0 360 170" role="img" aria-label="{{ include.paper.sketch_alt | escape }}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow-{{ include.paper.id }}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="currentColor" stroke-width="1.5" /></marker>
+    <g id="ring-{{ include.paper.id }}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -22 L19 -11 L19 11 L0 22 L-19 11 L-19 -11 Z M-13 -8 V8 M0 15 L13 7 M0 -15 L13 -7" /></g>
+  </defs>
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  {% case include.paper.id %}
+  {% when 'mollean' %}
+    <rect x="16" y="30" width="86" height="92" rx="11" class="sketch-mint" />
+    <rect x="137" y="30" width="86" height="92" rx="11" class="sketch-peach" />
+    <rect x="258" y="30" width="86" height="92" rx="11" class="sketch-lavender" />
+    <use href="#ring-mollean" x="59" y="71" />
+    <path d="M154 58 H206 M154 72 H191 M154 86 H201 M110 76 H130 M231 76 H251" marker-end="url(#arrow-mollean)" />
+    <circle cx="301" cy="72" r="21" class="sketch-paper" /><path d="M290 72 L298 80 L313 63" class="sketch-check" />
+    <g class="sketch-label"><text x="59" y="145">state</text><text x="180" y="145">chemical step</text><text x="301" y="145">kernel check</text></g>
+  {% when 'stamp' %}
+    <path d="M179 55 L88 105 M179 55 L272 105 M88 105 L38 145 M272 105 L322 145" stroke-dasharray="4 5" />
+    <rect x="143" y="16" width="72" height="65" rx="13" class="sketch-mint" />
+    <rect x="52" y="84" width="72" height="65" rx="13" class="sketch-rose" />
+    <rect x="236" y="84" width="72" height="65" rx="13" class="sketch-peach" />
+    <use href="#ring-stamp" x="179" y="48" /><use href="#ring-stamp" x="88" y="116" /><use href="#ring-stamp" x="272" y="116" />
+    <circle cx="152" cy="77" r="5" class="sketch-paper" /><circle cx="206" cy="77" r="5" class="sketch-paper" /><circle cx="114" cy="86" r="5" class="sketch-paper" /><circle cx="246" cy="86" r="5" class="sketch-paper" />
+    <g class="sketch-label"><text x="64" y="35">motifs</text><text x="297" y="38">attachment</text><text x="297" y="54">sites</text></g>
+    <path d="M280 59 Q255 65 215 77" marker-end="url(#arrow-stamp)" />
+  {% when 'agents' %}
+    <rect x="125" y="52" width="110" height="65" rx="18" class="sketch-lavender" />
+    <rect x="18" y="57" width="78" height="54" rx="10" class="sketch-mint" />
+    <rect x="264" y="57" width="78" height="54" rx="10" class="sketch-peach" />
+    <path d="M102 84 H118 M242 84 H257 M301 118 C301 160 180 165 180 124 M180 45 C180 6 57 6 57 49" marker-end="url(#arrow-agents)" />
+    <g class="sketch-label"><text x="57" y="89">plan</text><text x="180" y="79">scientific</text><text x="180" y="96">agent</text><text x="303" y="89">tools</text><text x="251" y="151">evidence</text><text x="109" y="25">revise</text></g>
+  {% when 'cot' %}
+    <path d="M29 25 L155 20 L161 137 L35 143 Z" class="sketch-mint" />
+    <use href="#ring-cot" x="91" y="66" /><path d="M52 105 H137 M52 117 H118" />
+    <path d="M207 29 L329 25 L334 140 L211 144 Z" class="sketch-rose" />
+    <path d="M229 55 H309 M229 69 H296 M229 83 H307 M229 97 H288" />
+    <path d="M167 77 H199 M179 61 L188 92" stroke-dasharray="3 4" />
+    <g class="sketch-label"><text x="92" y="161">scratchpad</text><text x="271" y="161">explanation?</text></g>
+  {% when 'generalization' %}
+    <ellipse cx="90" cy="82" rx="71" ry="63" class="sketch-mint" stroke-dasharray="4 5" />
+    <ellipse cx="274" cy="82" rx="71" ry="63" class="sketch-rose" stroke-dasharray="4 5" />
+    <use href="#ring-generalization" x="86" y="78" /><use href="#ring-generalization" x="270" y="78" />
+    <path d="M105 67 L126 55 M289 67 L310 55 L325 72 M166 82 H197" marker-end="url(#arrow-generalization)" />
+    <circle cx="325" cy="72" r="7" class="sketch-peach" />
+    <g class="sketch-label"><text x="90" y="157">original</text><text x="274" y="157">perturbed</text><text x="182" y="60">edit</text></g>
+  {% when 'medical' %}
+    <circle cx="133" cy="79" r="61" class="sketch-mint" /><circle cx="227" cy="79" r="61" class="sketch-lavender" />
+    <path d="M107 55 V94 M88 75 H126" stroke-width="5" />
+    <rect x="226" y="59" width="39" height="32" rx="5" class="sketch-paper" /><path d="M235 69 H255 M235 80 H249 M246 92 V103 M236 103 H255" />
+    <path d="M164 75 H194" marker-start="url(#arrow-medical)" marker-end="url(#arrow-medical)" />
+    <g class="sketch-label"><text x="112" y="157">clinical needs</text><text x="249" y="157">AI capabilities</text></g>
+  {% when 'molvibench' %}
+    <rect x="20" y="28" width="169" height="114" rx="10" class="sketch-lavender" /><path d="M20 52 H189" /><circle cx="32" cy="40" r="2" /><circle cx="42" cy="40" r="2" /><circle cx="52" cy="40" r="2" />
+    <path d="M52 75 L40 86 L52 97 M72 75 L84 86 L72 97 M106 76 H166 M106 89 H149 M40 117 H158" />
+    <path d="M201 86 H237" marker-end="url(#arrow-molvibench)" />
+    <path d="M268 32 H296 M274 32 V67 L246 120 Q242 133 256 133 H308 Q323 133 316 120 L290 67 V32" class="sketch-mint" />
+    <path d="M260 108 Q278 99 304 108" /><circle cx="278" cy="95" r="3" /><circle cx="286" cy="116" r="3" />
+    <g class="sketch-label"><text x="103" y="161">generated code</text><text x="283" y="161">workflow</text></g>
+  {% when 'speak' %}
+    <path d="M27 23 H153 Q164 23 164 34 V111 Q164 122 153 122 H73 L51 140 V122 H27 Q16 122 16 111 V34 Q16 23 27 23 Z" class="sketch-peach" />
+    <path d="M35 48 H143 M35 66 H125 M35 84 H137 M35 102 H99 M174 80 H206 M207 80 Q224 80 228 37 H251 M207 80 H289 M207 80 Q224 80 228 129 H251" />
+    <use href="#ring-speak" x="277" y="35" /><use href="#ring-speak" x="319" y="80" /><use href="#ring-speak" x="277" y="129" />
+    <path d="M296 24 L310 16 M338 69 L351 60 M258 118 L245 110 M296 140 L309 149" />
+    <g class="sketch-label"><text x="91" y="162">a design brief</text><text x="277" y="165">many candidates</text></g>
+  {% when 'chem-r' %}
+    <rect x="24" y="94" width="100" height="48" rx="8" class="sketch-mint" />
+    <rect x="131" y="62" width="100" height="80" rx="8" class="sketch-rose" />
+    <rect x="238" y="30" width="100" height="112" rx="8" class="sketch-lavender" />
+    <path d="M69 77 Q106 33 164 43 M196 43 Q225 9 272 13" marker-end="url(#arrow-chem-r)" />
+    <g class="sketch-label"><text x="74" y="123">foundation</text><text x="181" y="108">reasoning</text><text x="181" y="124">distillation</text><text x="288" y="93">multi-task</text><text x="288" y="109">optimization</text></g>
+  {% when 'molreflect' %}
+    <circle cx="75" cy="75" r="44" class="sketch-mint" /><circle cx="122" cy="105" r="27" class="sketch-rose" />
+    <use href="#ring-molreflect" x="75" y="75" /><path d="M94 86 L120 102 L142 89" />
+    <rect x="217" y="34" width="112" height="23" rx="5" class="sketch-mint" /><rect x="217" y="81" width="85" height="23" rx="5" class="sketch-rose" />
+    <path d="M111 50 Q168 14 210 45 M147 110 Q180 124 210 93" stroke-dasharray="4 5" marker-end="url(#arrow-molreflect)" />
+    <path d="M227 46 H314 M227 93 H286 M217 125 H324 M217 139 H292" />
+    <g class="sketch-label"><text x="88" y="160">molecular detail</text><text x="270" y="160">aligned language</text></g>
+  {% when 'cmphys' %}
+    <path d="M35 36 H143 M35 78 H143 M35 120 H143 M35 36 V120 M89 36 V120 M143 36 V120" />
+    <g class="sketch-mint"><circle cx="35" cy="36" r="8" /><circle cx="89" cy="36" r="8" /><circle cx="143" cy="36" r="8" /><circle cx="35" cy="78" r="8" /><circle cx="89" cy="78" r="8" /><circle cx="143" cy="78" r="8" /><circle cx="35" cy="120" r="8" /><circle cx="89" cy="120" r="8" /><circle cx="143" cy="120" r="8" /></g>
+    <rect x="206" y="21" width="126" height="119" rx="8" class="sketch-peach" /><path d="M222 105 H315 M222 120 H297 M173 78 H197" marker-end="url(#arrow-cmphys)" />
+    <g class="sketch-label"><text x="269" y="76" class="sketch-equation">E = ⟨H⟩</text><text x="89" y="158">physical system</text><text x="268" y="158">reasoning + calculation</text></g>
+  {% endcase %}
+  </g>
+</svg>

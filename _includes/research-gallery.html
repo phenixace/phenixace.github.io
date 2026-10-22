@@ -1,0 +1,36 @@
+<section class="section-block latest-work notebook-gallery" id="latest-work" aria-labelledby="latest-work-title" data-paper-gallery>
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">From the notebook · 2026</p>
+      <h2 id="latest-work-title">Latest research</h2>
+    </div>
+    <p>A sketch of each idea, and the work behind it. Browse the collection to explore molecular languages, scientific reasoning, and agents.</p>
+  </div>
+  <div class="notebook-gallery__toolbar">
+    <span class="notebook-gallery__hint"><span aria-hidden="true">↔</span> A collection of {{ site.data.research_notebook.papers.size }} research notes</span>
+    <div class="notebook-gallery__controls" data-gallery-controls hidden>
+      <span data-gallery-position aria-live="polite" aria-atomic="true">01 / {{ site.data.research_notebook.papers.size }}</span>
+      <button type="button" data-gallery-previous aria-label="Previous research note" aria-controls="research-paper-track"><span aria-hidden="true">←</span></button>
+      <button type="button" data-gallery-next aria-label="Next research note" aria-controls="research-paper-track"><span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+  <div class="featured-papers" id="research-paper-track" role="region" aria-label="Research notes; scroll horizontally to browse" tabindex="0" data-paper-track>
+    {% for paper in site.data.research_notebook.papers %}
+    <article class="featured-paper notebook-paper featured-paper--{{ paper.color }}" id="note-{{ paper.id }}">
+      <div class="featured-paper__topline"><span>{{ paper.venue }}</span><span class="featured-paper__index">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span></div>
+      <figure class="paper-sketch">
+        {% include research-sketch.svg paper=paper %}
+        <figcaption><span>Concept sketch</span> {{ paper.sketch_caption }}</figcaption>
+      </figure>
+      <h3><a href="{{ paper.url }}"{% if paper.url contains 'https://' %} target="_blank" rel="noopener"{% endif %} title="{{ paper.title | escape }}" data-paper-title="{{ paper.title | escape }}">{{ paper.name }}</a></h3>
+      <p class="notebook-paper__takeaway">{{ paper.takeaway }}</p>
+      <p class="featured-paper__authors">{{ paper.authors }}</p>
+      <details class="paper-context">
+        <summary>Inside this paper <span aria-hidden="true">+</span></summary>
+        <div><p class="paper-context__title">{{ paper.title }}</p><p>{{ paper.summary }}</p></div>
+      </details>
+      <div class="featured-paper__footer"><span>{{ paper.tag }}</span><a href="{{ paper.url }}"{% if paper.url contains 'https://' %} target="_blank" rel="noopener"{% endif %} data-paper-title="{{ paper.title | escape }}" aria-label="{{ paper.action | remove: ' ↗' | remove: ' →' }}: {{ paper.title | escape }}">{{ paper.action }}</a></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,304 @@
+{
+  "directions": [
+    {
+      "id": "perception",
+      "label": "Understand molecules",
+      "subtitle": "Representations & molecular state",
+      "color": "mint",
+      "icon": "atom",
+      "note": "01",
+      "question": "How can an AI maintain an explicit molecular state?",
+      "description": "I study how structures, fragments, and language can share a grounded representation—so a model can describe a molecule and make precise changes to it.",
+      "principle": "Start with an explicit molecular state.",
+      "works": [
+        {
+          "name": "STAMP",
+          "detail": "/publication/2026-stamp",
+          "description": "Topology-aware fragments and executable edits."
+        },
+        {
+          "name": "MolReFlect",
+          "detail": "/publication/2024-molreflect",
+          "description": "Fine-grained alignment of molecules and text."
+        },
+        {
+          "name": "ICMA",
+          "detail": "/publication/2024-ICMA",
+          "description": "Learning molecular tasks in context."
+        },
+        {
+          "name": "MolReGPT",
+          "detail": "/publication/2023-molregpt",
+          "description": "Translating between molecules and captions."
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "label": "Reason with evidence",
+      "subtitle": "Chemical reasoning & verification",
+      "color": "rose",
+      "icon": "brain",
+      "note": "02",
+      "question": "Which steps in chemical reasoning can we actually check?",
+      "description": "I connect chemical reasoning with explicit intermediate states and verification, while investigating when a convincing chain of thought becomes an unreliable explanation.",
+      "principle": "Make intermediate commitments checkable.",
+      "works": [
+        {
+          "name": "MolLean",
+          "detail": "/publication/2026-mollean",
+          "description": "A process-verifiable language for chemistry."
+        },
+        {
+          "name": "Chem-R",
+          "detail": "/publication/2026-chem-r",
+          "description": "Learning structured chemical reasoning."
+        },
+        {
+          "name": "Chemical CoT",
+          "detail": "/publication/2026-chemical-cot",
+          "description": "Testing the faithfulness of the scratchpad."
+        },
+        {
+          "name": "Mol-R1",
+          "detail": "/publication/2025-mol-r1",
+          "description": "Explicit long-chain molecular reasoning."
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "label": "Work through tools",
+      "subtitle": "Scientific agents & workflows",
+      "color": "peach",
+      "icon": "flask",
+      "note": "03",
+      "question": "How does a scientific intention become executable work?",
+      "description": "I study agents that turn molecular design goals into tool calls, code, and research workflows, and evaluate whether the resulting artifacts do the intended scientific job.",
+      "principle": "Connect an intention to a reproducible artifact.",
+      "works": [
+        {
+          "name": "Molecular LLM Agents",
+          "detail": "/publication/2026-molecular-llm-agents",
+          "description": "Architectures and levels of scientific autonomy."
+        },
+        {
+          "name": "MolViBench",
+          "detail": "/publication/2026-molvibench",
+          "description": "Evaluating executable molecular coding."
+        },
+        {
+          "name": "Speak-to-Structure",
+          "detail": "/publication/2024-tomg",
+          "description": "Molecular design from natural-language briefs."
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "label": "Test the limits",
+      "subtitle": "Generalization & trustworthy autonomy",
+      "color": "lavender",
+      "icon": "shield-alt",
+      "note": "04",
+      "question": "When should a scientist trust the system—and when should they step in?",
+      "description": "I examine structural perturbations, reasoning failures, and domain-specific evaluation to map the limits of model competence across molecular science, physics, and medicine.",
+      "principle": "Match autonomy to demonstrated capability.",
+      "works": [
+        {
+          "name": "Molecular Generalization",
+          "detail": "/publication/2026-molecular-generalization",
+          "description": "Probing local trust regions with graph edits."
+        },
+        {
+          "name": "CMPhysBench",
+          "detail": "/publication/2026-cmphysbench",
+          "description": "Calculation-intensive scientific evaluation."
+        },
+        {
+          "name": "Medical Reasoning",
+          "detail": "/publication/2026-medical-reasoning-survey",
+          "description": "Aligning clinical needs and AI capabilities."
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "id": "mollean",
+      "name": "MolLean",
+      "takeaway": "Chemical reasoning, checked step by step.",
+      "sketch_caption": "Explicit state → operation → verification",
+      "sketch_alt": "Molecular state, a chemical step, and a kernel check connected by arrows.",
+      "detail": "/publication/2026-mollean",
+      "color": "rose",
+      "title": "MolLean: A Process-Verifiable Language for Chemical Reasoning",
+      "url": "https://arxiv.org/abs/2610.20459",
+      "venue": "arXiv · Oct 2026",
+      "authors": "<strong>Jiatong Li</strong>, Yatao Bian",
+      "summary": "A state-grounded chemical reasoning language whose Lean-based kernel checks molecular transitions and assertions, with whole-trace and interactive feedback.",
+      "tag": "Verifiable reasoning",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "stamp",
+      "name": "STAMP",
+      "takeaway": "A molecular language built from reusable fragments.",
+      "sketch_caption": "Motifs + attachment sites + topology",
+      "sketch_alt": "A tree of colored molecular fragments connected through attachment sites.",
+      "detail": "/publication/2026-stamp",
+      "color": "mint",
+      "title": "STAMP as a topology-aware molecular language for fragment-level learning and editing",
+      "url": "https://arxiv.org/abs/2610.18438",
+      "venue": "arXiv · Oct 2026",
+      "authors": "Yuxuan Ren, <strong>Jiatong Li</strong>, Ziqiao Meng, Yatao Bian",
+      "summary": "A fragment-tree molecular language that makes motifs, attachment sites, and topology explicit for representation learning and executable editing.",
+      "tag": "Molecular language",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "agents",
+      "name": "Molecular LLM Agents",
+      "takeaway": "From tool-using assistants to scientific autonomy.",
+      "sketch_caption": "Plan · act · observe · revise",
+      "sketch_alt": "A scientific agent connects a plan to tools and evidence through a feedback loop.",
+      "detail": "/publication/2026-molecular-llm-agents",
+      "color": "lavender",
+      "title": "Molecular LLM Agents: From Architectural Design to Scientific Autonomy",
+      "url": "https://arxiv.org/abs/2608.23104",
+      "venue": "arXiv · Aug 2026",
+      "authors": "<strong>Jiatong Li</strong>, Wengyu Zhang, Weida Wang, Yuxuan Ren, Wei Liu, Chenyang Mao, et al.",
+      "summary": "A unified architecture for molecular LLM agents and a four-level autonomy ladder spanning assistive workflows to scientific-agenda agents.",
+      "tag": "Scientific agents",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "cot",
+      "name": "Chemical CoT",
+      "takeaway": "A useful scratchpad. An unreliable explanation.",
+      "sketch_caption": "Useful reasoning ≠ faithful explanation",
+      "sketch_alt": "A structural scratchpad and an explanation are separated by a question of faithfulness.",
+      "detail": "/publication/2026-chemical-cot",
+      "color": "cobalt",
+      "title": "Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad",
+      "url": "https://arxiv.org/abs/2607.20935",
+      "venue": "arXiv · Jul 2026",
+      "authors": "<strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Xiaoyong Wei, Yatao Bian",
+      "summary": "Chemical CoT can be causally useful as a structural scratchpad while remaining an unreliable explanation of how an answer was reached.",
+      "tag": "Reasoning faithfulness",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "generalization",
+      "name": "Molecular Generalization",
+      "takeaway": "How far does molecular understanding generalize?",
+      "sketch_caption": "Small graph edits, changing predictions",
+      "sketch_alt": "Two related graphs differ by a highlighted edit within a local neighborhood.",
+      "detail": "/publication/2026-molecular-generalization",
+      "color": "lime",
+      "title": "Do LLMs Truly Generalize in the Molecular Domain? A Perturbation-Based Analysis",
+      "url": "https://arxiv.org/abs/2607.01800",
+      "venue": "arXiv · Jul 2026",
+      "authors": "<strong>Jiatong Li</strong>, Weida Wang, Changmeng Zheng, Shufei Zhang, Yatao Bian, Xiao-yong Wei, Qing Li",
+      "summary": "Controlled graph edits reveal a narrow local trust region in molecular LLMs and show how in-context tuning can partially stabilize it.",
+      "tag": "Molecular robustness",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "medical",
+      "name": "Medical Reasoning",
+      "takeaway": "Connecting clinical needs with model capabilities.",
+      "sketch_caption": "Clinical needs ↔ AI capabilities",
+      "sketch_alt": "Two overlapping lenses connect clinical needs with model capabilities.",
+      "detail": "/publication/2026-medical-reasoning-survey",
+      "color": "ivory",
+      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "url": "https://arxiv.org/abs/2607.07761",
+      "venue": "Machine Intelligence Research · 2026",
+      "authors": "Qi Peng*, <strong>Jiatong Li*</strong>, Sirui Huang, Yiyang Jiang, Kaisong Gong, et al.",
+      "summary": "A dual clinical–computational view of medical reasoning, paired with a five-level benchmark across 18 state-of-the-art models.",
+      "tag": "Co-first author",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "molvibench",
+      "name": "MolViBench",
+      "takeaway": "Can generated code do useful molecular science?",
+      "sketch_caption": "Scientific intent → code → workflow",
+      "sketch_alt": "A coding window connects scientific intent to an executable molecular workflow.",
+      "detail": "/publication/2026-molvibench",
+      "color": "rose",
+      "title": "MolViBench: Evaluating LLMs on Molecular Vibe Coding",
+      "url": "https://arxiv.org/abs/2605.02351",
+      "venue": "arXiv · May 2026",
+      "authors": "<strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, Yatao Bian",
+      "summary": "A benchmark for executable molecular coding across 12 real-world drug-discovery workflows.",
+      "tag": "AI co-scientists",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "speak",
+      "name": "Speak-to-Structure",
+      "takeaway": "One design brief. Many possible molecules.",
+      "sketch_caption": "Language → molecular candidates",
+      "sketch_alt": "A natural-language design brief branches into three molecular graph candidates.",
+      "detail": "/publication/2024-tomg",
+      "color": "butter",
+      "title": "Speak-to-Structure: Open-Domain Natural Language-Driven Molecule Generation",
+      "url": "https://arxiv.org/abs/2412.14642",
+      "venue": "KDD · 2026",
+      "authors": "<strong>Jiatong Li*</strong>, Junxian Li*, Yunqing Liu, Dongzhan Zhou, Qing Li",
+      "summary": "S²-Bench evaluates one-to-many molecular design from natural-language requirements.",
+      "tag": "Chemist assistant",
+      "action": "Read paper ↗"
+    },
+    {
+      "id": "chem-r",
+      "name": "Chem-R",
+      "takeaway": "Learning to reason like a chemist.",
+      "sketch_caption": "Foundation → distillation → optimization",
+      "sketch_alt": "Three stacked training stages lead from chemical foundations to reasoning and optimization.",
+      "detail": "/publication/2026-chem-r",
+      "color": "mint",
+      "title": "Chem-R: Learning to Reason as a Chemist",
+      "url": "https://github.com/davidweidawang/Chem-R",
+      "venue": "KDD · 2026",
+      "authors": "Weida Wang, Benteng Chen, Di Zhang, et al., <strong>Jiatong Li</strong>, et al.",
+      "summary": "A three-phase chemical reasoning model spanning molecular- and reaction-level tasks.",
+      "tag": "Co-corresponding",
+      "action": "Project ↗"
+    },
+    {
+      "id": "molreflect",
+      "name": "MolReFlect",
+      "takeaway": "Aligning molecular details with their descriptions.",
+      "sketch_caption": "Molecular structure ↔ language",
+      "sketch_alt": "Colored parts of a molecular graph align with matching phrases in a text.",
+      "detail": "/publication/2024-molreflect",
+      "color": "sky",
+      "title": "MolReFlect: Fine-Grained Alignments Between Molecules and Texts",
+      "url": "/publication/2024-molreflect",
+      "venue": "IEEE TKDE · 2026",
+      "authors": "<strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Lei, Di Zhang, Wenqi Fan, et al.",
+      "summary": "An in-context reflection framework for precise molecule–text alignment.",
+      "tag": "Molecular alignment",
+      "action": "Details →"
+    },
+    {
+      "id": "cmphys",
+      "name": "CMPhysBench",
+      "takeaway": "Putting calculation-intensive reasoning to the test.",
+      "sketch_caption": "Physical concepts + calculations",
+      "sketch_alt": "A condensed-matter lattice sits beside a notebook of mathematical calculations.",
+      "detail": "/publication/2026-cmphysbench",
+      "color": "peach",
+      "title": "CMPhysBench: Evaluating LLMs in Condensed Matter Physics",
+      "url": "https://arxiv.org/abs/2508.18124",
+      "venue": "ICLR · 2026",
+      "authors": "Weida Wang*, Dongchen Huang*, <strong>Jiatong Li*</strong>, Tengchao Yang, et al.",
+      "summary": "A fine-grained benchmark for calculation-intensive reasoning in condensed matter physics.",
+      "tag": "Co-first author",
+      "action": "Read paper ↗"
+    }
+  ]
+}

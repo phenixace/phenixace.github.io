@@ -73,6 +73,10 @@ redirect_from:
         <time datetime="2026-08">2026.08</time>
         <p><strong>I will return to NUS as an incoming Research Fellow</strong> with the <a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a>, following my Visiting Scholar appointment from January to July 2026.</p>
       </article>
+    </div>
+    <details class="news-archive">
+      <summary><span aria-hidden="true">↳</span><span class="news-archive__open">Earlier notes <span>(8)</span></span><span class="news-archive__close">Close earlier notes</span></summary>
+      <div class="news-list">
       <article class="news-row">
         <time datetime="2026-08">2026.08</time>
         <p><strong>Our perspective on molecular LLM agents is online.</strong> <a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy ↗</a></p>
@@ -105,233 +109,13 @@ redirect_from:
         <time datetime="2026-01">2026.01</time>
         <p><strong>CMPhysBench is accepted by ICLR 2026.</strong> <a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">Paper ↗</a></p>
       </article>
-    </div>
-  </section>
-
-  <section class="research-arc" aria-labelledby="research-arc-title">
-    <div class="research-arc__heading">
-      <div>
-        <p class="section-kicker">AI co-scientist research agenda</p>
-        <h2 id="research-arc-title">What does an AI co-scientist need to do?</h2>
       </div>
-      <p>My research develops the full stack: grounded molecular representations, process-verifiable reasoning, tool-using workflows, and evaluations that expose the boundary of trustworthy autonomy.</p>
-    </div>
-
-    <div class="arc-flow">
-      <article class="arc-stage arc-stage--mint">
-        <span class="arc-stage__icon"><i class="fas fa-atom" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">Capability 01</span>
-        <h3>Perceive molecular state</h3>
-        <p>Read and manipulate molecules as structures, fragments, text, and aligned representations—not merely strings.</p>
-        <span class="arc-stage__work">MolReGPT · ICMA · MolReFlect · STAMP</span>
-      </article>
-      <article class="arc-stage arc-stage--rose">
-        <span class="arc-stage__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">Capability 02</span>
-        <h3>Reason with evidence</h3>
-        <p>Form hypotheses and molecular operations while making intermediate chemical commitments explicit and checkable.</p>
-        <span class="arc-stage__work">Mol-R1 · Chem-R · Chemical CoT · MolLean</span>
-      </article>
-      <article class="arc-stage arc-stage--peach">
-        <span class="arc-stage__icon"><i class="fas fa-cogs" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">Capability 03</span>
-        <h3>Act through tools</h3>
-        <p>Translate scientific intent into executable workflows, tool calls, code, and reproducible research artifacts.</p>
-        <span class="arc-stage__work">Speak-to-Structure · MolViBench · Molecular LLM Agents</span>
-      </article>
-      <article class="arc-stage arc-stage--lavender">
-        <span class="arc-stage__icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">Capability 04</span>
-        <h3>Know its limits</h3>
-        <p>Measure generalization, failure modes, and autonomy boundaries so scientists know when—and how—to trust the system.</p>
-        <span class="arc-stage__work">Molecular Generalization · CMPhysBench · Medical Reasoning Survey</span>
-      </article>
-    </div>
-
-    <div class="arc-principles" aria-label="Unifying research goals">
-      <span><i class="fas fa-atom" aria-hidden="true"></i> Grounded molecular state</span>
-      <span><i class="fas fa-check-double" aria-hidden="true"></i> Process-verifiable reasoning</span>
-      <span><i class="fas fa-cogs" aria-hidden="true"></i> Executable scientific action</span>
-      <span><i class="fas fa-shield-alt" aria-hidden="true"></i> Calibrated autonomy</span>
-    </div>
+    </details>
   </section>
 
-  <section class="section-block latest-work" id="latest-work">
-    <div class="section-heading">
-      <div>
-        <p class="section-kicker">New in 2026</p>
-        <h2>Latest research</h2>
-      </div>
-      <p>Recent work fills different parts of the AI co-scientist stack—from molecular languages and verifiable reasoning to agent workflows and trust calibration. Scroll sideways for more.</p>
-    </div>
+  {% include research-notebook.html %}
 
-    <div class="featured-papers" role="region" aria-label="Latest research, scroll horizontally for more" tabindex="0">
-      <article class="featured-paper featured-paper--rose">
-        <div class="featured-paper__topline">
-          <span>arXiv · Oct 2026</span>
-          <span class="featured-paper__index">01</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-check-double" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener">MolLean: A Process-Verifiable Language for Chemical Reasoning</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yatao Bian</p>
-        <p class="featured-paper__summary">A state-grounded chemical reasoning language whose Lean-based kernel checks molecular transitions and assertions, with whole-trace and interactive feedback.</p>
-        <div class="featured-paper__footer">
-          <span>Verifiable reasoning</span>
-          <a href="https://arxiv.org/abs/2610.20459" target="_blank" rel="noopener" aria-label="Read MolLean on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--mint">
-        <div class="featured-paper__topline">
-          <span>arXiv · Oct 2026</span>
-          <span class="featured-paper__index">02</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-sitemap" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener">STAMP as a topology-aware molecular language for fragment-level learning and editing</a></h3>
-        <p class="featured-paper__authors">Yuxuan Ren, <strong>Jiatong Li</strong>, Ziqiao Meng, Yatao Bian</p>
-        <p class="featured-paper__summary">A fragment-tree molecular language that makes motifs, attachment sites, and topology explicit for representation learning and executable editing.</p>
-        <div class="featured-paper__footer">
-          <span>Molecular language</span>
-          <a href="https://arxiv.org/abs/2610.18438" target="_blank" rel="noopener" aria-label="Read STAMP on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--lavender">
-        <div class="featured-paper__topline">
-          <span>arXiv · Aug 2026</span>
-          <span class="featured-paper__index">03</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-robot" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener">Molecular LLM Agents: From Architectural Design to Scientific Autonomy</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Wengyu Zhang, Weida Wang, Yuxuan Ren, Wei Liu, Chenyang Mao, et al.</p>
-        <p class="featured-paper__summary">A unified architecture for molecular LLM agents and a four-level autonomy ladder spanning assistive workflows to scientific-agenda agents.</p>
-        <div class="featured-paper__footer">
-          <span>Scientific agents</span>
-          <a href="https://arxiv.org/abs/2608.23104" target="_blank" rel="noopener" aria-label="Read Molecular LLM Agents on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--cobalt">
-        <div class="featured-paper__topline">
-          <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">04</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-microscope" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener">Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Xiaoyong Wei, Yatao Bian</p>
-        <p class="featured-paper__summary">Chemical CoT can be causally useful as a structural scratchpad while remaining an unreliable explanation of how an answer was reached.</p>
-        <div class="featured-paper__footer">
-          <span>Reasoning faithfulness</span>
-          <a href="https://arxiv.org/abs/2607.20935" target="_blank" rel="noopener" aria-label="Read Chemical Chain-of-Thought on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--lime">
-        <div class="featured-paper__topline">
-          <span>arXiv · Jul 2026</span>
-          <span class="featured-paper__index">05</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener">Do LLMs Truly Generalize in the Molecular Domain? A Perturbation-Based Analysis</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Weida Wang, Changmeng Zheng, Shufei Zhang, Yatao Bian, Xiao-yong Wei, Qing Li</p>
-        <p class="featured-paper__summary">Controlled graph edits reveal a narrow local trust region in molecular LLMs and show how in-context tuning can partially stabilize it.</p>
-        <div class="featured-paper__footer">
-          <span>Molecular robustness</span>
-          <a href="https://arxiv.org/abs/2607.01800" target="_blank" rel="noopener" aria-label="Read molecular generalization paper on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--ivory">
-        <div class="featured-paper__topline">
-          <span>Machine Intelligence Research · 2026</span>
-          <span class="featured-paper__index">06</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-notes-medical" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener">Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning</a></h3>
-        <p class="featured-paper__authors">Qi Peng*, <strong>Jiatong Li*</strong>, Sirui Huang, Yiyang Jiang, Kaisong Gong, et al.</p>
-        <p class="featured-paper__summary">A dual clinical–computational view of medical reasoning, paired with a five-level benchmark across 18 state-of-the-art models.</p>
-        <div class="featured-paper__footer">
-          <span>Co-first author</span>
-          <a href="https://arxiv.org/abs/2607.07761" target="_blank" rel="noopener" aria-label="Read medical reasoning survey on arXiv">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--rose">
-        <div class="featured-paper__topline">
-          <span>arXiv · May 2026</span>
-          <span class="featured-paper__index">07</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-code" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">MolViBench: Evaluating LLMs on Molecular Vibe Coding</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, Yatao Bian</p>
-        <p class="featured-paper__summary">A benchmark for executable molecular coding across 12 real-world drug-discovery workflows.</p>
-        <div class="featured-paper__footer">
-          <span>AI co-scientists</span>
-          <a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--butter">
-        <div class="featured-paper__topline">
-          <span>KDD · 2026</span>
-          <span class="featured-paper__index">08</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-flask" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Speak-to-Structure: Open-Domain Natural Language-Driven Molecule Generation</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li*</strong>, Junxian Li*, Yunqing Liu, Dongzhan Zhou, Qing Li</p>
-        <p class="featured-paper__summary">S²-Bench evaluates one-to-many molecular design from natural-language requirements.</p>
-        <div class="featured-paper__footer">
-          <span>Chemist assistant</span>
-          <a href="https://arxiv.org/abs/2412.14642" target="_blank" rel="noopener">Read paper ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--mint">
-        <div class="featured-paper__topline">
-          <span>KDD · 2026</span>
-          <span class="featured-paper__index">09</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-brain" aria-hidden="true"></i></span>
-        <h3><a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Chem-R: Learning to Reason as a Chemist</a></h3>
-        <p class="featured-paper__authors">Weida Wang, Benteng Chen, Di Zhang, et al., <strong>Jiatong Li</strong>, et al.</p>
-        <p class="featured-paper__summary">A three-phase chemical reasoning model spanning molecular- and reaction-level tasks.</p>
-        <div class="featured-paper__footer">
-          <span>Co-corresponding</span>
-          <a href="https://github.com/davidweidawang/Chem-R" target="_blank" rel="noopener">Project ↗</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--sky">
-        <div class="featured-paper__topline">
-          <span>IEEE TKDE · 2026</span>
-          <span class="featured-paper__index">10</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-link" aria-hidden="true"></i></span>
-        <h3><a href="/publication/2024-molreflect">MolReFlect: Fine-Grained Alignments Between Molecules and Texts</a></h3>
-        <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yunqing Liu, Wei Liu, Jingdi Lei, Di Zhang, Wenqi Fan, et al.</p>
-        <p class="featured-paper__summary">An in-context reflection framework for precise molecule–text alignment.</p>
-        <div class="featured-paper__footer">
-          <span>Molecular alignment</span>
-          <a href="/publication/2024-molreflect">Details →</a>
-        </div>
-      </article>
-
-      <article class="featured-paper featured-paper--peach">
-        <div class="featured-paper__topline">
-          <span>ICLR · 2026</span>
-          <span class="featured-paper__index">11</span>
-        </div>
-        <span class="paper-glyph"><i class="fas fa-atom" aria-hidden="true"></i></span>
-        <h3><a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">CMPhysBench: Evaluating LLMs in Condensed Matter Physics</a></h3>
-        <p class="featured-paper__authors">Weida Wang*, Dongchen Huang*, <strong>Jiatong Li*</strong>, Tengchao Yang, et al.</p>
-        <p class="featured-paper__summary">A fine-grained benchmark for calculation-intensive reasoning in condensed matter physics.</p>
-        <div class="featured-paper__footer">
-          <span>Co-first author</span>
-          <a href="https://arxiv.org/abs/2508.18124" target="_blank" rel="noopener">Read paper ↗</a>
-        </div>
-      </article>
-    </div>
-  </section>
+  {% include research-gallery.html %}
 
   <section class="section-block publication-section" aria-labelledby="publication-title">
     <div class="section-heading">
