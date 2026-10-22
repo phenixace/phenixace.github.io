@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-title: "Jiatong Li — AI for Molecular Science"
-excerpt: "Researcher building reliable language models for molecular reasoning and discovery."
+title: "Jiatong Li — Building AI Co-Scientists for Molecular Science"
+excerpt: "Building verifiable AI co-scientists for molecular reasoning, tool use, and scientific discovery."
 author_profile: false
 redirect_from:
   - /about/
@@ -14,9 +14,9 @@ redirect_from:
     <div class="hero__copy">
       <p class="eyebrow"><span><i class="fas fa-flask" aria-hidden="true"></i></span> AI × Molecular Science</p>
       <h1 id="hero-title">Jiatong <em>Li</em></h1>
-      <p class="hero__statement">From molecular learning to science agents.</p>
+      <p class="hero__statement">Building AI co-scientists for molecular discovery.</p>
       <p class="hero__intro">
-        I build language models that learn molecules, assist chemists, reason over structure, and execute verifiable scientific workflows.
+        I develop AI systems that understand molecular structures, reason with chemistry, use scientific tools, learn from feedback, and return verifiable research artifacts.
       </p>
       <div class="hero__actions" aria-label="Primary links">
         <a class="button button--lime" href="https://scholar.google.com/citations?user=ml9hh18AAAAJ" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -111,47 +111,48 @@ redirect_from:
   <section class="research-arc" aria-labelledby="research-arc-title">
     <div class="research-arc__heading">
       <div>
-        <p class="section-kicker">My research line</p>
-        <h2 id="research-arc-title">Can a model complete the scientific loop?</h2>
+        <p class="section-kicker">AI co-scientist research agenda</p>
+        <h2 id="research-arc-title">What does an AI co-scientist need to do?</h2>
       </div>
-      <p>Each generation of my work moves the research object outward—from molecular representations, to reasoning processes, to workflows and verifiable deliverables.</p>
+      <p>My research develops the full stack: grounded molecular representations, process-verifiable reasoning, tool-using workflows, and evaluations that expose the boundary of trustworthy autonomy.</p>
     </div>
 
     <div class="arc-flow">
       <article class="arc-stage arc-stage--mint">
         <span class="arc-stage__icon"><i class="fas fa-atom" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">2023—26</span>
-        <h3>Represent &amp; learn molecules</h3>
-        <p>Can molecular languages expose chemically meaningful units for learning and precise editing?</p>
+        <span class="arc-stage__years">Capability 01</span>
+        <h3>Perceive molecular state</h3>
+        <p>Read and manipulate molecules as structures, fragments, text, and aligned representations—not merely strings.</p>
         <span class="arc-stage__work">MolReGPT · ICMA · MolReFlect · STAMP</span>
       </article>
       <article class="arc-stage arc-stage--rose">
-        <span class="arc-stage__icon"><i class="fas fa-flask" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">2024—26</span>
-        <h3>Assist chemists</h3>
-        <p>Can a model translate natural-language requirements into valid molecular designs?</p>
-        <span class="arc-stage__work">Speak-to-Structure (S²-Bench)</span>
-      </article>
-      <article class="arc-stage arc-stage--peach">
         <span class="arc-stage__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">2025—26</span>
-        <h3>Reason—and verify it</h3>
-        <p>Can we improve chemical reasoning while making structural commitments executable and checkable?</p>
+        <span class="arc-stage__years">Capability 02</span>
+        <h3>Reason with evidence</h3>
+        <p>Form hypotheses and molecular operations while making intermediate chemical commitments explicit and checkable.</p>
         <span class="arc-stage__work">Mol-R1 · Chem-R · Chemical CoT · MolLean</span>
       </article>
+      <article class="arc-stage arc-stage--peach">
+        <span class="arc-stage__icon"><i class="fas fa-cogs" aria-hidden="true"></i></span>
+        <span class="arc-stage__years">Capability 03</span>
+        <h3>Act through tools</h3>
+        <p>Translate scientific intent into executable workflows, tool calls, code, and reproducible research artifacts.</p>
+        <span class="arc-stage__work">Speak-to-Structure · MolViBench · Molecular LLM Agents</span>
+      </article>
       <article class="arc-stage arc-stage--lavender">
-        <span class="arc-stage__icon"><i class="fas fa-code" aria-hidden="true"></i></span>
-        <span class="arc-stage__years">2026</span>
-        <h3>Build science agents</h3>
-        <p>Can models organize tools, feedback, chemistry, and artifacts into increasingly autonomous scientific workflows?</p>
-        <span class="arc-stage__work">MolViBench · Molecular LLM Agents</span>
+        <span class="arc-stage__icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></span>
+        <span class="arc-stage__years">Capability 04</span>
+        <h3>Know its limits</h3>
+        <p>Measure generalization, failure modes, and autonomy boundaries so scientists know when—and how—to trust the system.</p>
+        <span class="arc-stage__work">Molecular Generalization · CMPhysBench · Medical Reasoning Survey</span>
       </article>
     </div>
 
     <div class="arc-principles" aria-label="Unifying research goals">
-      <span><i class="fas fa-link" aria-hidden="true"></i> Grounded reasoning</span>
-      <span><i class="fas fa-cogs" aria-hidden="true"></i> Executable workflows</span>
-      <span><i class="fas fa-check-circle" aria-hidden="true"></i> Reproducible artifacts</span>
+      <span><i class="fas fa-atom" aria-hidden="true"></i> Grounded molecular state</span>
+      <span><i class="fas fa-check-double" aria-hidden="true"></i> Process-verifiable reasoning</span>
+      <span><i class="fas fa-cogs" aria-hidden="true"></i> Executable scientific action</span>
+      <span><i class="fas fa-shield-alt" aria-hidden="true"></i> Calibrated autonomy</span>
     </div>
   </section>
 
@@ -161,7 +162,7 @@ redirect_from:
         <p class="section-kicker">New in 2026</p>
         <h2>Latest research</h2>
       </div>
-      <p>Browse recent work across molecular languages, verifiable reasoning, scientific agents, open-ended design, and clinically grounded capability. Scroll sideways for more.</p>
+      <p>Recent work fills different parts of the AI co-scientist stack—from molecular languages and verifiable reasoning to agent workflows and trust calibration. Scroll sideways for more.</p>
     </div>
 
     <div class="featured-papers" role="region" aria-label="Latest research, scroll horizontally for more" tabindex="0">
@@ -265,7 +266,7 @@ redirect_from:
         <p class="featured-paper__authors"><strong>Jiatong Li</strong>, Yuxuan Ren, Weida Wang, Changmeng Zheng, Xiao-yong Wei, Qing Li, Yatao Bian</p>
         <p class="featured-paper__summary">A benchmark for executable molecular coding across 12 real-world drug-discovery workflows.</p>
         <div class="featured-paper__footer">
-          <span>Science agents</span>
+          <span>AI co-scientists</span>
           <a href="https://arxiv.org/abs/2605.02351" target="_blank" rel="noopener">Read paper ↗</a>
         </div>
       </article>
@@ -338,7 +339,7 @@ redirect_from:
         <p class="section-kicker">Selected</p>
         <h2 id="publication-title">Recent publications</h2>
       </div>
-      <p>A selection spanning molecular language models, scientific reasoning, alignment, and multimodal robustness.</p>
+      <p>A selection spanning the AI co-scientist stack: molecular perception, scientific reasoning, tool use, and trustworthy autonomy.</p>
     </div>
 
     <ol class="publication-list">
@@ -602,8 +603,8 @@ redirect_from:
     </aside>
     <div class="contact-panel">
       <p class="section-kicker">Collaborate</p>
-      <h2>Let’s make scientific AI more capable—and more honest.</h2>
-      <p>I am always happy to talk about molecular language models, scientific reasoning, and potential collaborations.</p>
+      <h2>Let’s build AI co-scientists that can reason, act—and show their work.</h2>
+      <p>I am always happy to discuss molecular representations, verifiable reasoning, scientific agents, evaluation, and potential collaborations.</p>
       <div class="contact-panel__links">
         <a href="/contact/">Protected contact <span aria-hidden="true">→</span></a>
         <a href="https://github.com/phenixace" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>

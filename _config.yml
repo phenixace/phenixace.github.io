@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jiatong Li"
 title_separator          : "-"
 name                     : &name "Jiatong LI"
-description              : &description "Jiatong Li researches reliable language models for molecular reasoning and scientific discovery."
+description              : &description "Jiatong Li develops verifiable AI co-scientists for molecular reasoning, tool use, and scientific discovery."
 url                      : https://phenixace.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "phenixace/phenixace.github.io"
@@ -102,7 +102,7 @@ contact:
 author:
   name             : "Jiatong Li"
   avatar           : "profile.jpeg"
-  bio              : "AI for molecular reasoning and scientific discovery."
+  bio              : "Verifiable AI co-scientists for molecular discovery."
   location         : "Singapore · Hong Kong"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

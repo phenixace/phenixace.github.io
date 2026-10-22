@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and an incoming Research Fellow at the National University of Singapore. I completed a Visiting Scholar appointment at NUS from January to July 2026. My research focuses on reliable language models for molecular reasoning and scientific discovery.
+I am a Ph.D. candidate in Computing at The Hong Kong Polytechnic University and an incoming Research Fellow at the National University of Singapore. I completed a Visiting Scholar appointment at NUS from January to July 2026. My research develops verifiable AI co-scientists that can understand molecular systems, reason with evidence, use scientific tools, and operate within clearly evaluated limits.
 
 <nav class="cv-link-cards" aria-label="Academic and professional profiles">
   <a href="https://scholar.google.com/citations?user=ml9hh18AAAAJ" target="_blank" rel="noopener">
