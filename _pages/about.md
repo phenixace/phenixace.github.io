@@ -369,11 +369,11 @@ redirect_from:
     </div>
   </section>
 
-  <section class="closing-grid" data-paper-insights tabindex="0" aria-label="More about Jiatong and live readership insights. Scroll horizontally for more cards.">
+  <section class="closing-grid" id="around-the-lab" data-paper-insights tabindex="0" aria-label="More about Jiatong and live readership insights. Scroll horizontally for more cards.">
     <div class="music-card">
       <p class="section-kicker">On repeat</p>
       <h2>A little life beyond the lab.</h2>
-      <p>When I am not working with molecules and models, there is usually music somewhere nearby.</p>
+      <p>A song for the hours between molecules and models.</p>
       <iframe title="Jiatong Li's featured song on Apple Music" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/song/%E5%A4%A9%E7%A9%BA%E6%B2%A1%E6%9C%89%E6%9E%81%E9%99%90-%E7%B2%A4/1818540482"></iframe>
     </div>
     <aside class="maker-card maker-card--closing" aria-labelledby="maker-card-title">
@@ -399,19 +399,17 @@ redirect_from:
         <span class="insight-card__icon" aria-hidden="true"><i class="fas fa-chart-line"></i></span>
         <span class="live-pill"><i aria-hidden="true"></i> Live readership</span>
       </div>
-      <p class="section-kicker">Reader favorites</p>
       <h2 id="top-papers-title">Most-clicked papers</h2>
-      <ol class="insight-list insight-list--papers" data-top-papers aria-live="polite">
+      <ol class="insight-list insight-list--papers" data-top-papers tabindex="0" aria-label="Most-clicked papers. Scroll for the full ranking." aria-live="polite">
         <li class="insight-list__status">Gathering the latest clicks…</li>
       </ol>
-      <p class="insight-card__note">Paper-link clicks from this website.</p>
+      <p class="insight-card__note">Paper-link clicks · Scroll for the full ranking.</p>
     </article>
     <article class="insight-card insight-card--map" aria-labelledby="reader-map-title">
       <div class="insight-card__heading">
         <span class="insight-card__icon" aria-hidden="true"><i class="fas fa-map-marked-alt"></i></span>
         <span class="live-pill"><i aria-hidden="true"></i> Live homepage visits</span>
       </div>
-      <p class="section-kicker">Homepage audience</p>
       <h2 id="reader-map-title">Where visitors arrive from</h2>
       <div class="reader-map" data-reader-map role="img" aria-label="Visitor locations will appear here">
         <span class="reader-map__continent reader-map__continent--na" data-continent="NA"><b>North America</b><em>0</em></span>
@@ -421,7 +419,7 @@ redirect_from:
         <span class="reader-map__continent reader-map__continent--as" data-continent="AS"><b>Asia</b><em>0</em></span>
         <span class="reader-map__continent reader-map__continent--oc" data-continent="OC"><b>Oceania</b><em>0</em></span>
       </div>
-      <ul class="location-list" data-click-origins aria-live="polite">
+      <ul class="location-list" data-click-origins tabindex="0" aria-label="Top visitor locations" aria-live="polite">
         <li class="insight-list__status">Loading visitor locations…</li>
       </ul>
       <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Homepage visits by country/region. Paper clicks have their own count.</p>

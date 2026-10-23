@@ -7,8 +7,10 @@
   </div>
   <span class="notebook-page-heading__stamp" aria-hidden="true"><i class="fas {{ notebook_page.icon }}"></i><span>Jiatong Li</span></span>
 </header>
+{% unless page.notebook_section == 'contact' %}
 <nav class="notebook-tabs" aria-label="Explore the notebook">
   {% for entry in site.data.notebook_pages %}
   <a href="{{ entry[1].url | relative_url }}"{% if entry[0] == page.notebook_section %} aria-current="page"{% endif %}><i class="fas {{ entry[1].icon }}" aria-hidden="true"></i>{{ entry[1].title }}</a>
   {% endfor %}
 </nav>
+{% endunless %}
