@@ -1,0 +1,18 @@
+{% assign paper_note = site.data.research_notebook.papers | where: "detail", post.url | first %}
+<div class="notebook-publication{% if paper_note %} notebook-publication--illustrated{% endif %}" data-phoenix-item data-phoenix-item-kind="publication" data-phoenix-search-text="{{ post.citation | strip_html | escape }} {{ post.excerpt | strip_html | escape }}">
+  <article itemscope itemtype="https://schema.org/ScholarlyArticle">
+    {% if paper_note %}
+    <figure class="paper-sketch notebook-publication__sketch">
+      {% include research-sketch.svg paper=paper_note %}
+      <figcaption>{{ paper_note.name }}</figcaption>
+    </figure>
+    {% endif %}
+    <div class="notebook-publication__body">
+      <div class="notebook-publication__meta"><span><i class="fas fa-book-open" aria-hidden="true"></i> {{ post.venue }}</span><span class="notebook-publication__number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span></div>
+      <h3 itemprop="headline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if paper_note %}<p class="notebook-publication__summary">{{ paper_note.takeaway }}</p>{% elsif post.excerpt %}<p class="notebook-publication__summary">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>{% endif %}
+      {% include publication-badges.html item=post %}
+      {% include citation-actions.html item=post %}
+    </div>
+  </article>
+</div>

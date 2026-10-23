@@ -1,51 +1,17 @@
-{% include base_path %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item" data-phoenix-item data-phoenix-item-kind="tutorial">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      <span class="archive__item-icon" aria-hidden="true">
-        <i class="fas {% if post.type == 'Workshop' %}fa-comments{% else %}fa-chalkboard-teacher{% endif %}"></i>
-      </span>
-      <span class="archive__item-title-copy">
-        {% if post.link %}
-          <a href="{{ post.link }}" target="_blank" rel="noopener">{{ title }}</a>
-        {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        {% endif %}
-      </span>
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+<article class="tutorial-note tutorial-note--{{ post.type | downcase }}" data-phoenix-item data-phoenix-item-kind="tutorial" itemscope itemtype="https://schema.org/CreativeWork">
+  <div class="tutorial-note__top"><span>{{ post.type }} / {{ post.venue }}</span><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y' }}</time></div>
+  <div class="tutorial-note__cover" aria-hidden="true">
+    <i class="fas {% if post.type == 'Workshop' %}fa-stethoscope{% else %}fa-project-diagram{% endif %}"></i>
+    <span>{% if post.type == 'Workshop' %}Language models<br><em>in medicine</em>{% else %}Language models<br><em>for recommendation</em>{% endif %}</span>
+    <span class="tutorial-note__number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+  </div>
+  <div class="tutorial-note__body">
+    <h2 itemprop="headline"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {% if post.notebook_summary %}<p>{{ post.notebook_summary }}</p>{% endif %}
+    <p class="tutorial-note__location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ post.location }}</p>
     <div class="talk-actions">
-      {% if post.link %}<a href="{{ post.link }}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Open {{ post.type | downcase }} site</a>{% endif %}
-      <a href="{{ base_path }}{{ post.url }}"><i class="fas fa-arrow-right" aria-hidden="true"></i> Details</a>
+      {% if post.link %}<a href="{{ post.link }}" target="_blank" rel="noopener">{{ post.type }} website <span aria-hidden="true">↗</span></a>{% endif %}
+      <a href="{{ post.url | relative_url }}">Details <span aria-hidden="true">→</span></a>
     </div>
-  </article>
-</div>
+  </div>
+</article>

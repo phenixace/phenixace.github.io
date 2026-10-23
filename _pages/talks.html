@@ -4,6 +4,7 @@ title: "Tutorials"
 permalink: /talks/
 author_profile: false
 phoenix_mode: tutorials
+notebook_section: talks
 ---
 
 {% if site.talkmap_link == true %}
@@ -12,6 +13,8 @@ phoenix_mode: tutorials
 
 {% endif %}
 
+<div class="tutorial-notes">
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>

@@ -2,13 +2,16 @@
 title: "Generative Diffusion Models on Graphs: Methods and Applications"
 collection: publications
 permalink: /publication/2023-02-06-paper-title-number-6
-excerpt: 'In this paper, we first provide a comprehensive overview of generative diffusion models on graphs, In particular, we review representative algorithms for three variants of graph diffusion models, i.e., Score Matching with Langevin Dynamics (SMLD), Denoising Diffusion Probabilistic Model (DDPM), and Score-based Generative Model (SGM). Then, we summarize the major applications of generative diffusion models on graphs with a specific focus on molecule and protein modeling. Finally, we discuss promising directions in generative diffusion models on graph-structured data.'
+excerpt: 'A survey of graph diffusion models, with applications to molecular and protein modeling.'
 date: 2023-02-06
 venue: 'IJCAI 2023'
 ccf: 'A'
+paperurl: https://arxiv.org/abs/2302.02591
 citation: 'Wenqi Fan, Chengyi Liu, Yunqing Liu, Jiatong Li, Hang Li, Hui Liu, Jiliang Tang, Qing Li. (2023). Generative Diffusion Models on Graphs: Methods and Applications. IJCAI 2023.'
 ---
 
-Diffusion models, as a novel generative paradigm, have achieved remarkable success in various image generation tasks such as image inpainting, image-to-text translation, and video generation. Graph generation is a crucial computational task on graphs with numerous real-world applications. It aims to learn the distribution of given graphs and then generate new graphs. Given the great success of diffusion models in image generation, increasing efforts have been made to leverage these techniques to advance graph generation in recent years. In this paper, we first provide a comprehensive overview of generative diffusion models on graphs, In particular, we review representative algorithms for three variants of graph diffusion models, i.e., Score Matching with Langevin Dynamics (SMLD), Denoising Diffusion Probabilistic Model (DDPM), and Score-based Generative Model (SGM). Then, we summarize the major applications of generative diffusion models on graphs with a specific focus on molecule and protein modeling. Finally, we discuss promising directions in generative diffusion models on graph-structured data.
+This survey reviews diffusion models for graph generation. It covers Score Matching with Langevin Dynamics, Denoising Diffusion Probabilistic Models, and score-based generative models.
 
-[Download paper here](https://arxiv.org/pdf/2302.02591.pdf)
+The applications focus on molecular and protein modeling. The paper also discusses research directions for diffusion on graph-structured data.
+
+[Read the paper](https://arxiv.org/pdf/2302.02591.pdf)

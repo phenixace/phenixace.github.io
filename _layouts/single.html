@@ -46,18 +46,25 @@ layout: default
               {% include publication-badges.html item=page %}
             </div>
 
-            {% if page.excerpt %}
+            {% assign detail_note = site.data.research_notebook.papers | where: "detail", page.url | first %}
+            {% if detail_note %}
+              <div class="detail-note">
+                <figure class="paper-sketch">
+                  {% include research-sketch.svg paper=detail_note %}
+                  <figcaption>{{ detail_note.sketch_caption }}</figcaption>
+                </figure>
+                <div><span class="detail-note__label">In brief</span><p>{{ detail_note.summary }}</p></div>
+              </div>
+            {% elsif page.excerpt %}
               <p class="detail-topics">{{ page.excerpt | markdownify | strip_html | strip_newlines }}</p>
             {% endif %}
 
             {% if page.citation %}
-              <div class="detail-citation">
-                <div class="detail-citation__label">
-                  <span><i class="fas fa-quote-left" aria-hidden="true"></i> Recommended citation</span>
-                </div>
+              {% include citation-actions.html item=page %}
+              <details class="detail-citation">
+                <summary><i class="fas fa-quote-left" aria-hidden="true"></i> Citation <span aria-hidden="true">+</span></summary>
                 <p>{{ page.citation }}</p>
-                {% include citation-actions.html item=page %}
-              </div>
+              </details>
             {% endif %}
           </header>
         {% elsif page.collection == 'teaching' %}

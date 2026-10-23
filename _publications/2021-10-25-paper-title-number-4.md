@@ -2,7 +2,7 @@
 title: "Generation of Hospital Emergency Department Layouts Based on Generative Adversarial Networks"
 collection: publications
 permalink: /publication/2021-10-25-paper-title-number-4
-excerpt: 'This paper takes the functional layout of the emergency departments (EDs) of general hospitals as the research object, combines the hierarchical design concepts and proposes an intelligent functional layout generation method for EDs. It aims to explore the application of intelligent algorithms in architectural design and build an intelligent design method to solve the generation problem of ED layouts.'
+excerpt: 'Generating hospital emergency department layouts with hierarchical design and generative adversarial networks.'
 date: 2021-10-25
 venue: 'Journal of Building Engineering'
 impact_factor: '7.4'
@@ -11,6 +11,8 @@ paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S23527102210039
 citation: 'Zhao, C. W., Yang, J., & Li, J. (2021). Generation of hospital emergency department layouts based on generative adversarial networks. Journal of Building Engineering, 43, 102539.'
 ---
 
-Based on generative adversarial networks (GANs), a type of deep learning model, this paper takes the functional layout of the emergency departments (EDs) of general hospitals as the research object, combines the hierarchical design concepts and proposes an intelligent functional layout generation method for EDs. It aims to explore the application of intelligent algorithms in architectural design and build an intelligent design method to solve the generation problem of ED layouts. The specific process of this method is as follows: First, 120 sets of ED drawings with excellent layouts are collected and labelled. Second, three of the most representative GAN frameworks including deep convolutional generative adversarial network (DCGAN), image-to-image translation with conditional adversarial network (pix2pix) and cycle-consistent adversarial network (CycleGAN) are chosen to establish training models for the ED layout. Finally, the rationality of the generated results is analysed from an architectural perspective, while the loss functions and trend for the generator and discriminator are compared from the algorithmic perspective. The analysis of the three GANs’ results shows that these models can autonomously generate new ED function layouts, of which the DCGAN results are the most flexible but the image quality is not ideal. The pix2pix outputs have the highest image quality, but the dataset has strict constraints. The CycleGAN has loose requirements on the dataset and yields ideal results with strong applicability. Some scholars have used pix2pix to explore the generation of apartment floor plans in recent years. However, this study established three different GAN models for hospitals for the first time, and compared their generation results to explore the applicability of different GANs.
+This study compares DCGAN, pix2pix, and CycleGAN for generating hospital emergency department layouts. The models are trained on 120 annotated sets of department drawings and evaluated from architectural and algorithmic perspectives.
 
-[Download paper here](https://www.sciencedirect.com/science/article/abs/pii/S235271022100396X)
+The comparison examines layout flexibility, image quality, and dataset requirements. CycleGAN gives useful layouts with fewer constraints on the training data, while pix2pix produces the highest image quality.
+
+[Read the paper](https://www.sciencedirect.com/science/article/abs/pii/S235271022100396X)

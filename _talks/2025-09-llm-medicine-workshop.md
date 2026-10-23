@@ -2,6 +2,8 @@
 title: "LLM Reasoning on Medicine: Challenges, Opportunities, and Future"
 collection: talks
 type: "Workshop"
+author_profile: false
+notebook_summary: "A workshop on how language models reason through medical tasks and how that reasoning is evaluated."
 permalink: /talks/2025-llm-reasoning-medicine
 venue: "INLG 2025"
 date: 2025-09-01

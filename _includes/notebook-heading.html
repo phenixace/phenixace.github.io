@@ -1,0 +1,14 @@
+{% assign notebook_page = site.data.notebook_pages[page.notebook_section] %}
+<header class="notebook-page-heading">
+  <div>
+    <p class="notebook-page-heading__label">{{ notebook_page.label }} <span>/ {{ notebook_page.number }}</span></p>
+    <h1 class="page__title">{{ page.title }}</h1>
+    <p class="notebook-page-heading__intro">{{ notebook_page.description }}</p>
+  </div>
+  <span class="notebook-page-heading__stamp" aria-hidden="true"><i class="fas {{ notebook_page.icon }}"></i><span>Jiatong Li</span></span>
+</header>
+<nav class="notebook-tabs" aria-label="Explore the notebook">
+  {% for entry in site.data.notebook_pages %}
+  <a href="{{ entry[1].url | relative_url }}"{% if entry[0] == page.notebook_section %} aria-current="page"{% endif %}><i class="fas {{ entry[1].icon }}" aria-hidden="true"></i>{{ entry[1].title }}</a>
+  {% endfor %}
+</nav>

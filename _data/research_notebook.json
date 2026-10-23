@@ -8,7 +8,7 @@
       "icon": "atom",
       "note": "01",
       "question": "How can an AI maintain an explicit molecular state?",
-      "description": "I study how structures, fragments, and language can share a grounded representation—so a model can describe a molecule and make precise changes to it.",
+      "description": "I study representations that connect molecular structures, fragments, and language. These representations let a model describe a molecule and specify structural edits.",
       "principle": "Start with an explicit molecular state.",
       "works": [
         {
@@ -40,9 +40,9 @@
       "color": "rose",
       "icon": "brain",
       "note": "02",
-      "question": "Which steps in chemical reasoning can we actually check?",
-      "description": "I connect chemical reasoning with explicit intermediate states and verification, while investigating when a convincing chain of thought becomes an unreliable explanation.",
-      "principle": "Make intermediate commitments checkable.",
+      "question": "How can we verify each step of chemical reasoning?",
+      "description": "I develop methods for checking intermediate molecular states and chemical operations. I also study how chain-of-thought explanations relate to a model’s predictions.",
+      "principle": "Verify the intermediate steps.",
       "works": [
         {
           "name": "MolLean",
@@ -73,9 +73,9 @@
       "color": "peach",
       "icon": "flask",
       "note": "03",
-      "question": "How does a scientific intention become executable work?",
-      "description": "I study agents that turn molecular design goals into tool calls, code, and research workflows, and evaluate whether the resulting artifacts do the intended scientific job.",
-      "principle": "Connect an intention to a reproducible artifact.",
+      "question": "How can agents carry out molecular research tasks?",
+      "description": "I study agents that translate molecular design goals into tool calls and code. My evaluations test the resulting programs on drug-discovery workflows.",
+      "principle": "Connect research questions to tools and code.",
       "works": [
         {
           "name": "Molecular LLM Agents",
@@ -97,13 +97,13 @@
     {
       "id": "trust",
       "label": "Test the limits",
-      "subtitle": "Generalization & trustworthy autonomy",
+      "subtitle": "Generalization & evaluation",
       "color": "lavender",
       "icon": "shield-alt",
       "note": "04",
-      "question": "When should a scientist trust the system—and when should they step in?",
-      "description": "I examine structural perturbations, reasoning failures, and domain-specific evaluation to map the limits of model competence across molecular science, physics, and medicine.",
-      "principle": "Match autonomy to demonstrated capability.",
+      "question": "How do models behave on unfamiliar scientific problems?",
+      "description": "I test models with molecular graph edits and problems from physics and medicine to understand where their predictions change or fail.",
+      "principle": "Test beyond familiar examples.",
       "works": [
         {
           "name": "Molecular Generalization",
@@ -175,7 +175,7 @@
     {
       "id": "cot",
       "name": "Chemical CoT",
-      "takeaway": "A useful scratchpad. An unreliable explanation.",
+      "takeaway": "Tracing the role of chemical scratchpads.",
       "sketch_caption": "Useful reasoning ≠ faithful explanation",
       "sketch_alt": "A structural scratchpad and an explanation are separated by a question of faithfulness.",
       "detail": "/publication/2026-chemical-cot",
@@ -216,7 +216,7 @@
       "url": "https://arxiv.org/abs/2607.07761",
       "venue": "Machine Intelligence Research · 2026",
       "authors": "Qi Peng*, <strong>Jiatong Li*</strong>, Sirui Huang, Yiyang Jiang, Kaisong Gong, et al.",
-      "summary": "A dual clinical–computational view of medical reasoning, paired with a five-level benchmark across 18 state-of-the-art models.",
+      "summary": "A survey of medical reasoning from clinical and computational perspectives, with a five-level benchmark evaluating 18 models.",
       "tag": "Co-first author",
       "action": "Read paper ↗"
     },

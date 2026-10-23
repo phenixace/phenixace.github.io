@@ -1,0 +1,35 @@
+publications:
+  number: "01"
+  label: Research papers
+  icon: fa-flask
+  description: My work on molecular representations, chemical reasoning, scientific agents, and evaluation.
+  url: /publications/
+  title: Publications
+talks:
+  number: "02"
+  label: Teaching & discussion
+  icon: fa-chalkboard-teacher
+  description: Tutorials and workshops on language models in medicine and recommendation.
+  url: /talks/
+  title: Tutorials
+teaching:
+  number: "03"
+  label: In the classroom
+  icon: fa-pencil-alt
+  description: Teaching assistant at The Hong Kong Polytechnic University, working with courses in databases, data analytics, and language models.
+  url: /teaching/
+  title: Teaching
+cv:
+  number: "04"
+  label: Academic record
+  icon: fa-graduation-cap
+  description: Education, research appointments, publications, and academic service.
+  url: /cv/
+  title: CV
+contact:
+  number: "05"
+  label: Say hello
+  icon: fa-envelope
+  description: Research questions, collaborations, and invitations are welcome.
+  url: /contact/
+  title: Contact

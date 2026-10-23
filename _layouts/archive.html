@@ -15,9 +15,13 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive archive--cards">
+  <div class="archive archive--cards{% if page.notebook_section %} notebook-archive notebook-archive--{{ page.notebook_section }}{% endif %}">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      {% if page.notebook_section %}
+        {% include notebook-heading.html %}
+      {% else %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endif %}
     {% endunless %}
     {{ content }}
   </div>

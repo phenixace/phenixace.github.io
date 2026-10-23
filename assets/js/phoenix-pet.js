@@ -89,8 +89,14 @@
 
     var query = searchInput.value.trim().toLocaleLowerCase();
     items.forEach(function (item) {
-      item.hidden = query !== "" && item.textContent.toLocaleLowerCase().indexOf(query) === -1;
+      var searchableText = item.textContent + " " + (item.getAttribute("data-phoenix-search-text") || "");
+      item.hidden = query !== "" && searchableText.toLocaleLowerCase().indexOf(query) === -1;
       item.classList.remove("is-phoenix-focused");
+    });
+    document.querySelectorAll(".publication-year").forEach(function (group) {
+      group.hidden = !group.querySelector("[data-phoenix-item]:not([hidden])");
+      var yearLink = document.querySelector('.year-index a[href="#' + group.id + '"]');
+      if (yearLink) yearLink.hidden = group.hidden;
     });
     activeResult = -1;
     updateResults();

@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "Jiatong Li — Building AI Co-Scientists for Molecular Science"
+title: "Jiatong Li | AI Co-Scientists for Molecular Science"
 excerpt: "Building verifiable AI co-scientists for molecular reasoning, tool use, and scientific discovery."
 author_profile: false
 redirect_from:
@@ -16,7 +16,7 @@ redirect_from:
       <h1 id="hero-title">Jiatong <em>Li</em></h1>
       <p class="hero__statement">Building AI co-scientists for molecular discovery.</p>
       <p class="hero__intro">
-        I develop AI systems that understand molecular structures, reason with chemistry, use scientific tools, learn from feedback, and return verifiable research artifacts.
+        I work on molecular representations, chemical reasoning, and tool-using agents. My goal is to build AI co-scientists that help researchers explore and test molecular ideas.
       </p>
       <div class="hero__actions" aria-label="Primary links">
         <a class="button button--lime" href="https://scholar.google.com/citations?user=ml9hh18AAAAJ" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
@@ -123,7 +123,7 @@ redirect_from:
         <p class="section-kicker">Selected</p>
         <h2 id="publication-title">Recent publications</h2>
       </div>
-      <p>A selection spanning the AI co-scientist stack: molecular perception, scientific reasoning, tool use, and trustworthy autonomy.</p>
+      <p>Recent papers on molecular representations, chemical reasoning, and scientific agents.</p>
     </div>
 
     <ol class="publication-list">
@@ -261,17 +261,17 @@ redirect_from:
         <h3>Education</h3>
         <ol class="timeline">
           <li>
-            <span>2023—Now</span>
+            <span>2023–Present</span>
             <strong>Ph.D. Candidate, Computing</strong>
             <p>The Hong Kong Polytechnic University · HKPFS</p>
           </li>
           <li>
-            <span>2021—2022</span>
+            <span>2021–2022</span>
             <strong>Master of Information Technology</strong>
             <p>The University of Melbourne · Dean’s Honor List</p>
           </li>
           <li>
-            <span>2017—2021</span>
+            <span>2017–2021</span>
             <strong>B.Eng. in Information Security</strong>
             <p>Shanghai Jiao Tong University</p>
           </li>
@@ -287,17 +287,17 @@ redirect_from:
             <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
           </li>
           <li>
-            <span>2026.01—07</span>
+            <span>2026.01–07</span>
             <strong>Visiting Scholar</strong>
             <p><a href="https://bluewhale.yataobian.com" target="_blank" rel="noopener">BlueWhale Lab ↗</a> · National University of Singapore</p>
           </li>
           <li>
-            <span>2023—2024</span>
+            <span>2023–2024</span>
             <strong>Algorithm Researcher</strong>
             <p>Shanghai AI Laboratory</p>
           </li>
           <li>
-            <span>2021—2022</span>
+            <span>2021–2022</span>
             <strong>Algorithm Researcher</strong>
             <p>Noah’s Ark Lab</p>
           </li>
@@ -387,10 +387,10 @@ redirect_from:
     </aside>
     <div class="contact-panel">
       <p class="section-kicker">Collaborate</p>
-      <h2>Let’s build AI co-scientists that can reason, act—and show their work.</h2>
-      <p>I am always happy to discuss molecular representations, verifiable reasoning, scientific agents, evaluation, and potential collaborations.</p>
+      <h2>Interested in AI for molecular science?</h2>
+      <p>I welcome conversations about chemical reasoning, scientific agents, and research collaborations.</p>
       <div class="contact-panel__links">
-        <a href="/contact/">Protected contact <span aria-hidden="true">→</span></a>
+        <a href="/contact/">Get in touch <span aria-hidden="true">→</span></a>
         <a href="https://github.com/phenixace" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -404,7 +404,7 @@ redirect_from:
       <ol class="insight-list insight-list--papers" data-top-papers aria-live="polite">
         <li class="insight-list__status">Gathering the latest clicks…</li>
       </ol>
-      <p class="insight-card__note">Counts update from privacy-conscious, first-party click analytics.</p>
+      <p class="insight-card__note">Paper-link clicks from this website.</p>
     </article>
     <article class="insight-card insight-card--map" aria-labelledby="reader-map-title">
       <div class="insight-card__heading">
@@ -413,7 +413,7 @@ redirect_from:
       </div>
       <p class="section-kicker">Homepage audience</p>
       <h2 id="reader-map-title">Where visitors arrive from</h2>
-      <div class="reader-map" data-reader-map role="img" aria-label="No geolocated clicks yet">
+      <div class="reader-map" data-reader-map role="img" aria-label="Visitor locations will appear here">
         <span class="reader-map__continent reader-map__continent--na" data-continent="NA"><b>North America</b><em>0</em></span>
         <span class="reader-map__continent reader-map__continent--sa" data-continent="SA"><b>South America</b><em>0</em></span>
         <span class="reader-map__continent reader-map__continent--eu" data-continent="EU"><b>Europe</b><em>0</em></span>
@@ -422,9 +422,9 @@ redirect_from:
         <span class="reader-map__continent reader-map__continent--oc" data-continent="OC"><b>Oceania</b><em>0</em></span>
       </div>
       <ul class="location-list" data-click-origins aria-live="polite">
-        <li class="insight-list__status">Waiting for the first geolocated click…</li>
+        <li class="insight-list__status">Loading visitor locations…</li>
       </ul>
-      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Country/region-level aggregates from homepage visits. Paper clicks are counted separately; raw IP addresses are never displayed.</p>
+      <p class="insight-card__note"><i class="fas fa-shield-alt" aria-hidden="true"></i> Homepage visits by country/region. Paper clicks have their own count.</p>
     </article>
   </section>
 </div>

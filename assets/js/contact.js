@@ -2,7 +2,6 @@
   var root = document.querySelector("[data-contact-root]");
   if (!root) return;
 
-  var gate = root.querySelector("[data-contact-gate]");
   var revealButton = root.querySelector("[data-reveal-email]");
   var emailLink = root.querySelector("[data-email-link]");
   var status = root.querySelector("[data-contact-status]");
@@ -20,14 +19,13 @@
     turnstileToken = "";
     revealButton.disabled = true;
     revealButton.innerHTML =
-      '<i class="fas fa-lock" aria-hidden="true"></i> Verify to reveal email';
+      '<i class="fas fa-lock" aria-hidden="true"></i> Show email';
     if (message) status.textContent = message;
     if (window.turnstile) window.turnstile.reset();
   }
 
   if (!secureRevealReady) {
-    gate.hidden = true;
-    status.textContent = "Protected contact is temporarily unavailable.";
+    status.textContent = "Email verification is temporarily unavailable. Please try again later.";
     return;
   }
 
@@ -42,7 +40,7 @@
           turnstileToken = token;
           revealButton.disabled = false;
           revealButton.innerHTML =
-            '<i class="fas fa-unlock" aria-hidden="true"></i> Reveal email';
+            '<i class="fas fa-unlock" aria-hidden="true"></i> Show email';
           status.textContent = "Verification complete.";
         },
         "expired-callback": function () {
@@ -58,6 +56,8 @@
       window.setTimeout(function () {
         renderTurnstile(attempt + 1);
       }, 150);
+    } else {
+      status.textContent = "Verification could not load. Check your connection and refresh the page.";
     }
   }
 
@@ -70,7 +70,7 @@
     }
 
     revealButton.disabled = true;
-    status.textContent = "Unlocking…";
+    status.textContent = "Loading email…";
 
     fetch(
       config.url.replace(/\/$/, "") +
@@ -99,11 +99,11 @@
         emailLink.textContent = result.email;
         emailLink.hidden = false;
         revealButton.hidden = true;
-        status.textContent = "Email unlocked.";
+        status.textContent = "Email ready.";
       })
       .catch(function () {
         status.textContent =
-          "The address could not be unlocked. Please complete a new verification.";
+          "The email address could not load. Please verify again.";
         resetVerification();
       })
       .finally(function () {
